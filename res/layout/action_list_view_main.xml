@@ -16,7 +16,7 @@
 
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:hexextras="http://schemas.android.com/apk/res/com.droidvnteam"
+    xmlns:hexagonrom="http://schemas.android.com/apk/res/com.droidvnteam"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -50,18 +50,18 @@
         android:paddingLeft="0dp"
         android:layout_margin="0dp"
         android:dividerHeight="1dp"
-        hexextras:dragEnabled="true"
-        hexextras:collapsedHeight="2dp"
-        hexextras:dragScrollStart="0.33"
-        hexextras:maxDragScrollSpeed="0.5"
-        hexextras:floatAlpha="0.6"
-        hexextras:slideShuffleSpeed="0.3"
-        hexextras:trackDragSort="false"
-        hexextras:useDefaultController="true"
-        hexextras:dragHandleId="@id/drag_handle"
-        hexextras:sortEnabled="true"
-        hexextras:removeEnabled="true"
-        hexextras:dragStartMode="onMove"
-        hexextras:removeMode="flingRemove"
-        hexextras:floatBackgroundColor="@color/dslv_float_cackground_color" />
+        hexagonrom:dragEnabled="true"
+        hexagonrom:collapsedHeight="2dp"
+        hexagonrom:dragScrollStart="0.33"
+        hexagonrom:maxDragScrollSpeed="0.5"
+        hexagonrom:floatAlpha="0.6"
+        hexagonrom:slideShuffleSpeed="0.3"
+        hexagonrom:trackDragSort="false"
+        hexagonrom:useDefaultController="true"
+        hexagonrom:dragHandleId="@id/drag_handle"
+        hexagonrom:sortEnabled="true"
+        hexagonrom:removeEnabled="true"
+        hexagonrom:dragStartMode="onMove"
+        hexagonrom:removeMode="flingRemove"
+        hexagonrom:floatBackgroundColor="@color/dslv_float_cackground_color" />
 </LinearLayout>

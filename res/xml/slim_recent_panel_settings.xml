@@ -15,7 +15,7 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:hexextras="http://schemas.android.com/apk/res/com.droidvnteam"
+        xmlns:hexagonrom="http://schemas.android.com/apk/res/com.droidvnteam"
         android:title="@string/slim_recents_title">
 
         <!--
@@ -33,7 +33,7 @@
         <com.droidvnteam.hexagonrom.widget.SeekBarPreferenceCham
             android:key="recents_max_apps"
             android:title="@string/recents_max_apps_title"
-            hexextras:minimum="5"
+            hexagonrom:minimum="5"
             android:max="105"
             android:persistent="false" />
 
@@ -79,11 +79,11 @@
         <com.droidvnteam.hexagonrom.widget.SeekBarPreferenceCham
             android:key="recent_panel_scale"
             android:title="@string/recent_panel_scale_title"
-            hexextras:minimum="60"
+            hexagonrom:minimum="60"
             android:max="160"
             android:defaultValue="80"
-            hexextras:interval="5"
-            hexextras:unitsRight="%"
+            hexagonrom:interval="5"
+            hexagonrom:unitsRight="%"
             android:persistent="false" />
 
         <net.margaritov.preference.colorpicker.ColorPickerPreference

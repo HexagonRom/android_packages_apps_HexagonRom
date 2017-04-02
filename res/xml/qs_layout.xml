@@ -15,7 +15,7 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:hexextras="http://schemas.android.com/apk/res/com.droidvnteam">
+    xmlns:hexagonrom="http://schemas.android.com/apk/res/com.droidvnteam">
 
     <PreferenceCategory
         android:key="quicksettings_tiles_category"
@@ -89,40 +89,40 @@
         android:title="@string/qs_rows_portrait_title"
         android:summary="@string/qs_rows_portrait_summary"
         android:max="4"
-        hexextras:minimum="1"
-        hexextras:unitsLeft=""
-        hexextras:unitsRight=""
-        hexextras:defaultVal="3" />
+        hexagonrom:minimum="1"
+        hexagonrom:unitsLeft=""
+        hexagonrom:unitsRight=""
+        hexagonrom:defaultVal="3" />
 
     <com.droidvnteam.hexagonrom.widget.SeekBarPreferenceCham
         android:key="qs_rows_landscape"
         android:title="@string/qs_rows_landscape_title"
         android:summary="@string/qs_rows_landscape_summary"
         android:max="3"
-        hexextras:minimum="1"
-        hexextras:unitsLeft=""
-        hexextras:unitsRight=""
-        hexextras:defaultVal="2" />
+        hexagonrom:minimum="1"
+        hexagonrom:unitsLeft=""
+        hexagonrom:unitsRight=""
+        hexagonrom:defaultVal="2" />
 
     <com.droidvnteam.hexagonrom.widget.SeekBarPreferenceCham
         android:key="qs_columns_portrait"
         android:title="@string/qs_columns_portrait_title"
         android:summary="@string/qs_columns_portrait_summary"
         android:max="6"
-        hexextras:minimum="3"
-        hexextras:unitsLeft=""
-        hexextras:unitsRight=""
-        hexextras:defaultVal="3" />
+        hexagonrom:minimum="3"
+        hexagonrom:unitsLeft=""
+        hexagonrom:unitsRight=""
+        hexagonrom:defaultVal="3" />
 
     <com.droidvnteam.hexagonrom.widget.SeekBarPreferenceCham
         android:key="qs_columns_landscape"
         android:title="@string/qs_columns_landscape_title"
         android:summary="@string/qs_columns_landscape_summary"
         android:max="9"
-        hexextras:minimum="3"
-        hexextras:unitsLeft=""
-        hexextras:unitsRight=""
-        hexextras:defaultVal="3" />
+        hexagonrom:minimum="3"
+        hexagonrom:unitsLeft=""
+        hexagonrom:unitsRight=""
+        hexagonrom:defaultVal="3" />
 
     </PreferenceCategory>
 

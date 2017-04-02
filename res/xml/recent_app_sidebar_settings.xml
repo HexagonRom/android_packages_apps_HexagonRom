@@ -15,16 +15,16 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-                  xmlns:hexextras="http://schemas.android.com/apk/res/com.droidvnteam"
+                  xmlns:hexagonrom="http://schemas.android.com/apk/res/com.droidvnteam"
                   android:title="@string/recent_app_sidebar_title">
 
     <com.droidvnteam.hexagonrom.widget.SeekBarPreferenceCham
             android:key="recent_app_sidebar_scale"
             android:title="@string/recent_app_sidebar_scale_title"
-            hexextras:minimum="60"
+            hexagonrom:minimum="60"
             android:max="160"
-            hexextras:interval="5"
-            hexextras:unitsRight="%"
+            hexagonrom:interval="5"
+            hexagonrom:unitsRight="%"
             android:persistent="false" />
 
     <com.droidvnteam.hexagonrom.preferences.SystemSettingSwitchPreference

@@ -126,7 +126,7 @@
             android:label="@string/app_sidebar_title">
         </activity>
         <activity
-            android:name=".hexagon.SubActivity"
+            android:name=".hexagonrom.SubActivity"
             android:theme="@style/PreferenceTheme">
         </activity>
         <activity

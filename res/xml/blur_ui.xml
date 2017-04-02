@@ -16,7 +16,7 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:hexextras="http://schemas.android.com/apk/res/com.droidvnteam"
+    xmlns:hexagonrom="http://schemas.android.com/apk/res/com.droidvnteam"
     android:title="@string/blur_ui_category_title">
 
     <Preference
@@ -40,18 +40,18 @@
             android:title="@string/blurred_scale"
             android:summary="@string/blurred_scale_summary"
             android:max="35"
-            hexextras:min="1"
+            hexagonrom:min="1"
             android:dependency="blurred_status_bar_expanded_enabled_pref"
-            hexextras:defaultValue="10" />
+            hexagonrom:defaultValue="10" />
 
         <com.droidvnteam.hexagonrom.widget.SeekBarPreferenceCham
             android:key="statusbar_blur_radius"
             android:title="@string/blurred_radius"
             android:summary="@string/blurred_radius_summary"
             android:max="25"
-            hexextras:min="1"
+            hexagonrom:min="1"
             android:dependency="blurred_status_bar_expanded_enabled_pref"
-            hexextras:defaultValue="5" />
+            hexagonrom:defaultValue="5" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -69,9 +69,9 @@
             android:key="quick_settings_transluency"
             android:title="@string/transluency_level_universal"
             android:max="100"
-            hexextras:min="0"
+            hexagonrom:min="0"
             android:dependency="translucent_quick_settings_pref"
-            hexextras:defaultValue="60" />
+            hexagonrom:defaultValue="60" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -89,18 +89,18 @@
             android:title="@string/blurred_scale"
             android:summary="@string/blurred_scale_summary"
             android:max="20"
-            hexextras:min="1"
+            hexagonrom:min="1"
             android:dependency="blurred_recent_app_enabled_pref"
-            hexextras:defaultValue="6" />
+            hexagonrom:defaultValue="6" />
 
         <com.droidvnteam.hexagonrom.widget.SeekBarPreferenceCham
             android:key="recents_blur_radius"
             android:title="@string/blurred_radius"
             android:summary="@string/blurred_radius_summary"
             android:max="25"
-            hexextras:min="1"
+            hexagonrom:min="1"
             android:dependency="blurred_recent_app_enabled_pref"
-            hexextras:defaultValue="3" />
+            hexagonrom:defaultValue="3" />
     </PreferenceCategory>
     <PreferenceCategory
         android:key="blur_colors_cat"

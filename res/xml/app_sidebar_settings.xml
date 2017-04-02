@@ -16,7 +16,7 @@
 
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:hexextras="http://schemas.android.com/apk/res/com.droidvnteam"
+    xmlns:hexagonrom="http://schemas.android.com/apk/res/com.droidvnteam"
     android:title="@string/app_sidebar_title" >
 
     <SwitchPreference
@@ -53,9 +53,9 @@
         android:title="@string/app_sidebar_transparency_title"
         android:summary="@string/app_sidebar_transparency_summary"
         android:max="50"
-        hexextras:minimum="0"
-        hexextras:unitsLeft=""
-        hexextras:unitsRight="%"
+        hexagonrom:minimum="0"
+        hexagonrom:unitsLeft=""
+        hexagonrom:unitsRight="%"
         android:defaultValue="0"
         android:dependency="sidebar_enable" />
 
@@ -64,9 +64,9 @@
         android:title="@string/app_sidebar_hide_timeout_title"
         android:summary="@string/app_sidebar_hide_timeout_summary"
         android:max="10000"
-        hexextras:minimum="0"
-        hexextras:unitsLeft=""
-        hexextras:unitsRight="ms"
+        hexagonrom:minimum="0"
+        hexagonrom:unitsLeft=""
+        hexagonrom:unitsRight="ms"
         android:defaultValue="3000"
         android:dependency="sidebar_enable" />
 
@@ -79,9 +79,9 @@
             android:summary="@string/trigger_width_summary"
             android:defaultValue="4"
             android:max="64"
-            hexextras:minimum="4"
-            hexextras:unitsLeft=""
-            hexextras:unitsRight="px"
+            hexagonrom:minimum="4"
+            hexagonrom:unitsLeft=""
+            hexagonrom:unitsRight="px"
             android:dependency="sidebar_enable" />
 
         <com.droidvnteam.hexagonrom.widget.SeekBarPreferenceCham
@@ -90,9 +90,9 @@
             android:summary="@string/trigger_top_summary"
             android:defaultValue="0"
             android:max="99"
-            hexextras:minimum="0"
-            hexextras:unitsLeft=""
-            hexextras:unitsRight="%"
+            hexagonrom:minimum="0"
+            hexagonrom:unitsLeft=""
+            hexagonrom:unitsRight="%"
             android:dependency="sidebar_enable" />
 
         <com.droidvnteam.hexagonrom.widget.SeekBarPreferenceCham
@@ -101,9 +101,9 @@
             android:summary="@string/trigger_bottom_summary"
             android:defaultValue="100"
             android:max="100"
-            hexextras:minimum="1"
-            hexextras:unitsLeft=""
-            hexextras:unitsRight="%"
+            hexagonrom:minimum="1"
+            hexagonrom:unitsLeft=""
+            hexagonrom:unitsRight="%"
             android:dependency="sidebar_enable" />
 
 </PreferenceScreen>
