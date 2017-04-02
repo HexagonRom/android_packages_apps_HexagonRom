@@ -81,6 +81,16 @@
         android:inputType="textNoSuggestions"
         android:persistent="false" />
 
+   <com.droidvnteam.hexagonrom.widget.SeekBarPreferenceCham
+        android:key="volume_dialog_timeout"
+        android:title="@string/volume_dialog_timeout_title"
+        android:max="10000"
+        hexagonrom:minimum="100"
+        hexagonrom:unitsLeft=""
+        hexagonrom:unitsRight="ms"
+        hexagonrom:defaultVal="3000"
+        android:persistent="false" />
+
     <ListPreference
         android:key="media_scanner_on_boot"
         android:dialogTitle="@string/media_scanner_on_boot_title"
