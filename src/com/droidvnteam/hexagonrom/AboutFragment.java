@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.view.animation.AnimationUtils;
 import com.droidvnteam.R;
 /**
  * A simple {@link Fragment} subclass.
@@ -66,7 +67,8 @@ public class AboutFragment extends Fragment {
         root.findViewById(R.id.imgWeb).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri uriUrl = Uri.parse("http://www.droidvn.com/forums/");
+                v.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.anim_item));
+                Uri uriUrl = Uri.parse("https://t.me/joinchat/AAAAAAvOrua-6WjXSJLgPg");
                 Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
                 startActivity(launchBrowser);
             }
@@ -74,15 +76,27 @@ public class AboutFragment extends Fragment {
         root.findViewById(R.id.imgFb).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri uriUrl = Uri.parse("https://www.facebook.com/groups/AndroidNiemDamMe/");
-                Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
-                startActivity(launchBrowser);
+                v.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.anim_item));
+                try
+                {
+                    String YourPageURL = "https://www.facebook.com/n/?Droidvnteam";
+                    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(YourPageURL));
+                    startActivity(browserIntent);
+                }
+                catch (Exception ex)
+                {
+                    Uri uriUrl = Uri.parse("https://www.facebook.com/Droidvnteam");
+                    Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+                    startActivity(launchBrowser);
+                }
+
             }
         });
         root.findViewById(R.id.imgGplus).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri uriUrl = Uri.parse("https://www.facebook.com/groups/AndroidNiemDamMe/");
+                v.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.anim_item));
+                Uri uriUrl = Uri.parse("https://plus.google.com/communities/115506415474530514840");
                 Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
                 startActivity(launchBrowser);
             }
@@ -90,10 +104,11 @@ public class AboutFragment extends Fragment {
         root.findViewById(R.id.imgEmail).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                v.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.anim_item));
                 Intent emailIntent = new Intent(Intent.ACTION_SEND);
                 emailIntent.setData(Uri.parse("mailto:"));
                 emailIntent.setType("text/plain");
-                emailIntent.putExtra(Intent.EXTRA_EMAIL, "Droidvnteam@gmail.com");
+                emailIntent.putExtra(Intent.EXTRA_EMAIL, "droidvn.com@gmail.com");
                 emailIntent.putExtra(Intent.EXTRA_CC, "");
                 emailIntent.putExtra(Intent.EXTRA_SUBJECT, "");
                 emailIntent.putExtra(Intent.EXTRA_TEXT, "");
@@ -110,6 +125,7 @@ public class AboutFragment extends Fragment {
         root.findViewById(R.id.imgShare).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                v.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.anim_item));
                 Intent share = new Intent(android.content.Intent.ACTION_SEND);
                 share.setType("text/plain");
                 share.addFlags(Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET);
@@ -122,6 +138,7 @@ public class AboutFragment extends Fragment {
         root.findViewById(R.id.imgChangelog).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                v.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.anim_item));
                 ChangelogDialog newFragment = new ChangelogDialog();
                 FragmentTransaction ft = (getActivity()).getFragmentManager().beginTransaction();
                 newFragment.show(ft, "Change log");
@@ -129,6 +146,7 @@ public class AboutFragment extends Fragment {
         });
         return root;
     }
+
 
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {
