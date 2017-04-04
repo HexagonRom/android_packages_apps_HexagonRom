@@ -7,7 +7,7 @@
     <string name="first_layout_title">Ruimte voor diverse shit en naakte chicks!</string>
     <string name="second_layout_title">Tweede layout</string>
     <string name="third_layout_title">Derde layout</string>
-    <string name="hex_extras_title">AICP Extras</string>
+    <string name="hex_extras_title">HexagonRom</string>
     <string name="pun_title">One ROM to rule them all</string>
     <string name="various_shit_title">Overige instellingen</string>
     <string name="about_title">Over</string>
@@ -28,9 +28,9 @@
     <string name="systemui_tuner_title">SystemUI Tuner</string>
     <string name="systemui_tuner_summary">Marshmallow neemt de SystemUI tuning over</string>
     <string name="systemui_tuner_dilog_title">LET OP!</string>
-    <string name="systemui_tuner_dilog_warning">De tuner biedt beperkte mogelijkheden om de SystemUI te wijzigen.\nEr is een link toegevoegd aan Aicp Extras voor eenvoudige toegang. Hier kunnen ook nieuwe tegels worden toegevoegd.</string>
+    <string name="systemui_tuner_dilog_warning">De tuner biedt beperkte mogelijkheden om de SystemUI te wijzigen.\nEr is een link toegevoegd aan HexagonRom voor eenvoudige toegang. Hier kunnen ook nieuwe tegels worden toegevoegd.</string>
     <string name="hex_downloads_title">Downloads</string>
-    <string name="dwnld_summary">Bezoek de AICP downloadpagina voor je apparaat</string>
+    <string name="dwnld_summary">Bezoek de Hexagon downloadpagina voor je apparaat</string>
     <string name="hex_gerrit_title">Bezoek Gerrit</string>
     <string name="gerrit_summary">Bzeoek onze Gerrit om te zien waar we aan werken</string>
     <string name="send_mail_intent">Stuur e-mail...</string>
@@ -384,16 +384,16 @@
 
     <!-- Notification -->
     <string name="notification_ticker">Statistieken inschakelen</string>
-    <string name="notification_title">AICP Statistieken</string>
+    <string name="notification_title">Hexagon Statistieken</string>
     <string name="notification_desc">In- of uitschakelen van anonieme statistieken</string>
 
     <string name="main_link">&lt;a href=&quot;http://www.cyanogenmod.org/blog/cmstats-what-it-is-and-why-you-should-opt-in&quot;&gt;Learn More&lt;/a&gt;</string>
 
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">AICP Statistieken</string>
-    <string name="anonymous_statistics_summary">Help AICP door anonieme statistieken toe te staan</string>
+    <string name="anonymous_statistics_title">Hexagon Statistieken</string>
+    <string name="anonymous_statistics_summary">Help Hexagon door anonieme statistieken toe te staan</string>
     <string name="anonymous_statistics_warning_title">Over</string>
-    <string name="anonymous_statistics_warning">Met het inschakelen van AICP statistieken geef je toestemming om niet-persoonlijke data naar onze servers
+    <string name="anonymous_statistics_warning">Met het inschakelen van Hexagon statistieken geef je toestemming om niet-persoonlijke data naar onze servers
          te sturen. De doorgestuurde informatie bevat een unieke sleutel die de privacy op geen enkele wijze zal schaden.
          De data wordt elke 7 dagen gegenereerd.\n\nDoor op Preview Data te tikken, zie je een voorbeeld van de data die wordt doorgestuurd.</string>
 
@@ -420,8 +420,8 @@
     <string name="preview_country_title">Land</string>
     <string name="preview_carrier_title">Operator</string>
     <string name="preview_romname_title">ROM naam</string>
-    <string name="preview_romversion_title">AICP versie</string>
-    <string name="preview_buildtype_title">AICP bouwtype</string>
+    <string name="preview_romversion_title">Hexagon versie</string>
+    <string name="preview_buildtype_title">Hexagon bouwtype</string>
 
     <!-- Circle app bar -->
     <string name="category_app_circle_bar_title">Cirkel App launcher</string>
@@ -522,7 +522,7 @@
     <string name="pa_pie_button_color_title">Buttonkleur</string>
     <string name="pa_pie_color_reset_title">Kleuren herstellen</string>
     <string name="reset_message">Alle kleuren terugzetten naar standaard?</string>
-    <string name="reset_paranoid">AICP</string>
+    <string name="reset_paranoid">Hexagon</string>
     <string name="reset_android">Android</string>
 
     <!-- Task Manager -->
@@ -556,7 +556,7 @@
     <string name="cannot_get_su">Kan geen Superuser toegang krijgen, nu afsluiten</string>
     <string name="cannot_get_su_start">Kan geen Superuser toegang krijgen</string>
 
-    <!-- Aicp logcat -->
+    <!-- Hexagon logcat -->
     <string name="logcat_title">Logcat</string>
     <string name="kmesg_title">Kmesg</string>
     <string name="dmesg_title">Dmesg</string>
@@ -565,7 +565,7 @@
     <string name="log_that_shit_title">Leg vast die zooi!</string>
     <string name="logcat_warning">Deel het of GTFO!</string>
     <string name="share_title">Delen...</string>
-    <string name="log_it_share_subject">AICP logs</string>
+    <string name="log_it_share_subject">Hexagon logs</string>
     <string name="log_it_summary">Tik hier om de logbestanden aan te maken</string>
 
     <!-- AOKP custom system animations -->
@@ -624,12 +624,12 @@
     <string name="power_menu_animation_translucent_top">Transparant (boven)</string>
     <string name="power_menu_animation_translucent_bottom">Transparant (onder)</string>
 
-    <!-- Statusbar AICP logo -->
+    <!-- Statusbar Hexagon logo -->
     <string name="status_bar_logo_category_title">Statusbalk logo</string>
-    <string name="status_bar_hex_logo_title">AICP-logo</string>
-    <string name="status_bar_hex_logo_summary">AICP-logo in statusbalk tonen activeren</string>
-    <string name="status_bar_hex_logo_color">AICP-logo kleur</string>
-    <string name="status_bar_hex_logo_position">AICP-logo positie</string>
+    <string name="status_bar_hex_logo_title">Hexagon-logo</string>
+    <string name="status_bar_hex_logo_summary">Hexagon-logo in statusbalk tonen activeren</string>
+    <string name="status_bar_hex_logo_color">Hexagon-logo kleur</string>
+    <string name="status_bar_hex_logo_position">Hexagon-logo positie</string>
     <string name="status_bar_hex_logo_position_summary">Kiezen aan welke kant het logo getoond moet worden, links of rechts</string>
     <string name="status_bar_logo_position_right">Rechts</string>
     <string name="status_bar_logo_position_left">Links</string>
@@ -908,7 +908,7 @@
 
     <!-- QS stroke settings -->
     <string name="qs_panel_logo_category">Snelle instellingen logo</string>
-    <string name="qs_panel_logo_title">Snelle instellingen AICP logo</string>
+    <string name="qs_panel_logo_title">Snelle instellingen Hexagon logo</string>
     <string name="qs_panel_logo_disabled">Uitgeschakeld</string>
     <string name="qs_panel_logo_accent">Accentkleur</string>
     <string name="qs_panel_logo_custom">Aangepaste kleur</string>

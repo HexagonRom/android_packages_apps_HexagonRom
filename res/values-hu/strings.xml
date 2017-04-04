@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Aicp Extrák</string>
+    <string name="app_name">HexagonRom</string>
 
     <string name="navigation_drawer_open">Navigációs fiók megnyitása</string>
     <string name="navigation_drawer_close">Navigációs fiók zárása</string>
@@ -8,7 +8,7 @@
     <string name="first_layout_title">Helykitöltés különféle beállításokhoz\nés meztelen csajok!!!</string>
     <string name="second_layout_title">Második réteg</string>
     <string name="third_layout_title">Harmadik réteg</string>
-    <string name="hex_extras_title">AICP Extrák</string>
+    <string name="hex_extras_title">Hexagon Extrák</string>
     <string name="pun_title">Egy rom mind felett</string>
     <string name="various_shit_title">Különféle beállítások</string>
     <string name="about_title">Rólunk</string>
@@ -376,16 +376,16 @@
 
     <!-- Notification -->
     <string name="notification_ticker">Engedélyezett statisztikák</string>
-    <string name="notification_title">AICP Statisztikák</string>
+    <string name="notification_title">Hexagon Statisztikák</string>
     <string name="notification_desc">Engedélyezi vagy tiltja a névtelen statisztikákat</string>
     
     <string name="main_link">&lt;a href=&quot;http://www.cyanogenmod.org/blog/cmstats-what-it-is-and-why-you-should-opt-in&quot;&gt;Learn More&lt;/a&gt;</string>
     
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">AICP Statisztika</string>
-    <string name="anonymous_statistics_summary">Segítsd AICP-t névtelen statisztikák küldésével</string>
+    <string name="anonymous_statistics_title">Hexagon Statisztika</string>
+    <string name="anonymous_statistics_summary">Segítsd Hexagon-t névtelen statisztikák küldésével</string>
     <string name="anonymous_statistics_warning_title">Rólunk</string>
-    <string name="anonymous_statistics_warning">Opting into AICP Stats will allow non-personal data to be submitted to 
+    <string name="anonymous_statistics_warning">Opting into Hexagon Stats will allow non-personal data to be submitted to 
          our servers. The information submitted includes an unique identifier, which does not compromise your privacy or personal data. 
          The data is submitted every 7 days.\n\nFor an example of the data that is submitted, tap on Preview Data.</string>
  
@@ -412,8 +412,8 @@
     <string name="preview_country_title">Ország</string>
     <string name="preview_carrier_title">Szolgáltató</string>    
     <string name="preview_romname_title">ROM Név</string>    
-    <string name="preview_romversion_title">AICP Verzió</string>
-    <string name="preview_buildtype_title">AICP Építés Típusa</string>
+    <string name="preview_romversion_title">Hexagon Verzió</string>
+    <string name="preview_buildtype_title">Hexagon Építés Típusa</string>
 
     <!-- Circle app bar -->
     <string name="category_app_circle_bar_title">Alkalmazás indító</string>
@@ -514,7 +514,7 @@
     <string name="pa_pie_button_color_title">Gombok színe</string>
     <string name="pa_pie_color_reset_title">Színek alaphelyzetbe</string>
     <string name="reset_message">Összes értéket alaphelyzetbe állítod?</string>
-    <string name="reset_paranoid">AICP</string>
+    <string name="reset_paranoid">Hexagon</string>
     <string name="reset_android">Android</string>
 
     <!-- Task Manager -->
@@ -548,7 +548,7 @@
     <string name="cannot_get_su">Nem tud a superuser hozzáférni, kilép.</string>
     <string name="cannot_get_su_start">Nem tud a superuser hozzáférni.</string>
 
-    <!-- Aicp logcat -->
+    <!-- Hexagon logcat -->
     <string name="logcat_title">Logcat</string>
     <string name="kmesg_title">Kmesg</string>
     <string name="dmesg_title">Dmesg</string>
@@ -557,7 +557,7 @@
     <string name="log_that_shit_title">Jelentések</string>
     <string name="logcat_warning">Osszd meg vagy GTFO!</string>
     <string name="share_title">Megosztás...</string>
-    <string name="log_it_share_subject">Aicp naplók</string>
+    <string name="log_it_share_subject">Hexagon naplók</string>
     <string name="log_it_summary">Légy türelemmel míg a jelentés elkészül</string>
 
     <!-- AOKP custom system animations -->
@@ -616,11 +616,11 @@
     <string name="power_menu_animation_translucent_top">Áttünés (fent)</string>
     <string name="power_menu_animation_translucent_bottom">Áttünés (lent)</string>
 
-    <!-- Statusbar AICP logo -->
+    <!-- Statusbar Hexagon logo -->
     <string name="status_bar_logo_category_title">Állapot sáv logo</string>
-    <string name="status_bar_hex_logo_title">AICP logo</string>
-    <string name="status_bar_hex_logo_summary">Engedélyezi az AICP logót az állapot sáv baloldalán</string>
-    <string name="status_bar_hex_logo_color">AICP logo színe</string>
+    <string name="status_bar_hex_logo_title">Hexagon logo</string>
+    <string name="status_bar_hex_logo_summary">Engedélyezi az Hexagon logót az állapot sáv baloldalán</string>
+    <string name="status_bar_hex_logo_color">Hexagon logo színe</string>
     <string name="status_bar_hex_logo_position">Helyzet</string>
     <string name="status_bar_hex_logo_position_summary">Válaszd ki melyik oldalon legyen a logo, bal vagy jobb</string>
     <string name="status_bar_logo_position_right">Jobb</string>

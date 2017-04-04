@@ -22,7 +22,7 @@
     <string name="navigation_drawer_close">关闭导航抽屉</string>
 
     <string name="action_settings">设置</string>
-    <string name="hex_extras_title">AICP设置</string>
+    <string name="hex_extras_title">Hexagon设置</string>
     <string name="pun_title">管理自己的ROM</string>
     <string name="various_shit_title">其他设置</string>
     <string name="about_title">关于</string>
@@ -37,18 +37,18 @@
     <string name="statubar_title">状态栏</string>
     <string name="lockscreen_title">锁屏</string>
     <string name="hex_downloads_title">下载地址</string>
-    <string name="dwnld_summary">访问您设备的AICP下载页面</string>
+    <string name="dwnld_summary">访问您设备的Hexagon下载页面</string>
     <string name="hex_ota_title">OTA中心</string>
     <string name="ota_summary">检查当前ROM的更新</string>
     <string name="hex_gerrit_title">Gerrit代码审查</string>
-    <string name="ae_version_title">AICP设置版本</string>
+    <string name="ae_version_title">Hexagon设置版本</string>
 
     <string name="gerrit_summary">访问我们的Gerrit来知道我们在为什么而工作</string>
     <string name="hidden_anim_activity_title">休息时间!!!</string>
     <string name="hidden_anim_more_title">还要更多?</string>
     <string name="hidden_anim_more_nice">漂亮</string>
     <string name="continue_title">继续</string>
-    <string name="settings_activity_title">AICP 设置</string>
+    <string name="settings_activity_title">Hexagon 设置</string>
     <string name="recents_panel_title">最近应用面板</string>
     <string name="quick_settings_title">快速设置</string>
     <string name="nothing_title">这里现在什么都没有</string>
@@ -179,16 +179,16 @@
 
     <!-- Notification -->
     <string name="notification_ticker">统计选择</string>
-    <string name="notification_title">AICP统计</string>
+    <string name="notification_title">Hexagon统计</string>
     <string name="notification_desc">启用或禁用匿名统计数据</string>
 
     <string name="main_link">&lt;a href=&quot;http://www.cyanogenmod.org/blog/cmstats-what-it-is-and-why-you-should-opt-in&quot;&gt;了解更多&lt;/a&gt;</string>
 
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">AICP统计</string>
-    <string name="anonymous_statistics_summary">帮助AICP选择为匿名统计报告</string>
+    <string name="anonymous_statistics_title">Hexagon统计</string>
+    <string name="anonymous_statistics_summary">帮助Hexagon选择为匿名统计报告</string>
     <string name="anonymous_statistics_warning_title">关于</string>
-    <string name="anonymous_statistics_warning">"选择加入AICP将允许非个人数据提交给我们的服务器。提交的信息包括唯一的标识符，它不会危及您的隐私和个人数据。该数据每7天提交。
+    <string name="anonymous_statistics_warning">"选择加入Hexagon将允许非个人数据提交给我们的服务器。提交的信息包括唯一的标识符，它不会危及您的隐私和个人数据。该数据每7天提交。
 
 对于已提交的数据的一个例子，点击预览数据。"</string>
 
@@ -215,8 +215,8 @@
     <string name="preview_country_title">国家</string>
     <string name="preview_carrier_title">运营商</string>
     <string name="preview_romname_title">ROM名称</string>
-    <string name="preview_romversion_title">AICP版本</string>
-    <string name="preview_buildtype_title">AICP版本类型</string>
+    <string name="preview_romversion_title">Hexagon版本</string>
+    <string name="preview_buildtype_title">Hexagon版本类型</string>
 
     <!-- Double tap to sleep on lockscreen -->
     <string name="double_tap_sleep_anywhere_title">锁屏双击睡眠</string>
@@ -226,7 +226,7 @@
     <string name="cannot_get_su">无法获取Root权限，正在退出。</string>
     <string name="cannot_get_su_start">正在获取Root权限。</string>
 
-    <!-- Aicp logcat -->
+    <!-- Hexagon logcat -->
     <string name="logcat_title">Logcat</string>
     <string name="kmesg_title">Kmesg</string>
     <string name="dmesg_title">Dmesg</string>
@@ -235,7 +235,7 @@
     <string name="log_that_shit_title">日志抓取</string>
     <string name="logcat_warning">分享或者离开</string>
     <string name="share_title">分享...</string>
-    <string name="log_it_share_subject">Aicp日志</string>
+    <string name="log_it_share_subject">Hexagon日志</string>
     <string name="log_it_summary">请耐心等待日志创建</string>
 
     <!-- AOKP custom system animations -->
@@ -276,11 +276,11 @@
     <string name="power_menu_animation_translucent_top">半透明(顶部)</string>
     <string name="power_menu_animation_translucent_bottom">半透明(底部)</string>
 
-    <!-- Statusbar AICP logo -->
+    <!-- Statusbar Hexagon logo -->
     <string name="status_bar_logo_category_title">状态栏图标</string>
-    <string name="status_bar_hex_logo_title">AICP图标</string>
-    <string name="status_bar_hex_logo_summary">在状态栏上显示AICP图标</string>
-    <string name="status_bar_hex_logo_color">AICP图标颜色</string>
+    <string name="status_bar_hex_logo_title">Hexagon图标</string>
+    <string name="status_bar_hex_logo_summary">在状态栏上显示Hexagon图标</string>
+    <string name="status_bar_hex_logo_color">Hexagon图标颜色</string>
     <string name="status_bar_hex_logo_position">图标位置</string>
     <string name="status_bar_hex_logo_position_summary">选择在状态栏左/右侧显示图标</string>
     <string name="status_bar_logo_position_right">右侧</string>
@@ -399,9 +399,9 @@
     <string name="fprint_sucess_vib_summary">当指纹验证成功时震动</string>
 
     <!-- AE settings -->
-    <string name="ae_settings_title">AICP设置</string>
+    <string name="ae_settings_title">Hexagon设置</string>
     <string name="ae_custom_colors_title">自定义颜色</string>
-    <string name="ae_custom_colors_summaries">使用下面的设置来修改 AICP设置 的外观</string>
+    <string name="ae_custom_colors_summaries">使用下面的设置来修改 Hexagon设置 的外观</string>
     <string name="ae_drawer_opacity_title">导航抽屉不透明度</string>
     <string name="ae_header_bg_image_color_title">导航抽屉顶部背景图像颜色</string>
     <string name="ae_drawer_bg_color_title">导航抽屉背景颜色</string>
@@ -410,8 +410,8 @@
     <string name="ae_header_bg_image_opacity_title">导航抽屉顶部背景图像不透明度</string>
     <string name="ae_nav_drawer_checked_text_title">已选中项目字体颜色</string>
     <string name="ae_nav_drawer_unchecked_text_title">项目字体颜色</string>
-    <string name="ae_settings_summary_title">自定义系统设置中的AICP设置摘要文本</string>
-    <string name="custom_summary_title">自定义AICP设置摘要</string>
+    <string name="ae_settings_summary_title">自定义系统设置中的Hexagon设置摘要文本</string>
+    <string name="custom_summary_title">自定义Hexagon设置摘要</string>
     <string name="custom_summary_explain">请输入新的摘要，留空为恢复默认。</string>
     <string name="custom_summary_notset">自定义ROM个性化</string>
 
@@ -541,7 +541,7 @@
     <string name="qs_wifi_easy_toggle_summary">启用单击瓷块以开/关WiFi</string>
 
     <!-- OmniSwitch Recents -->
-    <string name="aosp_recents_title">AICP最近任务面板</string>
+    <string name="aosp_recents_title">Hexagon最近任务面板</string>
     <string name="omniswitch_recents_title">OmniSwitch最近任务面板</string>
     <string name="recents_use_omniswitch_title">用于替代最近任务面板</string>
     <string name="recents_use_omniswitch_summary">使用OmniSwitch替代默认最近任务面板</string>

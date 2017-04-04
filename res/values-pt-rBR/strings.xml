@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-    <!-- <string name="app_name" translatable="false">Aicp Extras</string> -->
+    <!-- <string name="app_name" translatable="false">HexagonRom</string> -->
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -10,7 +10,7 @@
     <string name="first_layout_title">Placeholder for various shit\nand naked chicks!!!</string>
     <string name="second_layout_title">Second layout</string>
     <string name="third_layout_title">Third layout</string>
-    <string name="hex_extras_title">AICP Extras</string>
+    <string name="hex_extras_title">HexagonRom</string>
     <string name="pun_title">One rom to rule the all</string>
     <string name="various_shit_title">Various shit</string>
     <string name="about_title">About</string>
@@ -31,9 +31,9 @@
     <string name="systemui_tuner_title">Sintonizador do sistema</string>
     <string name="systemui_tuner_summary">Marshmallow opinião sobre ajuste da SystemUI</string>
     <string name="systemui_tuner_dilog_title">Atenção</string>
-    <string name="systemui_tuner_dilog_warning">Tuner oferece modificações SystemUI limitados. O link foi adicionado a AICP Extras para facilitar o acesso.\nHere you can also add new tiles.</string>
+    <string name="systemui_tuner_dilog_warning">Tuner oferece modificações SystemUI limitados. O link foi adicionado a HexagonRom para facilitar o acesso.\nHere you can also add new tiles.</string>
     <string name="hex_downloads_title">Downloads</string>
-    <string name="dwnld_summary">Visite a página de download AICP para o seu dispositivo</string>
+    <string name="dwnld_summary">Visite a página de download Hexagon para o seu dispositivo</string>
     <string name="hex_gerrit_title">Gerrit</string>
     <string name="gerrit_summary">Visite o nosso Gerrit para saber no que estamos trabalhando</string>
     <string name="send_mail_intent">Enviar correio...</string>
@@ -389,16 +389,16 @@
 
     <!-- Notification -->
     <string name="notification_ticker">Estatísticas optou-In</string>
-    <string name="notification_title">Estatisticas AICP</string>
+    <string name="notification_title">Estatisticas Hexagon</string>
     <string name="notification_desc">Ativar ou desativar estastisticas anônimas</string>
 
     <string name="main_link">&lt;a href=&quot;http://www.cyanogenmod.org/blog/cmstats-what-it-is-and-why-you-should-opt-in&quot;&gt;Learn More&lt;/a&gt;</string>
 
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">Estastisticas AICP</string>
-    <string name="anonymous_statistics_summary">Ajudar a AICP, optando em estatísticas anônimas relatando</string>
+    <string name="anonymous_statistics_title">Estastisticas Hexagon</string>
+    <string name="anonymous_statistics_summary">Ajudar a Hexagon, optando em estatísticas anônimas relatando</string>
     <string name="anonymous_statistics_warning_title">Sobre</string>
-    <string name="anonymous_statistics_warning">Optando em AICP Estatísticas permitirá que os dados não pessoais a ser submetida à
+    <string name="anonymous_statistics_warning">Optando em Hexagon Estatísticas permitirá que os dados não pessoais a ser submetida à
           nossos servidores. A informação apresentada inclui um identificador único, que não comprometa a sua privacidade ou dados pessoais.
           Os dados são apresentados a cada 7 dias.\n\nPara um exemplo dos dados que é apresentado, toque na visualização de dados.</string>
 
@@ -425,8 +425,8 @@
     <string name="preview_country_title">País</string>
     <string name="preview_carrier_title">Portador</string>
     <string name="preview_romname_title">Nome da ROM</string>
-    <string name="preview_romversion_title">Versão AICP</string>
-    <string name="preview_buildtype_title">tipo de compilação AICP</string>
+    <string name="preview_romversion_title">Versão Hexagon</string>
+    <string name="preview_buildtype_title">tipo de compilação Hexagon</string>
 
     <!-- Circle app bar -->
     <string name="category_app_circle_bar_title">Lançador de aplicativor</string>
@@ -527,7 +527,7 @@
     <string name="pa_pie_button_color_title">Cores dos botões</string>
     <string name="pa_pie_color_reset_title">Repor cores</string>
     <string name="reset_message">Reiniciar todas as entradas para o padrão?</string>
-    <string name="reset_paranoid">AICP</string>
+    <string name="reset_paranoid">Hexagon</string>
     <string name="reset_android">Android</string>
 
     <!-- Task Manager -->
@@ -561,7 +561,7 @@
     <string name="cannot_get_su">Não é possível obter acesso de superusuário, saindo.</string>
     <string name="cannot_get_su_start">Não é possível obter acesso de superusuário.</string>
 
-    <!-- Aicp logcat -->
+    <!-- Hexagon logcat -->
     <string name="logcat_title">Logcat</string>
     <string name="kmesg_title">Kmesg</string>
     <string name="dmesg_title">Dmesg</string>
@@ -570,7 +570,7 @@
     <string name="log_that_shit_title">Log that shit</string>
     <string name="logcat_warning">Share it or GTFO!</string>
     <string name="share_title">Share...</string>
-    <string name="log_it_share_subject">Aicp logs</string>
+    <string name="log_it_share_subject">Hexagon logs</string>
     <string name="log_it_summary">Seja paciente para que os logs sejam criados</string>
 
     <!-- AOKP custom system animations -->
@@ -629,11 +629,11 @@
     <string name="power_menu_animation_translucent_top">Translúcido (topo)</string>
     <string name="power_menu_animation_translucent_bottom">Translúcido (inferior)</string>
 
-    <!-- Statusbar AICP logo -->
+    <!-- Statusbar Hexagon logo -->
     <string name="status_bar_logo_category_title">logotipo da barra de status</string>
-    <string name="status_bar_hex_logo_title">Logotipo AICP</string>
-    <string name="status_bar_hex_logo_summary">Ativar para mostrar o logotipo AICP, no lado esquerdo da barra de status</string>
-    <string name="status_bar_hex_logo_color">Cor do logotipo AICP</string>
+    <string name="status_bar_hex_logo_title">Logotipo Hexagon</string>
+    <string name="status_bar_hex_logo_summary">Ativar para mostrar o logotipo Hexagon, no lado esquerdo da barra de status</string>
+    <string name="status_bar_hex_logo_color">Cor do logotipo Hexagon</string>
     <string name="status_bar_hex_logo_position">Localização do logotipo</string>
     <string name="status_bar_hex_logo_position_summary">Escolha de que lado para exibir o logotipo, na esquerda ou direita</string>
     <string name="status_bar_logo_position_right">Centro</string>
@@ -910,7 +910,7 @@
 
     <!-- QS stroke settings -->
     <string name="qs_panel_logo_category">logotipo do painel </string>
-    <string name="qs_panel_logo_title">Logotipo da AICP DR</string>
+    <string name="qs_panel_logo_title">Logotipo da Hexagon DR</string>
     <string name="qs_panel_logo_disabled">Desativado</string>
     <string name="qs_panel_logo_accent">Cor de destaque</string>
     <string name="qs_panel_logo_custom">Cor personalizadar</string>
@@ -948,7 +948,7 @@
     <string name="boot_dialog_stroke_thickness_title">Espessura do traço</string>
     <string name="boot_dialog_corner_radius_title">Raio de canto</string>
     <string name="boot_dialog_pimping_test_title">Testá-lo</string>
-    <string name="boot_dialog_test_title">AICP está iniciando</string>
+    <string name="boot_dialog_test_title">Hexagon está iniciando</string>
     <string name="boot_dialog_test_message">Otimizando aplicativos…</string>
     <string name="boot_dialog_custom_title">Título personalizado</string>
     <string name="boot_dialog_custom_title_notset">título personalizado atualmente não definido</string>
@@ -959,7 +959,7 @@
     <string name="boot_dialog_random_title">Nome do pacote com a cor aleatória</string>
 
     <!-- AE settings -->
-    <string name="ae_settings_title">Configurações extra AICP</string>
+    <string name="ae_settings_title">Configurações extra Hexagon</string>
     <string name="ae_custom_colors_title">Cores personalizadas</string>
     <string name="ae_custom_colors_summaries">Use as configurações abaixo para modificar a aparência AE</string>
     <string name="ae_drawer_opacity_title">Opacidade da gaveta de navegação</string>

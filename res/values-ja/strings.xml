@@ -22,9 +22,9 @@
     <string name="navigation_drawer_close">ナビゲーションドロワーを閉じる</string>
 
     <string name="action_settings">設定</string>
-    <string name="hex_extras_title">AICP Extras</string>
+    <string name="hex_extras_title">HexagonRom</string>
     <string name="various_shit_title">その他の設定</string>
-    <string name="about_title">AICP Extrasについて</string>
+    <string name="about_title">HexagonRomについて</string>
     <string name="other_title">その他</string>
     <string name="g_community">Google+ コミュニティ</string>
     <string name="g_plus_summary">Google+ コミュニティにアクセスします</string>
@@ -39,12 +39,12 @@
     <string name="hex_ota_title">OTA センター</string>
     <string name="ota_summary">ROMの最新のアップデートを確認します</string>
     <string name="hex_gerrit_title">Gerrit Code Review</string>
-    <string name="ae_version_title">AICP Extras バージョン</string>
-    <string name="gerrit_summary">GerritでAICPの開発の最前線をチェックします</string>
+    <string name="ae_version_title">HexagonRom バージョン</string>
+    <string name="gerrit_summary">GerritでHexagonの開発の最前線をチェックします</string>
     <string name="hidden_anim_more_title">もっと？</string>
     <string name="hidden_anim_more_nice">いいぞ</string>
     <string name="continue_title">続ける</string>
-    <string name="settings_activity_title">AICP Extrasの設定</string>
+    <string name="settings_activity_title">HexagonRomの設定</string>
     <string name="recents_panel_title">アプリ履歴</string>
     <string name="quick_settings_title">クイック設定パネル</string>
 
@@ -60,7 +60,7 @@
 
     <!-- Change Log -->
     <string name="changelog_title">更新履歴</string>
-    <string name="changelog_title_summary">AICPの最近の更新を確認します</string>
+    <string name="changelog_title_summary">Hexagonの最近の更新を確認します</string>
     <string name="changelog_error">更新履歴の読み込みに失敗しました</string>
 
     <!-- Toast Icons -->
@@ -176,14 +176,14 @@
 
     <!-- Notification -->
     <string name="notification_ticker">統計をオプトインしました</string>
-    <string name="notification_title">AICP 統計</string>
+    <string name="notification_title">Hexagon 統計</string>
     <string name="notification_desc">匿名の統計を有効/無効にします</string>
 
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">AICP 統計</string>
-    <string name="anonymous_statistics_summary">匿名の統計のレポートに同意してAICPに協力する</string>
+    <string name="anonymous_statistics_title">Hexagon 統計</string>
+    <string name="anonymous_statistics_summary">匿名の統計のレポートに同意してHexagonに協力する</string>
     <string name="anonymous_statistics_warning_title">利用統計について</string>
-    <string name="anonymous_statistics_warning">AICP の利用統計にオプトインすると、匿名のデータがサーバーに送信されます。送信されるデータにはユニークな識別情報が含まれますが、プライバシーや個人情報に影響するものではありません。データは7日ごとに送信されます。\n\n送信されるデータの例を見るには、「データのプレビュー」をタップしてください。</string>
+    <string name="anonymous_statistics_warning">Hexagon の利用統計にオプトインすると、匿名のデータがサーバーに送信されます。送信されるデータにはユニークな識別情報が含まれますが、プライバシーや個人情報に影響するものではありません。データは7日ごとに送信されます。\n\n送信されるデータの例を見るには、「データのプレビュー」をタップしてください。</string>
     <string name="pref_settings">設定</string>
     <string name="enable_reporting_title">レポートを有効にする</string>
     <string name="disable_reporting_persistent">オプトアウトする</string>
@@ -206,7 +206,7 @@
     <string name="preview_country_title">国/地域</string>
     <string name="preview_carrier_title">携帯キャリア</string>
     <string name="preview_romname_title">ROM名</string>
-    <string name="preview_romversion_title">AICPバージョン</string>
+    <string name="preview_romversion_title">Hexagonバージョン</string>
     <string name="preview_buildtype_title">ビルド種別</string>
 
     <!-- Double tap to sleep on lockscreen -->
@@ -218,12 +218,12 @@
     <string name="cannot_get_su">スーパーユーザー権限を確認できませんでした。終了します。</string>
     <string name="cannot_get_su_start">スーパーユーザー権限を確認できませんでした。</string>
 
-    <!-- Aicp logcat -->
+    <!-- Hexagon logcat -->
     <string name="log_it_title">ログの取得</string>
     <string name="log_it_dialog_title">ログの取得</string>
     <string name="log_that_shit_title">ログを取得</string>
     <string name="share_title">共有する...</string>
-    <string name="log_it_share_subject">AICP ログ</string>
+    <string name="log_it_share_subject">Hexagon ログ</string>
     <string name="log_it_summary">ログが作成されるまでお待ちください</string>
 
     <!-- AOKP custom system animations -->
@@ -259,10 +259,10 @@
     <string name="power_menu_animation_translucent_top">半透明（上）</string>
     <string name="power_menu_animation_translucent_bottom">半透明（下）</string>
 
-    <!-- Statusbar AICP logo -->
+    <!-- Statusbar Hexagon logo -->
     <string name="status_bar_logo_category_title">ステータスバー上のロゴ</string>
-    <string name="status_bar_hex_logo_title">AICP ロゴ</string>
-    <string name="status_bar_hex_logo_summary">ステータスバー上にAICPのロゴを表示する</string>
+    <string name="status_bar_hex_logo_title">Hexagon ロゴ</string>
+    <string name="status_bar_hex_logo_summary">ステータスバー上にHexagonのロゴを表示する</string>
     <string name="status_bar_hex_logo_color">ロゴの色</string>
     <string name="status_bar_hex_logo_position">ロゴの位置</string>
     <string name="status_bar_hex_logo_position_summary">どこにロゴを表示するか選択してください</string>
@@ -386,9 +386,9 @@
     <string name="fprint_sucess_vib_summary_off">指紋認証に成功した際にバイブレーションを作動させません</string>
 
     <!-- AE settings -->
-    <string name="ae_settings_title">AicpExtrasの設定</string>
+    <string name="ae_settings_title">HexagonRomの設定</string>
     <string name="ae_custom_colors_title">外観を変更する</string>
-    <string name="ae_custom_colors_summaries">AICP Extrasの外観を変更する</string>
+    <string name="ae_custom_colors_summaries">HexagonRomの外観を変更する</string>
     <string name="ae_drawer_opacity_title">ドロワーの不透明度</string>
     <string name="ae_header_bg_image_color_title">ナビゲーションヘッダー背景画像色</string>
     <string name="ae_drawer_bg_color_title">ドロワーの色</string>
@@ -397,7 +397,7 @@
     <string name="ae_header_bg_image_opacity_title">ドロワーに表示されるヘッダーの不透明度</string>
     <string name="ae_nav_drawer_checked_text_title">選択中の設定の色</string>
     <string name="ae_nav_drawer_unchecked_text_title">選択していない設定の色</string>
-    <string name="ae_settings_summary_title">AICP Extras説明文の変更</string>
+    <string name="ae_settings_summary_title">HexagonRom説明文の変更</string>
     <string name="custom_summary_title">AE説明文の変更</string>
     <string name="custom_summary_explain">表示したい説明文を入力してください。デフォルトに戻すには空欄のままOKを押します。</string>
     <string name="custom_summary_notset">ROM の詳細設定を開きます</string>
@@ -779,8 +779,8 @@
     <string name="recent_panel_lefty_mode_title">左端に表示</string>
     <string name="recent_panel_lefty_mode_summary">アプリ履歴を左端から呼び出します</string>
 
-    <string name="slim_recents_hex_empty_drawable_title">アプリ履歴が無いときにAICP画像を表示</string>
-    <string name="slim_recents_hex_empty_drawable_summary">アプリ履歴が無い時にAICP画像を表示します</string>
+    <string name="slim_recents_hex_empty_drawable_title">アプリ履歴が無いときにHexagon画像を表示</string>
+    <string name="slim_recents_hex_empty_drawable_summary">アプリ履歴が無い時にHexagon画像を表示します</string>
 
     <!-- Hide Apps from Recents -->
     <string name="hide_apps_from_recents_title">非表示のアプリ</string>

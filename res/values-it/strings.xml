@@ -22,7 +22,7 @@
     <string name="navigation_drawer_close">Chiudi pannello di navigazione</string>
 
     <string name="action_settings">Impostazioni</string>
-    <string name="hex_extras_title">AICP Extras</string>
+    <string name="hex_extras_title">HexagonRom</string>
     <string name="pun_title">\"Una rom per domarla di tutto\"</string>
     <string name="various_shit_title">Bizzarrie varie</string>
     <string name="about_title">Informazioni</string>
@@ -37,11 +37,11 @@
     <string name="statubar_title">Barra di stato</string>
     <string name="lockscreen_title">Schermata di blocco</string>
     <string name="hex_downloads_title">Downloads</string>
-    <string name="dwnld_summary">Visita la pagina di download AICP per il dispositivo</string>
+    <string name="dwnld_summary">Visita la pagina di download Hexagon per il dispositivo</string>
     <string name="hex_ota_title">Centro aggiornamenti</string>
     <string name="ota_summary">Verifica la presenza di aggiornamenti sulla ROM corrente</string>
     <string name="hex_gerrit_title">Gerrit</string>
-    <string name="ae_version_title">Versione AICP Extras</string>
+    <string name="ae_version_title">Versione HexagonRom</string>
     <string name="gerrit_summary">Visita la nostra pagina su Gerrit per sapere su che cosa stiamo lavorando</string>
     <string name="hidden_anim_activity_title">Tempo per lo Yoga!!!</string>
     <string name="hidden_anim_more_title">ANCORA?</string>
@@ -177,16 +177,16 @@
 
     <!-- Notification -->
     <string name="notification_ticker">Statistiche optionali</string>
-    <string name="notification_title">Satistiche AICP</string>
+    <string name="notification_title">Satistiche Hexagon</string>
     <string name="notification_desc">Abilita o Disabilita Statistiche Anonime</string>
 
     <string name="main_link">&lt;a href=&quot;http://www.cyanogenmod.org/blog/cmstats-what-it-is-and-why-you-should-opt-in&quot;&gt;Learn More&lt;/a&gt;</string>
 
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">Statistiche AICP</string>
-    <string name="anonymous_statistics_summary">Aiuta AICP attivando report di statistiche anonime</string>
+    <string name="anonymous_statistics_title">Statistiche Hexagon</string>
+    <string name="anonymous_statistics_summary">Aiuta Hexagon attivando report di statistiche anonime</string>
     <string name="anonymous_statistics_warning_title">Informazioni</string>
-    <string name="anonymous_statistics_warning">Attivando le statistiche AICP, si acconsente alla trasmissione di informazioni non personali ai nostri server. Le informazioni trsmesse includono un identificatore unico, che non mette a rischio la tua privacy o i tuoi dati personali. I dati sono trasmessi ogni 7 giorni.\n\nPer un esempio di informazioni trasmesse, premi su Anteprima Dati.</string>
+    <string name="anonymous_statistics_warning">Attivando le statistiche Hexagon, si acconsente alla trasmissione di informazioni non personali ai nostri server. Le informazioni trsmesse includono un identificatore unico, che non mette a rischio la tua privacy o i tuoi dati personali. I dati sono trasmessi ogni 7 giorni.\n\nPer un esempio di informazioni trasmesse, premi su Anteprima Dati.</string>
     <string name="pref_settings">Impostazioni</string>
     <string name="enable_reporting_title">Abilita rapporti</string>
     <string name="disable_reporting_persistent">Opt-out persistente</string>
@@ -210,8 +210,8 @@
     <string name="preview_country_title">Paese</string>
     <string name="preview_carrier_title">Operatore</string>
     <string name="preview_romname_title">Nome ROM</string>
-    <string name="preview_romversion_title">Versione AICP</string>
-    <string name="preview_buildtype_title">Tipo di AICP Build</string>
+    <string name="preview_romversion_title">Versione Hexagon</string>
+    <string name="preview_buildtype_title">Tipo di Hexagon Build</string>
 
     <!-- Double tap to sleep on lockscreen -->
     <string name="double_tap_sleep_anywhere_title">Doppio tocco</string>
@@ -222,7 +222,7 @@
     <string name="cannot_get_su">Non posso ottenere privilegi di superuser, sto uscendo.</string>
     <string name="cannot_get_su_start">Non posso ottenere privilegi di superuser.</string>
 
-    <!-- Aicp logcat -->
+    <!-- Hexagon logcat -->
     <string name="logcat_title">Logcat</string>
     <string name="kmesg_title">Kmesg</string>
     <string name="dmesg_title">Dmesg</string>
@@ -231,7 +231,7 @@
     <string name="log_that_shit_title">Registra il tutto</string>
     <string name="logcat_warning">Condividi o vattene!</string>
     <string name="share_title">Condividi...</string>
-    <string name="log_it_share_subject">Aicp logs</string>
+    <string name="log_it_share_subject">Hexagon logs</string>
     <string name="log_it_summary"> Aspetta pazientemente che il log sia generato</string>
 
     <!-- AOKP custom system animations -->
@@ -272,11 +272,11 @@
     <string name="power_menu_animation_translucent_top">Traslucido (alto)</string>
     <string name="power_menu_animation_translucent_bottom">Traslucido (basso)</string>
 
-    <!-- Statusbar AICP logo -->
+    <!-- Statusbar Hexagon logo -->
     <string name="status_bar_logo_category_title">Logo barra di stato</string>
-    <string name="status_bar_hex_logo_title">Logo AICP</string>
-    <string name="status_bar_hex_logo_summary">Abilita visualizzazione del logo AICP sulla parte sinistra della barra di stato</string>
-    <string name="status_bar_hex_logo_color">Colore del logo AICP</string>
+    <string name="status_bar_hex_logo_title">Logo Hexagon</string>
+    <string name="status_bar_hex_logo_summary">Abilita visualizzazione del logo Hexagon sulla parte sinistra della barra di stato</string>
+    <string name="status_bar_hex_logo_color">Colore del logo Hexagon</string>
     <string name="status_bar_hex_logo_position">Posizione del logo</string>
     <string name="status_bar_hex_logo_position_summary">Scegliere su quale lato della barra di stato visualizzare il logo, sinistro o destro</string>
     <string name="status_bar_logo_position_right">Destro</string>
@@ -397,7 +397,7 @@
     <string name="fprint_sucess_vib_summary_off">Vibrazione all\'avvenuta autenticazione tramite impronta digitale è disattivata</string>
 
     <!-- AE settings -->
-    <string name="ae_settings_title">Impostazioni Aicp</string>
+    <string name="ae_settings_title">Impostazioni Hexagon</string>
     <string name="ae_custom_colors_title">Colori personalizzati</string>
     <string name="ae_custom_colors_summaries">Utilizzare le seguenti impostazioni per modificare l\'aspetto di AE</string>
     <string name="ae_drawer_opacity_title">Opacità del drawer di navigazione</string>
@@ -540,7 +540,7 @@
     <string name="qs_wifi_easy_toggle_summary">Attiva o disattiva con la sola azione di un tocco il WiFi</string>
 
     <!-- OmniSwitch Recents -->
-    <string name="aosp_recents_title">AICP recenti</string>
+    <string name="aosp_recents_title">Hexagon recenti</string>
     <string name="omniswitch_recents_title">OmniSwitch recenti</string>
     <string name="recents_use_omniswitch_title">Utilizzare come recenti alterativi</string>
     <string name="recents_use_omniswitch_summary">Usa OmniSwitch invece di visualizzare il pannello recenti predefinito</string>
@@ -736,7 +736,7 @@
     <string name="pa_pie_button_color_title">Colore pulsanti</string>
     <string name="pa_pie_color_reset_title">Ripristino colori</string>
     <string name="reset_message">Ripristinare tutte le voci alle impostazioni predefinite?</string>
-    <string name="reset_paranoid">AICP</string>
+    <string name="reset_paranoid">Hexagon</string>
     <string name="reset_android">Android</string>
     <string name="reset">Ripristino</string>
   

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Aicp Extras</string>
+    <string name="app_name">HexagonRom</string>
 
     <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
     <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
@@ -8,7 +8,7 @@
     <string name="first_layout_title">Espace réservé pour les diverses merdes\et les nanas nues</string>
     <string name="second_layout_title">Deuxième disposition</string>
     <string name="third_layout_title">Troisième disposition</string>
-    <string name="hex_extras_title">Aicp Extras</string>
+    <string name="hex_extras_title">HexagonRom</string>
     <string name="pun_title">Une ROM pour les gouverner tous</string>
     <string name="various_shit_title">Diverses merdes</string>
     <string name="about_title">A propos</string>
@@ -377,16 +377,16 @@
 
     <!-- Notification -->
     <string name="notification_ticker">Statistiques</string>
-    <string name="notification_title">Statistiques AICP</string>
+    <string name="notification_title">Statistiques Hexagon</string>
     <string name="notification_desc">Activer ou désactiver les statistiques anonymes</string>
 
     <string name="main_link">&lt;a href=&quot;http://www.cyanogenmod.org/blog/cmstats-what-it-is-and-why-you-should-opt-in&quot;&gt;Learn More&lt;/a&gt;</string>
 
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">Statistiques AICP</string>
-    <string name="anonymous_statistics_summary">Aider AICP en optant en rapportant des statistiques anonymes</string>
+    <string name="anonymous_statistics_title">Statistiques Hexagon</string>
+    <string name="anonymous_statistics_summary">Aider Hexagon en optant en rapportant des statistiques anonymes</string>
     <string name="anonymous_statistics_warning_title">À propos</string>
-    <string name="anonymous_statistics_warning">En optant pour les statistiques AICP cela autorisera les données non-personnelles a être envoyer vers nos serveurs.
+    <string name="anonymous_statistics_warning">En optant pour les statistiques Hexagon cela autorisera les données non-personnelles a être envoyer vers nos serveurs.
          Les informations envoyées inclusent un identifiant unique, ce qui ne va pas compromettre votre vie privée ou vos données personnelles.
          Les donnés sont envoyés chaques 7 jours.\n\nPour un exemple de donnée qui est envoyée,cliquer sur aperçu des données.</string>
 
@@ -413,8 +413,8 @@
     <string name="preview_country_title">Pays</string>
     <string name="preview_carrier_title">Opérateur </string>
     <string name="preview_romname_title">Nom de la ROM</string>
-    <string name="preview_romversion_title">Version AICP</string>
-    <string name="preview_buildtype_title">Type de la build AICP</string>
+    <string name="preview_romversion_title">Version Hexagon</string>
+    <string name="preview_buildtype_title">Type de la build Hexagon</string>
 
     <!-- Circle app bar -->
     <string name="category_app_circle_bar_title">Lanceur d\'applications</string>
@@ -519,7 +519,7 @@
     <string name="pa_pie_button_color_title">Couleur des boutons</string>
     <string name="pa_pie_color_reset_title">Réinitialiser les couleurs</string>
     <string name="reset_message">Réinitialiser toutes les dimensions entrées aux valeurs par défaut ?</string>
-    <string name="reset_paranoid">AICP</string>
+    <string name="reset_paranoid">Hexagon</string>
     <string name="reset_android">Android</string>
 
     <!-- Task Manager -->
@@ -552,7 +552,7 @@
     <!-- SU -->
     <string name="cannot_get_su">Ne peut pas obtenir l\'accès super utilisateur, sortie.</string>
 
-    <!-- Aicp logcat -->
+    <!-- Hexagon logcat -->
     <string name="logcat_title">Logcat</string>
     <string name="kmesg_title">Kmesg</string>
     <string name="dmesg_title">Dmesg</string>
@@ -561,7 +561,7 @@
     <string name="log_that_shit_title">Log cette merde</string>
     <string name="logcat_warning">Partage la ou va te faire voir !</string>
     <string name="share_title">Partage...</string>
-    <string name="log_it_share_subject">Journaux AICP</string>
+    <string name="log_it_share_subject">Journaux Hexagon</string>
     <string name="log_it_summary">Soyez patiens le temps que les logs soient crées</string>
 
     <!-- AOKP custom system animations -->
@@ -620,11 +620,11 @@
     <string name="power_menu_animation_translucent_top">Translucide (en haut)</string>
     <string name="power_menu_animation_translucent_bottom">Translucide (en bas)</string>
 
-    <!-- Statusbar AICP logo -->
+    <!-- Statusbar Hexagon logo -->
     <string name="status_bar_logo_category_title">Logo de la barre d\'état</string>
-    <string name="status_bar_hex_logo_title">Logo AICP</string>
-    <string name="status_bar_hex_logo_summary">Afficher le logo de AICP sur la gauche de la barre d\'état</string>
-    <string name="status_bar_hex_logo_color">Couleur du logo AICP</string>
+    <string name="status_bar_hex_logo_title">Logo Hexagon</string>
+    <string name="status_bar_hex_logo_summary">Afficher le logo de Hexagon sur la gauche de la barre d\'état</string>
+    <string name="status_bar_hex_logo_color">Couleur du logo Hexagon</string>
     <string name="status_bar_hex_logo_position">Position du logo</string>
     <string name="status_bar_hex_logo_position_summary">Choisir quelle côté afficher le logo,gauche ou droit</string>
     <string name="status_bar_logo_position_right">Droit</string>

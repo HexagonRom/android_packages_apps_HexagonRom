@@ -49,7 +49,7 @@
 
    </PreferenceCategory>
 
-   <!-- Status bar AICP logo -->
+   <!-- Status bar Hexagon logo -->
    <PreferenceCategory
            android:title="@string/status_bar_logo_category_title">
         <com.droidvnteam.hexagonrom.preferences.SystemSettingSwitchPreference

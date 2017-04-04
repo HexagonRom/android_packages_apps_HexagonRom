@@ -18,13 +18,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- <string name="app_name" translatable="false">Aicp Extras</string> -->
+    <!-- <string name="app_name" translatable="false">HexagonRom</string> -->
 
     <string name="navigation_drawer_open">Öffne Navigationsbereich</string>
     <string name="navigation_drawer_close">Schließe Navigationsbereich</string>
 
     <string name="action_settings">Einstellungen</string>
-    <string name="hex_extras_title">AICP Extras</string>
+    <string name="hex_extras_title">HexagonRom</string>
     <string name="pun_title">One ROM to rule them all</string>
     <string name="various_shit_title">Verschiedenes</string>
     <string name="about_title">Über</string>
@@ -39,11 +39,11 @@
     <string name="statubar_title">Statusleiste</string>
     <string name="lockscreen_title">Sperrbildschirm</string>
     <string name="hex_downloads_title">Downloads</string>
-    <string name="dwnld_summary">Besuche die AICP Webseite mit Downloads für dein Gerät</string>
+    <string name="dwnld_summary">Besuche die Hexagon Webseite mit Downloads für dein Gerät</string>
     <string name="hex_ota_title">OTA Aktualisierung</string>
     <string name="ota_summary">Aktualisierungsprüfung für die installierte ROM Version</string>
     <string name="hex_gerrit_title">Gerrit</string>
-    <string name="ae_version_title">AICP Extras Version</string>
+    <string name="ae_version_title">HexagonRom Version</string>
     <string name="gerrit_summary">Besuche unsere Review-System online, um zu erfahren, an was wir gerade arbeiten</string>
     <string name="hidden_anim_activity_title">Zeit für \'Yoga\'!!!</string>
     <string name="hidden_anim_more_title">MEHR?</string>
@@ -188,16 +188,16 @@
 
     <!-- Notification -->
     <string name="notification_ticker">Statistiken freigeben</string>
-    <string name="notification_title">AICP Statistiken</string>
+    <string name="notification_title">Hexagon Statistiken</string>
     <string name="notification_desc">Aktiviere oder deaktiviere die Übertragung anonymer Statistiken</string>
 
     <string name="main_link">&lt;a href=&quot;http://lineageos.org/legal/&quot;&gt;Learn More&lt;/a&gt;</string>
 
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">AICP Statistiken</string>
-    <string name="anonymous_statistics_summary">Hilf AICP, indem du die Übertragung anonymer Datenreporte zuläßt.</string>
+    <string name="anonymous_statistics_title">Hexagon Statistiken</string>
+    <string name="anonymous_statistics_summary">Hilf Hexagon, indem du die Übertragung anonymer Datenreporte zuläßt.</string>
     <string name="anonymous_statistics_warning_title">Über</string>
-    <string name="anonymous_statistics_warning">Der Beitritt zu AICP Stats erlaubt die Übersendung nicht-personenbezogener Daten an unsere Server.
+    <string name="anonymous_statistics_warning">Der Beitritt zu Hexagon Stats erlaubt die Übersendung nicht-personenbezogener Daten an unsere Server.
          Die übertragenen Informationen erhalten einen eindeutigen Identifizierungscode (ID), der nicht die Privatsphäre oder persönliche Daten verletzt.
          Die Daten werden alle 7 Tage übermittelt.\n\nUm ein Beispiel der übertragenen Daten zu sehen, tippe auf Datenvorschau.</string>
 
@@ -224,8 +224,8 @@
     <string name="preview_country_title">Land</string>
     <string name="preview_carrier_title">Anbieter</string>
     <string name="preview_romname_title">ROM Name</string>
-    <string name="preview_romversion_title">AICP Version</string>
-    <string name="preview_buildtype_title">AICP Bau-Typ</string>
+    <string name="preview_romversion_title">Hexagon Version</string>
+    <string name="preview_buildtype_title">Hexagon Bau-Typ</string>
 
     <!-- Double tap to sleep on lockscreen -->
     <string name="double_tap_sleep_anywhere_title">DT2S auf Sperrbildschirm</string>
@@ -236,7 +236,7 @@
     <string name="cannot_get_su">Keinen Superuser-Zugriff erhalten, beende.</string>
     <string name="cannot_get_su_start">Kann keinen Superuser-Zugriff erhalten.</string>
 
-    <!-- Aicp logcat -->
+    <!-- Hexagon logcat -->
     <string name="logcat_title">Logcat</string>
     <string name="kmesg_title">Kmesg</string>
     <string name="dmesg_title">Dmesg</string>
@@ -245,7 +245,7 @@
     <string name="log_that_shit_title">Logge diesen Mist</string>
     <string name="logcat_warning">Teile das oder GTFO!</string>
     <string name="share_title">Teilen...</string>
-    <string name="log_it_share_subject">AICP logs</string>
+    <string name="log_it_share_subject">Hexagon logs</string>
     <string name="log_it_summary">Bitte warten, während die Logdateien erzeugt werden</string>
 
     <!-- AOKP custom system animations -->
@@ -286,11 +286,11 @@
     <string name="power_menu_animation_translucent_top">Transparent (oben)</string>
     <string name="power_menu_animation_translucent_bottom">Transparent (unten)</string>
 
-    <!-- Statusbar AICP logo -->
+    <!-- Statusbar Hexagon logo -->
     <string name="status_bar_logo_category_title">Statusleisten-Logo</string>
-    <string name="status_bar_hex_logo_title">AICP Logo</string>
-    <string name="status_bar_hex_logo_summary">Aktivieren, um das AICP Logo in der Statusleiste anzuzeigen</string>
-    <string name="status_bar_hex_logo_color">Farbe des AICP Logos</string>
+    <string name="status_bar_hex_logo_title">Hexagon Logo</string>
+    <string name="status_bar_hex_logo_summary">Aktivieren, um das Hexagon Logo in der Statusleiste anzuzeigen</string>
+    <string name="status_bar_hex_logo_color">Farbe des Hexagon Logos</string>
     <string name="status_bar_hex_logo_position">Position des Logos</string>
     <string name="status_bar_hex_logo_position_summary">Wähle auf welcher Seite das Logo angezeigt wird, rechts oder links</string>
     <string name="status_bar_logo_position_right">Rechts</string>
@@ -757,7 +757,7 @@
     <string name="pa_pie_button_color_title">Tastenfarbe</string>
     <string name="pa_pie_color_reset_title">Farben zurücksetzen</string>
     <string name="reset_message">Alle Änderungen auf Standard zurücksetzen?</string>
-    <string name="reset_paranoid">AICP</string>
+    <string name="reset_paranoid">Hexagon</string>
     <string name="reset_android">Android</string>
     <string name="reset">Zurücksetzen</string>
 
@@ -833,7 +833,7 @@
     <string name="recent_panel_lefty_mode_summary">Zeige das Paneel des App-Verlaufs auf der linken Seite</string>
 
     <string name="slim_recents_hex_empty_drawable_title">Bild bei leerem Verlauf</string>
-    <string name="slim_recents_hex_empty_drawable_summary">Zeige das AICP-Bild, wenn keine Apps im Verlauf sind</string>
+    <string name="slim_recents_hex_empty_drawable_summary">Zeige das Hexagon-Bild, wenn keine Apps im Verlauf sind</string>
 
     <!-- Hide Apps from Recents -->
     <string name="hide_apps_from_recents_title">Apps verbergen</string>
@@ -911,7 +911,7 @@
 
     <!-- Custom bootanim -->
     <string name="custom_bootanimation_title">Bootanimation</string>
-    <string name="custom_bootanimation_summary">Bitte die neue Bootanimation auswählen.\nBei jedem Wechsel wird die momentane Animation im Verzeichnis \"AICP_ota\" des Telefonspeichers (mit aktuellem Datum) gesichert. Alte Animationen müssen händisch gelöscht werden, wenn sie nicht mehr benötigt werden!</string>
+    <string name="custom_bootanimation_summary">Bitte die neue Bootanimation auswählen.\nBei jedem Wechsel wird die momentane Animation im Verzeichnis \"Hexagon_ota\" des Telefonspeichers (mit aktuellem Datum) gesichert. Alte Animationen müssen händisch gelöscht werden, wenn sie nicht mehr benötigt werden!</string>
     <string name="bootanimation_preview">Vorschau der Bootanimation</string>
     <string name="set_custom_bootanimation">Eigene aktivieren...</string>
     <string name="creating_preview">Erzeuge Vorschau...</string>

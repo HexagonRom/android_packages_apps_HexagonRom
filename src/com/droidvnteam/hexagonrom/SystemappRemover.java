@@ -93,7 +93,7 @@ public class SystemappRemover extends Activity {
         safetyList.add("Superuser");
         safetyList.add("TelephonyProvider");
         // priv-app
-        safetyList.add("AicpExtras");
+        safetyList.add("HexagonRom");
         safetyList.add("CMAudioService");
         safetyList.add("CMParts");
         safetyList.add("CMSettingsProvider");

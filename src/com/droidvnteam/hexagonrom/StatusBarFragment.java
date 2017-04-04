@@ -52,8 +52,8 @@ public class StatusBarFragment extends Fragment {
         private Preference mTraffic;
         private SwitchPreference mShowFourG;
         private Preference mBatteryBar;
-        private ColorPickerPreference mAicpLogoColor;
-        private ListPreference mAicpLogoStyle;
+        private ColorPickerPreference mHexagonLogoColor;
+        private ListPreference mHexagonLogoStyle;
         private Preference mCarrierLabel;
         private Preference mTicker;
         private ListPreference mStatusBarWeather;
@@ -88,23 +88,23 @@ public class StatusBarFragment extends Fragment {
                 categoryIndicators.removePreference(mShowFourG);
             }
 
-            mAicpLogoStyle = (ListPreference) findPreference(KEY_HEXAGON_LOGO_STYLE);
+            mHexagonLogoStyle = (ListPreference) findPreference(KEY_HEXAGON_LOGO_STYLE);
             int hexLogoStyle = Settings.System.getIntForUser(resolver,
                     Settings.System.STATUS_BAR_HEXAGON_LOGO_STYLE, 0,
                     UserHandle.USER_CURRENT);
-            mAicpLogoStyle.setValue(String.valueOf(hexLogoStyle));
-            mAicpLogoStyle.setSummary(mAicpLogoStyle.getEntry());
-            mAicpLogoStyle.setOnPreferenceChangeListener(this);
+            mHexagonLogoStyle.setValue(String.valueOf(hexLogoStyle));
+            mHexagonLogoStyle.setSummary(mHexagonLogoStyle.getEntry());
+            mHexagonLogoStyle.setOnPreferenceChangeListener(this);
 
-            // Aicp logo color
-            mAicpLogoColor =
+            // Hexagon logo color
+            mHexagonLogoColor =
                 (ColorPickerPreference) prefSet.findPreference(KEY_HEXAGON_LOGO_COLOR);
-            mAicpLogoColor.setOnPreferenceChangeListener(this);
+            mHexagonLogoColor.setOnPreferenceChangeListener(this);
             int intColor = Settings.System.getInt(resolver,
                     Settings.System.STATUS_BAR_HEXAGON_LOGO_COLOR, 0xffffffff);
             String hexColor = String.format("#%08x", (0xffffffff & intColor));
-            mAicpLogoColor.setSummary(hexColor);
-            mAicpLogoColor.setNewPreviewColor(intColor);
+            mHexagonLogoColor.setSummary(hexColor);
+            mHexagonLogoColor.setNewPreviewColor(intColor);
 
             if (!cm.isNetworkSupported(ConnectivityManager.TYPE_MOBILE)) {
                 categoryIndicators.removePreference(mCarrierLabel);
@@ -151,7 +151,7 @@ public class StatusBarFragment extends Fragment {
         @Override
         public boolean onPreferenceChange(Preference preference, Object newValue) {
             ContentResolver resolver = getActivity().getContentResolver();
-            if (preference == mAicpLogoColor) {
+            if (preference == mHexagonLogoColor) {
                 String hex = ColorPickerPreference.convertToARGB(
                         Integer.parseInt(String.valueOf(newValue)));
                 preference.setSummary(hex);
@@ -159,14 +159,14 @@ public class StatusBarFragment extends Fragment {
                 Settings.System.putInt(resolver,
                         Settings.System.STATUS_BAR_HEXAGON_LOGO_COLOR, intHex);
                 return true;
-            } else if (preference == mAicpLogoStyle) {
+            } else if (preference == mHexagonLogoStyle) {
                 int hexLogoStyle = Integer.valueOf((String) newValue);
-                int index = mAicpLogoStyle.findIndexOfValue((String) newValue);
+                int index = mHexagonLogoStyle.findIndexOfValue((String) newValue);
                 Settings.System.putIntForUser(
                         resolver, Settings.System.STATUS_BAR_HEXAGON_LOGO_STYLE, hexLogoStyle,
                         UserHandle.USER_CURRENT);
-                mAicpLogoStyle.setSummary(
-                        mAicpLogoStyle.getEntries()[index]);
+                mHexagonLogoStyle.setSummary(
+                        mHexagonLogoStyle.getEntries()[index]);
                 return true;
             } else if (preference == mStatusBarWeather) {
                 int temperatureShow = Integer.valueOf((String) newValue);

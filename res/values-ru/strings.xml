@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AICP</string>
+    <string name="app_name">Hexagon</string>
     <string name="navigation_drawer_open">Открыть панель навигации</string>
     <string name="navigation_drawer_close">Закрыть панель навигации</string>
 
@@ -9,7 +9,7 @@
     <string name="second_layout_title">Во-вторых компоновка</string>
     <string name="third_layout_title">В-третьих компоновка</string>
     <string name="hex_extras_title">Расширенные настройки</string>
-    <string name="pun_title">AICP</string>
+    <string name="pun_title">Hexagon</string>
     <string name="various_shit_title">Разное</string>
     <string name="about_title">Об устройстве</string>
     <string name="other_title">Другое</string>
@@ -355,15 +355,15 @@
 
     <!-- Notification -->
     <string name="notification_ticker">Статистика  opted-In</string>
-    <string name="notification_title">AICP статистика</string>
+    <string name="notification_title">Hexagon статистика</string>
     <string name="notification_desc">Включение или отключение анонимную статистику</string>
     <string name="main_link">&lt;a href=http://www.cyanogenmod.org/blog/cmstats-what-it-is-and-why-you-should-opt-in>Learn More&lt;/a></string>
 
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">AICP статистика</string>
-    <string name="anonymous_statistics_summary">Помощь AICP , анонимной статистической отчетностью</string>
+    <string name="anonymous_statistics_title">Hexagon статистика</string>
+    <string name="anonymous_statistics_summary">Помощь Hexagon , анонимной статистической отчетностью</string>
     <string name="anonymous_statistics_warning_title">Об</string>
-    <string name="anonymous_statistics_warning">"Отказ в AICP Статистика позволит без личные данные должны быть представлены к нашим серверам. 
+    <string name="anonymous_statistics_warning">"Отказ в Hexagon Статистика позволит без личные данные должны быть представлены к нашим серверам. 
       Информация, представленная включает в себя уникальный идентификатор, который не идет на компромисс вашу частную жизнь или личные данные. 
       Данные представлены каждые 7 дней. В качестве примера данных, которые представлены, нажмите на превью данных ."</string>
     <string name="pref_settings">Настройки</string>
@@ -384,8 +384,8 @@
     <string name="preview_country_title">Страна</string>
     <string name="preview_carrier_title">Сеть</string>
     <string name="preview_romname_title">Имя прошивки</string>
-    <string name="preview_romversion_title">Версия AICP</string>
-    <string name="preview_buildtype_title">Номер сборки AICP</string>
+    <string name="preview_romversion_title">Версия Hexagon</string>
+    <string name="preview_buildtype_title">Номер сборки Hexagon</string>
 
     <!-- Circle app bar -->
     <string name="category_app_circle_bar_title">Панель приложений</string>
@@ -490,7 +490,7 @@
     <string name="pa_pie_button_color_title">Цвет кнопок</string>
     <string name="pa_pie_color_reset_title">Сбросить цвет</string>
     <string name="reset_message">Сброс всех записей по умолчанию ?</string>
-    <string name="reset_paranoid">AICP</string>
+    <string name="reset_paranoid">Hexagon</string>
     <string name="reset_android">Android</string>
 
     <!-- Task Manager -->
@@ -524,7 +524,7 @@
     <string name="cannot_get_su">Не удается получить доступ суперпользователя.</string>
     <string name="cannot_get_su_start">Cannot get superuser access.</string>
 
-    <!-- Aicp logcat -->
+    <!-- Hexagon logcat -->
     <string name="logcat_title">Logcat</string>
     <string name="kmesg_title">Kmesg</string>
     <string name="dmesg_title">Dmesg</string>
@@ -533,7 +533,7 @@
     <string name="log_that_shit_title">Логи</string>
     <string name="logcat_warning">Поделитесь GTFO!</string>
     <string name="share_title">Поделится...</string>
-    <string name="log_it_share_subject">Aicp лог</string>
+    <string name="log_it_share_subject">Hexagon лог</string>
     <string name="log_it_summary">Ждите пока создается лог</string>
 
     <!-- AOKP custom system animations -->
@@ -592,12 +592,12 @@
     <string name="power_menu_animation_translucent_top">Просвечивание (сверху)</string>
     <string name="power_menu_animation_translucent_bottom">Просвечивание (снизу)</string>
 
-    <!-- Statusbar AICP logo -->
+    <!-- Statusbar Hexagon logo -->
     <string name="status_bar_logo_category_title">Лого в статус баре</string>
-    <string name="status_bar_hex_logo_title">Логотип AICP</string>
-    <string name="status_bar_hex_logo_summary">Включить отображение логотипа AICP в строке состояния</string>
-    <string name="status_bar_hex_logo_color">Цвет логотипа AICP</string>
-    <string name="status_bar_hex_logo_position">Расположение логотипа AICP</string>
+    <string name="status_bar_hex_logo_title">Логотип Hexagon</string>
+    <string name="status_bar_hex_logo_summary">Включить отображение логотипа Hexagon в строке состояния</string>
+    <string name="status_bar_hex_logo_color">Цвет логотипа Hexagon</string>
+    <string name="status_bar_hex_logo_position">Расположение логотипа Hexagon</string>
     <string name="status_bar_hex_logo_position_summary">Выберите, с какой стороны отображать логотип, справа или слева</string>
     <string name="status_bar_logo_position_right">Справа</string>
     <string name="status_bar_logo_position_left">Слева</string>

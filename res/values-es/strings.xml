@@ -22,7 +22,7 @@
     <string name="navigation_drawer_close">Cerrar panel de aplicaciones</string>
 
     <string name="action_settings">Ajustes</string>
-    <string name="hex_extras_title">Extras AICP</string>
+    <string name="hex_extras_title">HexagonRom</string>
     <string name="pun_title">Una ROM para gobernarlos a todos</string>
     <string name="various_shit_title">Varios</string>
     <string name="about_title">Acerca de</string>
@@ -37,17 +37,17 @@
     <string name="statubar_title">Barra de estado</string>
     <string name="lockscreen_title">Pantalla de bloqueo</string>
     <string name="hex_downloads_title">Descargas</string>
-    <string name="dwnld_summary">Visitar la página de descargas de AICP para tu dispositivo</string>
+    <string name="dwnld_summary">Visitar la página de descargas de Hexagon para tu dispositivo</string>
     <string name="hex_ota_title">Actualizaciones del sistema</string>
     <string name="ota_summary">Comprobar actualizaciones de la ROM actual</string>
     <string name="hex_gerrit_title">Gerrit</string>
     <string name="gerrit_summary">Visitar nuestro Gerrit para saber en qué estamos trabajando</string>
-    <string name="ae_version_title">Versión de Extras AICP</string>
+    <string name="ae_version_title">Versión de HexagonRom</string>
     <string name="hidden_anim_activity_title">Hora de Yoga!!!</string>
     <string name="hidden_anim_more_title">MÁS?</string>
     <string name="hidden_anim_more_nice">AGRADABLE</string>
     <string name="continue_title">Continuar</string>
-    <string name="settings_activity_title">Ajustes de Extras AICP</string>
+    <string name="settings_activity_title">Ajustes de HexagonRom</string>
     <string name="recents_panel_title">Panel recientes</string>
     <string name="quick_settings_title">Ajustes rápidos</string>
     <string name="design_title">Diseño</string>
@@ -65,7 +65,7 @@
 
     <!-- Change Log -->
     <string name="changelog_title">Lista de cambios</string>
-    <string name="changelog_title_summary">Ver la lista de cambios recientes de AICP</string>
+    <string name="changelog_title_summary">Ver la lista de cambios recientes de Hexagon</string>
     <string name="changelog_error">No se pudo cargar la lista de cambios</string>
 
     <!-- Toast Icons -->
@@ -180,16 +180,16 @@
 
     <!-- Notification -->
     <string name="notification_ticker">Estadísticas habilitadas</string>
-    <string name="notification_title">Estadísticas AICP</string>
+    <string name="notification_title">Estadísticas Hexagon</string>
     <string name="notification_desc">Habilitar o deshabilitar estadísticas anónimas</string>
 
     <string name="main_link">&lt;a href=&quot;http://www.cyanogenmod.org/blog/cmstats-what-it-is-and-why-you-should-opt-in&quot;&gt;Learn More&lt;/a&gt;</string>
 
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">Estadísticas AICP</string>
-    <string name="anonymous_statistics_summary">Ayuda a AICP activando el envío de estadísticas anónimas</string>
+    <string name="anonymous_statistics_title">Estadísticas Hexagon</string>
+    <string name="anonymous_statistics_summary">Ayuda a Hexagon activando el envío de estadísticas anónimas</string>
     <string name="anonymous_statistics_warning_title">Acerca de</string>
-    <string name="anonymous_statistics_warning">Activando las estadísticas AICP permitirá el envío de datos no personales a nuestros servidores.
+    <string name="anonymous_statistics_warning">Activando las estadísticas Hexagon permitirá el envío de datos no personales a nuestros servidores.
          la información enviada incluye un identificador único que no compromete su privacidad ni la de sus datos personales.
          Los datos se envían cada 7 días.\n\nPara ver un ejemplo de datos que se envían pulse en Previsualizar Datos.</string>
 
@@ -216,8 +216,8 @@
     <string name="preview_country_title">País</string>
     <string name="preview_carrier_title">Operador</string>
     <string name="preview_romname_title">Nombre de ROM</string>
-    <string name="preview_romversion_title">Versión AICP</string>
-    <string name="preview_buildtype_title">Tipo de Build AICP</string>
+    <string name="preview_romversion_title">Versión Hexagon</string>
+    <string name="preview_buildtype_title">Tipo de Build Hexagon</string>
 
     <!-- Double tap to sleep on lockscreen -->
     <string name="double_tap_sleep_anywhere_title">DT2S en pantalla de bloqueo</string>
@@ -227,7 +227,7 @@
     <string name="cannot_get_su">No se consiguió acceso de superusuario, saliendo.</string>
     <string name="cannot_get_su_start">No se puede acceder como supersusuario.</string>
 
-    <!-- Aicp logcat -->
+    <!-- Hexagon logcat -->
     <string name="logcat_title">Logcat</string>
     <string name="kmesg_title">Kmesg</string>
     <string name="dmesg_title">Dmesg</string>
@@ -236,7 +236,7 @@
     <string name="log_that_shit_title">Log &amp; debug</string>
     <string name="logcat_warning">Compartir o desechar!</string>
     <string name="share_title">Compartir...</string>
-    <string name="log_it_share_subject">logs Aicp</string>
+    <string name="log_it_share_subject">logs Hexagon</string>
     <string name="log_it_summary">Se paciente hasta que los logs se creen</string>
 
     <!-- AOKP custom system animations -->
@@ -278,11 +278,11 @@
     <string name="power_menu_animation_translucent_top">Translúcida (arriba)</string>
     <string name="power_menu_animation_translucent_bottom">Translúcida (abajo)</string>
 
-    <!-- Statusbar AICP logo -->
+    <!-- Statusbar Hexagon logo -->
     <string name="status_bar_logo_category_title">Logo en barra de estado</string>
-    <string name="status_bar_hex_logo_title">Logo de AICP</string>
-    <string name="status_bar_hex_logo_summary">Activa el logo de AICP en el lado izquierdo de la barra de estado</string>
-    <string name="status_bar_hex_logo_color">Color del logo AICP</string>
+    <string name="status_bar_hex_logo_title">Logo de Hexagon</string>
+    <string name="status_bar_hex_logo_summary">Activa el logo de Hexagon en el lado izquierdo de la barra de estado</string>
+    <string name="status_bar_hex_logo_color">Color del logo Hexagon</string>
     <string name="status_bar_hex_logo_position">Ubicación del logo</string>
     <string name="status_bar_hex_logo_position_summary">Elegir en qué lado mostrar el logo, izquierda o derecha</string>
     <string name="status_bar_logo_position_right">Derecha</string>
@@ -390,9 +390,9 @@
     <string name="fprint_sucess_vib_summary">Vibrar cuando la autenticación con la huella es correcta</string>
 
     <!-- AE settings -->
-    <string name="ae_settings_title">Configuración de Extras AICP</string>
+    <string name="ae_settings_title">Configuración de HexagonRom</string>
     <string name="ae_custom_colors_title">Colores personalizados</string>
-    <string name="ae_custom_colors_summaries">Configuración que modifica la apariencia de los Extras AICP</string>
+    <string name="ae_custom_colors_summaries">Configuración que modifica la apariencia de los HexagonRom</string>
     <string name="ae_drawer_opacity_title">Opacidad del menú lateral de opciones</string>
     <string name="ae_header_bg_image_color_title">Color de fondo de la imágen de cabecera</string>
     <string name="ae_drawer_bg_color_title">Color de fondo del menú lateral de opciones</string>
@@ -402,7 +402,7 @@
     <string name="ae_nav_drawer_checked_text_title">Color del texto de la opción seleccionada</string>
     <string name="ae_nav_drawer_unchecked_text_title">Color del texto de las opciones</string>
     <string name="ae_settings_summary_title">Custom AE summary text in Settings application</string>
-    <string name="custom_summary_title">Texto a mostrar bajo Extras AICP en Ajustes</string>
+    <string name="custom_summary_title">Texto a mostrar bajo HexagonRom en Ajustes</string>
     <string name="custom_summary_explain">Escriba el texto que desee. En blanco para usar el predeterminado.</string>
     <string name="custom_summary_notset">Personalizaciones de la ROM</string>
 
@@ -532,7 +532,7 @@
     <string name="qs_wifi_easy_toggle_summary">Un toque activará o desactivará el WiFi en lugar de llevarnos a los ajustes</string>
 
     <!-- OmniSwitch Recents -->
-    <string name="aosp_recents_title">Pantalla recientes AICP</string>
+    <string name="aosp_recents_title">Pantalla recientes Hexagon</string>
     <string name="omniswitch_recents_title">Pantalla recientes OmniSwitch</string>
     <string name="recents_use_omniswitch_title">Usar pantalla de aps recientes alternativa</string>
     <string name="recents_use_omniswitch_summary">Usar OmniSwitch en lugar de la pantalla de aps. recientes predeterminada</string>
@@ -726,7 +726,7 @@
     <string name="pa_pie_button_color_title">Color de los botones</string>
     <string name="pa_pie_color_reset_title">Restablecer colores</string>
     <string name="reset_message">¿Restablecer a los valores predeterminados?</string>
-    <string name="reset_paranoid">AICP</string>
+    <string name="reset_paranoid">Hexagon</string>
     <string name="reset_android">Android</string>
     <string name="reset">Restablecer</string>
 
@@ -799,7 +799,7 @@
     <string name="recent_panel_lefty_mode_title">Mostrar en la lado izquierdo</string>
     <string name="recent_panel_lefty_mode_summary">Muestra el panel en el lado izquierdo de la pantalla</string>
 
-    <string name="slim_recents_hex_empty_drawable_title">Panel vacío AICP</string>
+    <string name="slim_recents_hex_empty_drawable_title">Panel vacío Hexagon</string>
     <string name="slim_recents_hex_empty_drawable_summary">Imágen a mostrar cuando no hay aps. recientes que mostrar</string>
 
     <!-- Hide Apps from Recents -->
@@ -879,7 +879,7 @@
     <!-- Custom bootanim -->
     <string name="custom_bootanimation_title">Animación de inicio</string>
     <string name="custom_bootanimation_select_title">Elegir animación de inicio</string>
-    <string name="custom_bootanimation_summary">Al cambiarla, se hace una copia de la animación actual en sdcard/AICP_ota con la fecha actual. Estas copias se tienen que borrar de forma manual si no son necesarias.</string>
+    <string name="custom_bootanimation_summary">Al cambiarla, se hace una copia de la animación actual en sdcard/Hexagon_ota con la fecha actual. Estas copias se tienen que borrar de forma manual si no son necesarias.</string>
     <string name="bootanimation_preview">Previsualización de la animación</string>
     <string name="set_custom_bootanimation">Establecer personalizada...</string>
     <string name="creating_preview">Creando precisualización...</string>

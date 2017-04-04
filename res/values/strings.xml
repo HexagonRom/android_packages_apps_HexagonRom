@@ -51,7 +51,7 @@
     <string name="hex_ota_title">Update Center</string>
     <string name="ota_summary">Check for HexagonROM updates</string>
     <string name="hex_gerrit_title">Gerrit</string>
-    <string name="ae_version_title">AICP Extras version</string>
+    <string name="ae_version_title">HexagonRom version</string>
     <string name="gerrit_summary">Visit our Gerrit to know what we are working on.</string>
     <string name="hidden_anim_activity_title">Yoga time!!!</string>
     <string name="hidden_anim_more_title">MORE?</string>
@@ -82,7 +82,7 @@
 
     <!-- Change Log -->
     <string name="changelog_title">Changelog</string>
-    <string name="changelog_title_summary">View recent changes made to AICP.</string>
+    <string name="changelog_title_summary">View recent changes made to Hexagon.</string>
     <string name="changelog_error">Unable to load changelog.</string>
 
     <!-- Brightness slider -->
@@ -428,7 +428,7 @@
     <string name="fprint_sucess_vib_summary_off">Vibrate on successful fingerprint authentication disabled</string>
 
     <!-- AE settings -->
-    <string name="ae_settings_title">AicpExtras settings</string>
+    <string name="ae_settings_title">HexagonRom settings</string>
     <string name="ae_custom_colors_title">Custom colors</string>
     <string name="ae_custom_colors_summaries">Use the settings below to modify the AE appearance</string>
     <string name="ae_drawer_opacity_title">Navigation drawer opacity</string>
@@ -572,7 +572,7 @@
     <string name="qs_wifi_easy_toggle_summary">Enable one tap action to enable or disable WiFi</string>
 
     <!-- OmniSwitch Recents -->
-    <string name="aosp_recents_title">AICP recents</string>
+    <string name="aosp_recents_title">Hexagon recents</string>
     <string name="omniswitch_recents_title">OmniSwitch recents</string>
     <string name="recents_use_omniswitch_title">Use for a recents alterative</string>
     <string name="recents_use_omniswitch_summary">Use OmniSwitch instead of the default recents view</string>
@@ -768,7 +768,7 @@
     <string name="pa_pie_button_color_title">Buttons Color</string>
     <string name="pa_pie_color_reset_title">Reset Colors</string>
     <string name="reset_message">Reset all entries to default?</string>
-    <string name="reset_paranoid">AICP</string>
+    <string name="reset_paranoid">Hexagon</string>
     <string name="reset_android">Android</string>
     <string name="reset">Reset</string>
 
@@ -848,7 +848,7 @@
     <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
     <string name="recent_panel_lefty_mode_summary">Show recent apps panel on the left edge</string>
 
-    <string name="slim_recents_hex_empty_drawable_title">AICP empty recents</string>
+    <string name="slim_recents_hex_empty_drawable_title">Hexagon empty recents</string>
     <string name="slim_recents_hex_empty_drawable_summary">Image to show when no recent apps</string>
 
     <!-- Hide Apps from Recents -->
@@ -928,7 +928,7 @@
     <!-- Custom bootanim -->
     <string name="custom_bootanimation_title">Boot animation</string>
     <string name="custom_bootanimation_select_title">Select boot animation</string>
-    <string name="custom_bootanimation_summary">On every change, current animation will be backed up to storage/AICP_ota folder with current date stamp. Old ones must be deleted manually if not needed.</string>
+    <string name="custom_bootanimation_summary">On every change, current animation will be backed up to storage/Hexagon_ota folder with current date stamp. Old ones must be deleted manually if not needed.</string>
     <string name="bootanimation_preview">Bootanimation preview</string>
     <string name="set_custom_bootanimation">Set custom...</string>
     <string name="creating_preview">Creating preview...</string>

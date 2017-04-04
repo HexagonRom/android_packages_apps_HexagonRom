@@ -6,7 +6,7 @@
     <string name="first_layout_title">Placeholder for various shit\nand naked chicks!!!</string>
     <string name="second_layout_title">Second layout</string>
     <string name="third_layout_title">Third layout</string>
-    <string name="hex_extras_title">AICP Extras</string>
+    <string name="hex_extras_title">HexagonRom</string>
     <string name="pun_title">Ένας για όλους, όλοι για έναν</string>
     <string name="various_shit_title">Διάφορες μαλακίες</string>
     <string name="about_title">Σχετικά</string>
@@ -319,13 +319,13 @@
 
     <!-- Notification -->
     <string name="notification_ticker">Statistics opted-In</string>
-    <string name="notification_title">Στατιστικά AICP</string>
+    <string name="notification_title">Στατιστικά Hexagon</string>
     <string name="notification_desc">Enable or Disable Anonymous Statistics</string>
 
     <string name="main_link">&lt;a href=&quot;http://www.cyanogenmod.org/blog/cmstats-what-it-is-and-why-you-should-opt-in&quot;&gt;Learn More&lt;/a&gt;</string>
 
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">Στατιστικά AICP</string>
+    <string name="anonymous_statistics_title">Στατιστικά Hexagon</string>
     <string name="anonymous_statistics_summary">Βοηθήστε μας στέλνοντας,ανώνυμα, στατιστικά</string>
     <string name="anonymous_statistics_warning_title">Σχετικά</string>
     <string name="anonymous_statistics_warning">Με την ενεργοποίηση θα μπορούμε να βλέπουμε τα στατιστικά στο διακομιστή. Δεν στέλνονται προσωπικά δεδομένα.
@@ -354,8 +354,8 @@
     <string name="preview_country_title">Χώρα</string>
     <string name="preview_carrier_title">Παροχέας</string>
     <string name="preview_romname_title">Όνομα ROM</string>
-    <string name="preview_romversion_title">Έκδοση AICP</string>
-    <string name="preview_buildtype_title">Τύπος AICP</string>
+    <string name="preview_romversion_title">Έκδοση Hexagon</string>
+    <string name="preview_buildtype_title">Τύπος Hexagon</string>
 
     <!-- Circle app bar -->
     <string name="category_app_circle_bar_title">App launcher</string>
@@ -456,7 +456,7 @@
     <string name="pa_pie_button_color_title">Buttons Color</string>
     <string name="pa_pie_color_reset_title">Reset Colors</string>
     <string name="reset_message">Reset all entries to default?</string>
-    <string name="reset_paranoid">AICP</string>
+    <string name="reset_paranoid">Hexagon</string>
     <string name="reset_android">Android</string>
 
     <!-- Task Manager -->
@@ -490,7 +490,7 @@
     <string name="cannot_get_su">Cannot get superuser access, exiting.</string>
     <string name="cannot_get_su_start">Cannot get superuser access.</string>
 
-    <!-- Aicp logcat -->
+    <!-- Hexagon logcat -->
     <string name="logcat_title">Logcat</string>
     <string name="kmesg_title">Kmesg</string>
     <string name="dmesg_title">Dmesg</string>
@@ -558,10 +558,10 @@
     <string name="power_menu_animation_translucent_top">Translucent (top)</string>
     <string name="power_menu_animation_translucent_bottom">Translucent (bottom)</string>
 
-    <!-- Statusbar AICP logo -->
+    <!-- Statusbar Hexagon logo -->
     <string name="status_bar_logo_category_title">Statusbar logo</string>
-    <string name="status_bar_hex_logo_title">AICP logo</string>
-    <string name="status_bar_hex_logo_summary">Εμφάνιση AICP logo στα αριστερά στην Status Bar</string>
+    <string name="status_bar_hex_logo_title">Hexagon logo</string>
+    <string name="status_bar_hex_logo_summary">Εμφάνιση Hexagon logo στα αριστερά στην Status Bar</string>
     <string name="status_bar_hex_logo_color">Επιλογή χρώματος για logo</string>
     <string name="status_bar_hex_logo_position">Τοποθεσία Logo</string>
     <string name="status_bar_hex_logo_position_summary">Επιλογή προβολής, Αριστερά ή Δεξιά;</string>
@@ -848,7 +848,7 @@
 
     <!-- QS stroke settings -->
     <string name="qs_panel_logo_category">QS panel logo</string>
-    <string name="qs_panel_logo_title">QS panel AICP logo</string>
+    <string name="qs_panel_logo_title">QS panel Hexagon logo</string>
     <string name="qs_panel_logo_disabled">Disabled</string>
     <string name="qs_panel_logo_accent">Accent color</string>
     <string name="qs_panel_logo_custom">Custom color</string>
@@ -886,7 +886,7 @@
     <string name="boot_dialog_stroke_thickness_title">Stroke thickness</string>
     <string name="boot_dialog_corner_radius_title">Corner radius</string>
     <string name="boot_dialog_pimping_test_title">Test it out</string>
-    <string name="boot_dialog_test_title">Aicp is starting</string>
+    <string name="boot_dialog_test_title">Hexagon is starting</string>
     <string name="boot_dialog_test_message">Optimizing apps...</string>
     <string name="boot_dialog_custom_title">Custom title</string>
     <string name="boot_dialog_custom_title_notset">Custom title currently not set</string>
@@ -897,7 +897,7 @@
     <string name="boot_dialog_random_title">Package name with random color</string>
 
     <!-- AE settings -->
-    <string name="ae_settings_title">AicpExtas settings</string>
+    <string name="ae_settings_title">HexagonExtas settings</string>
     <string name="ae_custom_colors_title">Προσαρμογή Χρωμάτων</string>
     <string name="ae_custom_colors_summaries">Επιλέξτε για προσαρμογή χρωμάτων</string>
     <string name="ae_drawer_opacity_title">Αδιαφάνεια Συρταριού</string>
