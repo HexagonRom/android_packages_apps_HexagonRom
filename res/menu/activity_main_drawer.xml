@@ -67,11 +67,6 @@
                 android:icon="@drawable/ic_various_shit"
                 android:title="@string/various_shit_title" />
             <item
-                android:id="@+id/nav_more"
-                android:checkable="true"
-                android:icon="@drawable/ic_more"
-                android:title="@string/more_title" />
-            <item
                 android:id="@+id/nav_about"
                 android:checkable="true"
                 android:icon="@drawable/ic_about"
