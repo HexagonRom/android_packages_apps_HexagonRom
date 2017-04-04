@@ -43,6 +43,18 @@
     <string name="switch_on_text">Bật</string>
     <string name="switch_off_text">Tắt</string>
 
+    <!-- Disable music track title in QS tile -->
+    <string name="qs_music_tile_track_optional_title">Nút tiêu đề nhạc</string>
+    <string name="qs_music_tile_track_optional_summary">Hiển thị tiêu đề nhạc dưới dạng nút cài đặt nhanh</string>
+
+    <!-- BT easy toggle -->
+    <string name="qs_bt_easy_toggle_title">Nút bluetooth đơn giản</string>
+    <string name="qs_bt_easy_toggle_summary">Bật chức năng chạm một lần để tắt/bật bluetooth</string>
+
+    <!-- WiFi easy toggle -->
+    <string name="qs_wifi_easy_toggle_title">Nút WiFi đơn giản</string>
+    <string name="qs_wifi_easy_toggle_summary">Bật chức năng chạm một lần để bật/tắt WiFi</string>
+
     <!-- Permissions -->
     <string name="storage_permission_granted">Đã cập nhật quyền, Bây giờ bạn đã có thể sử dụng bộ nhớ.</string>
     <string name="storage_permission_not_granted">Chưa được cấp quyền, Bạn không thể sử dụng bộ nhớ.</string>
@@ -63,10 +75,45 @@
     <string name="stock_recents_disabled">Đa nhiệm mặc định đã bị vô hiệu hóa !</string>
     <string name="alternatives_title">Lựa chọn thay thế</string>
 
+    <!-- Heads up settings -->
+    <string name="nav_headsup_title">Thông báo nổi</string>
+    <string name="headsup_settings_category">Thông báo nổi</string>
+    <string name="headsup_settings_title">Hiện thông báo nổi</string>
+    <string name="headsup_settings_summary">Bật thông báo nổi để cho phép các ứng dụng có thể hiển thị các thông báo tương tác với người dùng dưới dạng pop-up</string>
+    <string name="summary_heads_up_enabled">Đã hiển thị thông báo nổi</string>
+    <string name="summary_heads_up_disabled">Đã tắt thông báo nổi</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Thời gian rảnh</string>
+    <!-- <string name="heads_up_time_out_summary">Thông báo nổi sẽ được hiện lên trong <xliff:g id="number">%d</xliff:g> giây</string> -->
+    <string name="heads_up_time_out_2sec">2 giây</string>
+    <string name="heads_up_time_out_4sec">4 giây</string>
+    <string name="heads_up_time_out_5sec">5 giây</string>
+    <string name="heads_up_time_out_6sec">6 giây</string>
+    <string name="heads_up_time_out_8sec">8 giây</string>
+    <string name="heads_up_time_out_10sec">10 giây</string>
+
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Thời gian trì hoãn</string>
+    <string name="heads_up_snooze_summary_one_minute">Vuốt thông báo nổi lên trên để trì hoãn thông báo nổi từ ứng dụng đó trong 1 phút</string>
+    <string name="heads_up_snooze_disabled">Đã tắt</string>
+    <string name="heads_up_snooze_disabled_summary">Đã tắt trì hoãn</string>
+    <string name="heads_up_snooze_1min">1 phút</string>
+    <string name="heads_up_snooze_3min">3 phút</string>
+    <string name="heads_up_snooze_5min">5 phút</string>
+    <string name="heads_up_snooze_10min">10 phút</string>
+    <string name="heads_up_snooze_15min">15 phút</string>
+    <string name="heads_up_snooze_20min">20 phút</string>
+    <string name="heads_up_snooze_30min">30 phút</string>
+    <string name="heads_up_snooze_60min">60 phút</string>
+
+    <!-- Extensions settings -->
+    <string name="extensions_title">Mở rộng hệ thống</string>
+
     <!-- Change Log -->
-    <string name="changelog_title">Changelog</string>
+    <string name="changelog_title">Lịch sử thay đổi</string>
     <string name="changelog_title_summary">Hiển thị thay đổi gần đây của ROM</string>
-    <string name="changelog_error">Không thể load changelog</string>
+    <string name="changelog_error">Không thể hiển thị lịch sử thay đổi</string>
 
     <!-- Toast Icons -->
     <string name="toast_icon_title">Icon thông báo popup</string>
@@ -446,6 +493,27 @@
     <string name="double_tap_sleep_anywhere_title">Nhấn đúp trên màn hình khóa</string>
     <string name="double_tap_sleep_anywhere_summary">Nhấn đúp trên màn hình khóa để tắt màn hình</string>
 
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Rung nhận diện vân tay</string>
+    <string name="fprint_sucess_vib_summary_on">Đã bật rung khi nhân diện vân tay thành công</string>
+    <string name="fprint_sucess_vib_summary_off">Đã tắt rung khi nhân diện vân tay thành công</string>
+
+    <!-- Statusbar 4G LTE switch -->
+    <string name="show_fourg_title">Hiển thị 4G thay vì LTE</string>
+    <string name="show_fourg_summary">Thay biểu tượng chỉ số mạng LTE thành 4G</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Rung khi chạm</string>
+    <string name="quick_settings_vibrate_summary">Rung khi chạm vào các tiêu đề</string>
+
+    <!-- Advanced data tile -->
+    <string name="qs_advanced_data_title">Mạng dữ liệu nhanh</string>
+    <string name="qs_advanced_data_summary">Chạm một lần để bật/tắt mạng dữ liệu</string>
+
+    <!-- SystemUI restart prompt -->
+    <string name="systemui_restart_title">CẢNH BÁO</string>
+    <string name="systemui_restart_message">SystemUI sẽ được khởi động lại để có thể áp dụng các cài đặt</string>
+
     <!-- PA Pie control -->
     <string name="pa_piecontrol_settings_summary">Tùy chỉnh PA Pie 2.0</string>
     <string name="pa_pie_control_title">Điều khiển bằng Pie</string>
@@ -540,6 +608,40 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Cử chỉ 3 ngón tay</string>
     <string name="three_finger_gesture_summary">Vuốt một lúc 3 ngón tay để chụp ảnh màn hình</string>
+
+    <!-- Blur UI -->
+    <string name="nav_blur_ui_title">Giao diện mờ</string>
+    <string name="blur_ui_category_title">Tùy chỉnh mờ</string>
+    <string name="blurred_status_bar_expanded_enabled_pref">Làm mờ nền thanh trạng thái</string>
+    <string name="blurred_status_bar_expanded_enabled_pref_summary">Làm mờ nền thanh trạng thái khi bạn kéo thanh trạng thái xuống</string>
+    <string name="translucent_notifications_pref">Thông báo trong suốt</string>
+    <string name="translucent_notifications_pref_summary">Làm trong suốt nền khung thông báo</string>
+    <string name="translucent_header_pref">Làm mờ phần đầu khung trạng thái</string>
+    <string name="translucent_header_pref_summary">Làm mờ nền của phần trên khung trạng thái</string>
+    <string name="translucent_quick_settings_pref">Khung trạng thái mở rộng trong suốt</string>
+    <string name="translucent_quick_settings_pref_summary">Làm trong suốt phần nền của khung cài đặt nhanh</string>
+    <string name="transluency_level_universal">Độ trong suốt</string>
+    <string name="blur_expstatus_cat">Thanh trạng thái mở rộng</string>
+    <string name="blur_notifications_cat">Thông báo</string>
+    <string name="blur_header_cat">Phần đầu thanh trạng thái</string>
+    <string name="blur_qs_cat">Cài đặt nhanh</string>
+    <string name="blur_recents_cat">Ứng dụng gần đây</string>
+    <string name="blurred_recent_app_enabled_pref">Làm mờ nền ứng dụng gần đây</string>
+    <string name="blurred_recent_app_enabled_pref_summary">Nền ứng dụng gần đây sẽ được làm mờ</string>
+    <string name="blurred_scale">Độ mờ</string>
+    <string name="blurred_scale_summary">Chất lượng của ảnh mờ</string>
+    <string name="blurred_radius">Bán kính mờ</string>
+    <string name="blurred_radius_summary">Phần được làm mờ</string>
+    <string name="blur_cat_notice">Lưu ý</string>
+    <string name="blur_cat_notice_summary">Blur personalizations are automatically disabled during Keyguard view!</string>
+    <string name="blur_cat_notice_summary">Tùy chỉnh mờ sẽ được vô hiệu hóa trong màn hình khóa</string>
+    <string name="blur_colors_cat">Bộ lọc màu mờ</string>
+    <string name="blur_light_color">Màu sáng</string>
+    <string name="blur_dark_color">Màu tối</string>
+    <string name="blur_mixed_color">Màu trộn</string>
+    <string name="blur_colors_notice">Những loại màu này dùng để làm gì?</string>
+    <string name="blur_colors_notice_summary">Những loại màu này dùng để làm nổi bật nền mờ. Thay vì màu xám đơn điệu, giờ đây bạn có thể chọn màu theo mọi cách bạn muốn. \nCó 3 loại bộ lọc màu cho: nền sáng, nền tối và nền sáng/tối.\nVậy những loại màu này hoạt động ra sao?? \nĐơn giản, như tiêu đề đã nói, Bộ lọc sáng sẽ được dùng cho nền sáng, Bộ lọc tối dùng cho nền tối, và Bộ lọc trộn dùng cho màu không quá sáng, cũng không quá tối.\nNhững loại màu này dùng cho cả Nền trong suốt: Khung thông báo mở rộng và Ứng dụng gần đây</string>
+    <string name="blur_default_colors_title">Đưa cài đặt màu về trạng thái ban đầu</string>
 
     <!-- SU -->
     <string name="cannot_get_su">Không thể lấy quyền root.</string>
@@ -824,6 +926,19 @@
     <string name="slim_action_floats_summary">Chạy Slim &amp; Pie trong cửa sổ đa nhiệm</string>
     <string name="gesture_anywhere_floating">Cử chỉ</string>
     <string name="gesture_anywhere_floating_summary">Chạy cử chỉ trong cửa sổ đa nhiệm</string>
+
+    <!-- Quick settings tiles columns and rows config -->
+    <string name="qs_rows_portrait_title">Hàng (dọc)</string>
+    <string name="qs_rows_portrait_summary">Số hàng hiển thị nút cài đặt nhanh tại màn hình dọc</string>
+    <string name="qs_rows_landscape_title">Hàng (ngang)</string>
+    <string name="qs_rows_landscape_summary">Số hàng hiển thị nút cài đặt nhanh tại màn hình ngang</string>
+    <string name="qs_columns_portrait_title">Cột (dọc)</string>
+    <string name="qs_columns_portrait_summary">Số cột hiển thị nút cài đặt nhanh tại màn hình dọc</string>
+    <string name="qs_columns_landscape_title">Cột (ngang)</string>
+    <string name="qs_columns_landscape_summary">Số cốt hiển thị nút cài đặt nhanh tại màn hình ngang</string>
+    <string name="sysui_qqs_count_title">Nút cài đặt nhanh nhỏ gọn</string>
+    <string name="qs_rows_prefix">Hàng: </string>
+    <string name="qs_cols_prefix">Cột: </string>
 
     <!-- Tiles animation style  -->
     <string name="quicksettings_tiles_category">Hoạt ảnh tiêu đề</string>
