@@ -990,4 +990,98 @@
     <string name="confirm_shutdown_switch_title">Shutdown confirmation dialog</string>
     <string name="confirm_shutdown_switch_desc">When shutdown button is tapped on power menu, add a dialog to confirm shutdown</string>
 
+    <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">@null</string>
+    <string name="screen_state_toggles_title">Suspend Actions</string>
+    <string name="screen_state_toggles_enable_title">Enable</string>
+    <string name="screen_state_toggles_enable_summary">Actions will be executed on screen off. On screen on the previous state will be restored.</string>
+    <string name="screen_state_toggles_mobile_title">Mobile networks</string>
+    <string name="screen_state_toggles_location_title">Location</string>
+    <string name="screen_state_toggles_twog">Switch to 2G</string>
+    <string name="screen_state_toggles_twog_summary">Network mode will be switched to 2G on screen off</string>
+    <string name="screen_state_toggles_gps">Disable GPS</string>
+    <string name="screen_state_toggles_gps_summary">GPS based location service will be disabled on screen off</string>
+    <string name="screen_state_toggles_mobile_data">Disable mobile data</string>
+    <string name="screen_state_toggles_mobile_data_summary">Mobile data will be disabled on screen off</string>
+    <string name="screen_state_off_delay_title">Screen Off actions delay</string>
+    <string name="screen_state_off_delay_summary">Number of minutes to wait before performing actions after screen off</string>
+    <string name="screen_state_on_delay_title">Screen On actions delay</string>
+    <string name="screen_state_on_delay_summary">Number of minutes to wait before performing actions after screen on</string>
+
+    <!-- Show camera intent on secure lock screen -->
+    <string name="show_camera_intent_title">Show camera shortcut on secure lock screen</string>
+
+    <!-- Media art -->
+    <string name="media_art_title">Media cover art</string>
+    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+
+
+    <!-- Lockscreen Weather -->
+    <string name="lock_screen_weather_category_title">Lockscreen</string>
+    <string name="lock_screen_show_weather_title">Weather display</string>
+    <string name="lock_screen_show_weather_summaryOn">Weather is shown on Lockscreen</string>
+    <string name="lock_screen_show_weather_summaryOff">Weather is hidden on Lockscreen</string>
+    <string name="lock_screen_show_location_title">Location display</string>
+    <string name="lock_screen_show_location_summaryOn">Location is shown on Lockscreen</string>
+    <string name="lock_screen_show_location_summaryOff">Location is hidden on Lockscreen</string>
+    <string name="lock_screen_weather_condition_icon_title">Condition icon display</string>
+    <string name="lock_screen_weather_condition_icon_summaryOn">Condition icon is shown on Lockscreen</string>
+    <string name="lock_screen_weather_condition_icon_summaryOff">Condition icon is hidden on Lockscreen</string>
+
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">QS footer warnings</string>
+    <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
+
+    <!-- Misc Weather -->
+    <string name="misc_weather_category_title">Miscellaneous settings</string>
+    <string name="weather_windspeed_metric_units">Windspeed (metric) display units</string>
+    <string name="weather_windspeed_metric_units_summaryOn">Windspeed is displayed in meters/second (m/s)</string>
+    <string name="weather_windspeed_metric_units_summaryOff">Windspeed is displayed in km/hours (km/h)</string>
+    <string name="weather_winddirection_display_title">Wind direction display</string>
+    <string name="weather_winddirection_display_summaryOn">Wind direction is displayed using pinwheel directions</string>
+    <string name="weather_winddirection_display_summaryOff">Wind direction is displayed using angular directions</string>
+
+    <!-- Battery tile style-->
+    <string name="battery_tile_style_title">Battery tile style</string>
+
+    <!-- Battery strings -->
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
+    <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_solid">Solid</string>
+    <string name="status_bar_battery_style_aicp">Tha Battery</string>
+
+    <!-- Root extras -->
+    <string name="root_extras_msg">In order to use the features on this screen, you need to be rooted; so make sure you have a root/su solution installed before trying these out!</string>
+
+    <!-- Selinux Switch -->
+    <string name="selinux_switch_title">Selinux Switch options</string>
+    <string name="selinux_switch_summary">SELinux is a set of kernel modifications and user-space tools. Changing modes can cause unwanted effects. Use at your own risk.</string>
+    <string name="selinux_title">Selinux Mode</string>
+    <string name="selinux_permissive_title">Permissive</string>
+    <string name="selinux_enforcing_title">Enforcing</string>
+    <string name="selinux_permissive_toast_title">Selinux set to permissive!</string>
+    <string name="selinux_persistence_title">Persist across reboots</string>
+    <string name="selinux_persistence_summary">Restore the above set sepolicy mode on each boot</string>
+
+    <!-- Custom bootanim -->
+    <string name="custom_bootanimation_title">Boot animation</string>
+    <string name="custom_bootanimation_select_title">Select boot animation</string>
+    <string name="custom_bootanimation_summary">On every change, current animation will be backed up to storage/AICP_ota folder with current date stamp. Old ones must be deleted manually if not needed.</string>
+    <string name="bootanimation_preview">Bootanimation preview</string>
+    <string name="set_custom_bootanimation">Set custom...</string>
+    <string name="creating_preview">Creating preview...</string>
+    <string name="error_reading_zip_file">Error reading zip file</string>
+    <string name="error_creating_preview">Error creating preview</string>
+    <string name="install_file_manager_error">No application found to pick the zip file. Please install a filemanager.</string>
+    <string name="apply">Apply</string>
+    <string name="bootanim_install_successful">New bootanimation successfully applied.</string>
+
+    <!-- Lineage extras stuff -->
+    <string name="lineage_extras_title">Lineage extras downloads</string>
+    <string name="lineage_extras_title_summary">Root addon, root remover, weather providers...</string>
+
+    <!-- Center Time + Date in header -->
+    <string name="qs_date_time_center_title">Center time &amp; date</string>
+    <string name="qs_date_time_center_summary">Will disable multi-user and running services icons</string>
 </resources>
