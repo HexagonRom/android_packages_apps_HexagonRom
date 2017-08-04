@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /**
- * Copyright (C) 2017 AICP
+ * Copyright (C) 2017 HexagonRom
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,6 +19,12 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/system_behaviour_title">
+
+    <com.droidvnteam.hexagonrom.preference.SystemSettingSwitchPreference
+        android:key="sensor_block"
+        android:title="@string/sensor_block_title"
+        android:summary="@string/sensor_block_summary"
+        android:defaultValue="false" />
 
     <!-- SELinux -->
     <PreferenceCategory
