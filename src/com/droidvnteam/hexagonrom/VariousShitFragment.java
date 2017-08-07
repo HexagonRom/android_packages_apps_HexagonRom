@@ -24,7 +24,6 @@ import android.view.View;
 
 import com.droidvnteam.R;
 import com.droidvnteam.hexagonrom.utils.Helpers;
-import com.droidvnteam.hexagonrom.widget.NumberPickerPreference;
 import com.droidvnteam.hexagonrom.widget.SeekBarPreferenceCham;
 
 public class VariousShitFragment extends Fragment {
@@ -46,9 +45,6 @@ public class VariousShitFragment extends Fragment {
 
         private static final String TAG = "VariousShit";
 
-        private static final int MIN_DELAY_VALUE = 1;
-        private static final int MAX_DELAY_VALUE = 30;
-
         private static final String KEY_CAMERA_SOUNDS = "camera_sounds";
         private static final String PROP_CAMERA_SOUND = "persist.sys.camera-sound";
         private static final String SCREENSHOT_TYPE = "screenshot_type";
@@ -67,7 +63,7 @@ public class VariousShitFragment extends Fragment {
         private SwitchPreference mCameraSounds;
         private ListPreference mMsob;
         private ListPreference mScreenshotType;
-        private NumberPickerPreference mScreenshotDelay;
+        private SeekBarPreferenceCham mScreenshotDelay;
         private ListPreference mScrollingCachePref;
         private SeekBarPreferenceCham mVolumeDialogTimeout;
         private Preference mLockClockSettings;
@@ -99,14 +95,11 @@ public class VariousShitFragment extends Fragment {
             mScreenshotType.setSummary(mScreenshotType.getEntry());
             mScreenshotType.setOnPreferenceChangeListener(this);
 
-            mScreenshotDelay = (NumberPickerPreference) findPreference(SCREENSHOT_DELAY);
-            mScreenshotDelay.setOnPreferenceChangeListener(this);
-            mScreenshotDelay.setMinValue(MIN_DELAY_VALUE);
-            mScreenshotDelay.setMaxValue(MAX_DELAY_VALUE);
+            mScreenshotDelay = (SeekBarPreferenceCham) findPreference(SCREENSHOT_DELAY);
             int ssDelay = Settings.System.getInt(resolver,
-                    Settings.System.SCREENSHOT_DELAY, 1);
-            mScreenshotDelay.setCurrentValue(ssDelay);
-            updateScreenshotDelaySummary(ssDelay);
+                    Settings.System.SCREENSHOT_DELAY, 1000);
+            mScreenshotDelay.setValue(ssDelay / 1);
+            mScreenshotDelay.setOnPreferenceChangeListener(this);
 
             mScrollingCachePref = (ListPreference) findPreference(SCROLLINGCACHE_PREF);
             mScrollingCachePref.setValue(SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP,
@@ -148,10 +141,9 @@ public class VariousShitFragment extends Fragment {
                 mScreenshotType.setValue(String.valueOf(mScreenshotTypeValue));
                 return true;
             } else if (preference == mScreenshotDelay) {
-                int mScreenshotDelayValue = Integer.parseInt(newValue.toString());
-                Settings.System.putInt(resolver, Settings.System.SCREENSHOT_DELAY,
-                        mScreenshotDelayValue);
-                updateScreenshotDelaySummary(mScreenshotDelayValue);
+                int screenshotDelay = (Integer) newValue;
+                Settings.System.putInt(resolver,
+                        Settings.System.SCREENSHOT_DELAY, screenshotDelay * 1);
                 return true;
             } else if (preference == mMsob) {
                 Settings.System.putInt(resolver,
@@ -183,11 +175,6 @@ public class VariousShitFragment extends Fragment {
                 return super.onPreferenceTreeClick(preferenceScreen, preference);
             }
             return true;
-        }
-
-        private void updateScreenshotDelaySummary(int screenshotDelay) {
-            mScreenshotDelay.setSummary(
-                    getResources().getString(R.string.powermenu_screenshot_delay_message, screenshotDelay));
         }
     }
 }

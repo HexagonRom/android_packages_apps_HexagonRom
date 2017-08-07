@@ -66,9 +66,16 @@
         android:key="screenshot_type"
         android:title="@string/screenshot_type_title" />
 
-    <com.droidvnteam.hexagonrom.widget.NumberPickerPreference
+    <com.droidvnteam.hexagonrom.widget.SeekBarPreferenceCham
         android:key="screenshot_delay"
-        android:title="@string/powermenu_screenshot_delay_title" />
+        android:title="@string/screenshot_delay_title"
+        android:max="10000"
+        hexagonrom:minimum="100"
+        hexagonrom:interval="100"
+        hexagonrom:defaultVal="1000"
+        hexagonrom:unitsLeft=""
+        hexagonrom:unitsRight="ms"
+        android:persistent="false" />
 
     <com.droidvnteam.hexagonrom.preferences.HostnamePreference
         android:key="device_hostname"

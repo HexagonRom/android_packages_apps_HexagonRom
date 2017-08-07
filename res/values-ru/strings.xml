@@ -677,6 +677,253 @@
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Показывать с лева</string>
     <string name="recent_panel_lefty_mode_summary">Показать панель недавних приложения с лева</string>
+    <!-- Lockscreen Torch -->
+    <string name="keyguard_torch_title">Управление фонариком</string>
+    <string name="keyguard_torch_summary_on">Включать фонарик долгим нажатием кнопки питания при выключенном экране</string>
+    <string name="keyguard_torch_summary_off">Не включать фонарик долгим нажатием кнопки питания при выключенном экране</string>
+
+    <!-- Quick settings tiles columns and rows config -->
+    <string name="qs_rows_portrait_title">Строки (портрет)</string>
+    <string name="qs_rows_portrait_summary">Количесво отображаемых строк с плитками в вертикальной ориентации устройства</string>
+    <string name="qs_rows_landscape_title">Строки (ландшафт)</string>
+    <string name="qs_rows_landscape_summary">Количесво отображаемых строк с плитками в горизонтальной ориентации устройства</string>
+    <string name="qs_columns_portrait_title">Колонки (портрет)</string>
+    <string name="qs_columns_portrait_summary">Количесво отображаемых колонок с плитками в вертикальной ориентации устройства</string>
+    <string name="qs_columns_landscape_title">Колонки (ландшафт)</string>
+    <string name="qs_columns_landscape_summary">Количесво отображаемых строк с плитками в горизонтальной ориентации устройства</string>
+    <string name="sysui_qqs_count_title">Количество маленьких плиток</string>
+    <string name="qs_rows_prefix">Строк: </string>
+    <string name="qs_cols_prefix">Колонок: </string>
+
+    <!-- Tiles animation style  -->
+    <string name="qs_tile_animation_title">Анимация плиток быстрых настроек</string>
+    <string name="qs_tile_animation_style_title">Выбранная анимация</string>
+    <string name="qs_tile_animation_duration_title">Длительность анимации</string>
+    <string name="qs_tile_animation_interpolator_title">Интерполяция анимации</string>
+    <string name="qs_tile_animation_style_off">Без анимации</string>
+    <string name="qs_tile_animation_style_flip">Переворот</string>
+    <string name="qs_tile_animation_style_rotate">Вращение</string>
+    <string name="qs_tile_animation_duration_low">Медленно</string>
+    <string name="qs_tile_animation_duration_default">По умолчанию</string>
+    <string name="qs_tile_animation_duration_fast">Быстрая</string>
+    <string name="qs_tile_animation_duration_superfast">Очень быстрая</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Линейная</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Ускорение</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Замедление</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Ускорение и замедление</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Отскок</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Вылет</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Ускорение</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Ускорение и вылет</string>
+
+    <!-- App Exit Toast -->
+    <string name="app_exit_toast">Нажмите «Назад» ещё раз, чтобы выйти</string>
+
+    <!-- Volume dialog stroke settings -->
+    <string name="volume_dialog_stroke_title">Обводка панели громкости</string>
+    <string name="volume_dialog_stroke_disabled">Выключена</string>
+    <string name="volume_dialog_stroke_accent">Системный акцент</string>
+    <string name="volume_dialog_stroke_custom">Свой цвет</string>
+    <string name="volume_dialog_stroke_color_title">Цвет обводки панели громкости</string>
+    <string name="volume_dialog_stroke_thickness_title">Толщина обводки панели громкости</string>
+    <string name="volume_dialog_corner_radius_title">Закругление углов обводки</string>
+    <string name="volume_dialog_dash_width_title">Длина штриха обводки</string>
+    <string name="volume_dialog_dash_gap_title">Промежуток между штрихами</string>
+
+    <!-- QS stroke settings -->
+    <string name="qs_stroke_title">Обводка панели быстрых настроек</string>
+    <string name="qs_stroke_disabled">Выключена</string>
+    <string name="qs_stroke_accent">Системный акцент</string>
+    <string name="qs_stroke_custom">Свой цвет</string>
+    <string name="qs_stroke_color_title">Цвет обводки понели быстрых настроек</string>
+    <string name="qs_stroke_thickness_title">Толщина обводки быстрых настроек</string>
+    <string name="qs_corner_radius_title">Закругление углов обводки</string>
+    <string name="qs_dash_width_title">Длина штриха обводки</string>
+    <string name="qs_dash_gap_title">Промежуток между штрихами</string>
+
+    <!--Preference Categories-->
+    <string name="anim">Настройки анимации</string>
+    <string name="indicators">Индикаторы в строке состояния</string>
+    <string name="quicksettings_tiles_category">Настройка панели быстрых настроек</string>
+    <string name="header_tweaks">Настройка заголовка</string>
+    <string name="Misc">Разное</string>
+    <string name="qs">Конфигурация панели быстрых настроек</string>
+    <string name="vol_diag">Настройка панели громкости</string>
+    <string name="power">Настройка меню питания</string>
+    <string name="cab">Очистка всех настроек</string>
+    <string name="visuals">Дополнительные эффекты недавних приложений</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Вибрация при распознавании отпечатка пальца</string>
+    <string name="fprint_sucess_vib_summary_on">Вибрировать при распознавании отпечатка пальца</string>
+    <string name="fprint_sucess_vib_summary_off">Не вибрировать при распознавании отпечатка пальца</string>
+
+    <!-- AE settings -->
+    <string name="ae_settings_title">Настройки AICP Extras</string>
+    <string name="ae_custom_colors_title">Свои цвета</string>
+    <string name="ae_custom_colors_summaries">Используйте приведенные ниже настройки для изменения внешнего вида</string>
+    <string name="ae_drawer_opacity_title">Прозрачность боковой панели навигации</string>
+    <string name="ae_header_bg_image_color_title">Цвет изображения в боковой панели</string>
+    <string name="ae_drawer_bg_color_title">Фон боковой панели навигации программы</string>
+    <string name="ae_settings_restore_defaults_title">Восстановить по умолчанию</string>
+    <string name="values_restored_title">Значения восстановлены</string>
+    <string name="ae_header_bg_image_opacity_title">Прозрачность изображения в заголовке панели навигации</string>
+    <string name="ae_nav_drawer_checked_text_title">Цвет текста выбранного элемента</string>
+    <string name="ae_nav_drawer_unchecked_text_title">Цвет текста элементов</string>
+    <string name="ae_settings_summary_title">Свой текст описания AICP Extras в настройках системы</string>
+    <string name="custom_summary_title">Своё описание AICP Extras</string>
+    <string name="custom_summary_explain">Пожалуйста, введите новое описание. Пустое поле вернёт описание по умолчанию.</string>
+    <string name="custom_summary_notset">Свои персональные настройки прошивки</string>
+    <string name="ae_moderate_language_title">Ненормативная лексика</string>
+    <string name="ae_moderate_language_summary">Отфильтровать «ненормативную лексику» и заменить её альтернативными словами. Это может снизить производительность AICP Extras.</string>
+
+    <!-- Statusbar 4G LTE switch -->
+    <string name="show_fourg_title">Показывать 4G вместо LTE</string>
+    <string name="show_fourg_summary">В строке состояния LTE будет заменено на 4G</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Вибрировать при касании</string>
+    <string name="quick_settings_vibrate_summary">Вибрировать при нажатии на плитки</string>
+
+    <!-- Advanced data tile -->
+    <string name="qs_advanced_data_title">Простое переключение передачи данных</string>
+    <string name="qs_advanced_data_summary">Позволяет одним касанием включить/отключить передачу данных</string>
+
+    <!-- SystemUI restart prompt -->
+    <string name="systemui_restart_title">ВНИМАНИЕ</string>
+    <string name="systemui_restart_message">Системный интерфейс будет перезапущен, чтобы выбранная настройка правильно применилась.</string>
+    <string name="systemui_restart_missing_su">Не удалось перезапустить системный интерфейс из-за отсутствия прав суперпользователя. Пожалуйста, перезапустите вручную.</string>
+
+    <!-- Status Bar Ticker -->
+    <string name="ticker_screen_title">Текст уведомлений</string>
+    <string name="ticker_title">Текст уведомлений строки состояния</string>
+    <string name="ticker_screen_summary">Настройка текста уведомлений</string>
+    <string name="ticker_summary">Включить старый вид уведомлений</string>
+    <string name="ticker_restore_defaults_title">Восстановить по умолчанию</string>
+    <string name="text_title">Текст</string>
+    <string name="icon_title">Значок</string>
+    <string name="colors_title">Цвета</string>
+    <string name="ticker_disabled">Отключено</string>
+    <string name="ticker_enabled">Для уведомлений</string>
+    <string name="ticker_media_enabled">Для уведомлений и музыки</string>
+
+    <!-- Optional screenshot type -->
+    <string name="screenshot_type_title">Тип скриншота</string>
+    <string name="screenshot_type_fullscreen">Скриншот всего экрана</string>
+    <string name="screenshot_type_partial">Скриншот выделеной области экрана</string>
+
+    <!-- Screenshot delay -->
+    <string name="screenshot_delay_title">Задержка скриншота</string>
+
+    <!-- Lock screen Am/Pm switch -->
+    <string name="lock_screen_hide_ampm_title">Скрывать AM/PM</string>
+    <string name="lock_screen_hide_ampm_summary_on">Индикаторы AM/PM скрыты</string>
+    <string name="lock_screen_hide_ampm_summary_off">Индикаторы AM/PM отображаются</string>
+
+    <!-- Hostname setting -->
+    <string name="device_hostname">Имя устройства</string>
+
+    <!-- Disable quick settings on lock screen switch -->
+    <string name="lockscreen_qs_disabled_title">Плитки быстрых настроек на экране блокировки</string>
+    <string name="lockscreen_qs_disabled_summary_on">Включить ярлыки и плитки быстрых настроек при безопасной блокировке экрана</string>
+    <string name="lockscreen_qs_disabled_summary_off">Отключить ярлыки и плитки быстрых настроек при безопасной блокировке экрана</string>
+
+    <!-- Disable music track title in QS tile -->
+    <string name="qs_music_tile_track_optional_title">Плитка \"Музыка\"</string>
+    <string name="qs_music_tile_track_optional_summary">Отображать имя композиции в названии плитки</string>
+
+    <!-- Immersive Recents -->
+    <string name="immersive_recents_title">Вид меню недавних приложений</string>
+    <string name="immersive_recents_summary">Изменить вид меню недавних приложений</string>
+    <string name="immersive_recents_dialog_title">Выберите вид меню недавних приложений</string>
+    <string name="immersive_recents_default">По умолчанию</string>
+    <string name="immersive_recents_fullscreen">На весь экран</string>
+    <string name="immersive_recents_statusbar">Только строка состояния</string>
+    <string name="immersive_recents_navbar">Только панель навигации</string>
+
+    <!-- Recents Membar -->
+    <string name="systemui_recents_mem_display_category_title">Шкала использования ОЗУ</string>
+    <string name="systemui_recents_mem_display_title">Показывать шкалу использования ОЗУ</string>
+    <string name="systemui_recents_mem_display_summaryOn">Включить отображение шкалы использования ОЗУ в меню недавних приложений</string>
+    <string name="systemui_recents_mem_display_summaryOff">Отключить отображение шкалы использования ОЗУ в меню недавних приложений</string>
+    <string name="systemui_recents_mem_display_color">Цвет шкалы использования ОЗУ</string>
+    <string name="systemui_recents_mem_display_text_color">Цвет текста шкалы использования ОЗУ</string>
+
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Кнопка «Очистить всё»</string>
+    <string name="show_clear_all_recents_button_summary">Показывать кнопку \"Очистить всё\" в панели недавних приложений</string>
+    <string name="recents_clear_all_location_title">Расположение кнопки \"Очистить все\"</string>
+    <string name="recents_clear_all_location_top_right">Вверху справа</string>
+    <string name="recents_clear_all_location_top_left">Вверху слева</string>
+    <string name="recents_clear_all_location_top_center">Вверху по центру</string>
+    <string name="recents_clear_all_location_bottom_right">Внизу справа</string>
+    <string name="recents_clear_all_location_bottom_left">Внизу слева</string>
+    <string name="recents_clear_all_location_bottom_center">Внизу по центру</string>
+
+    <!-- Heads up settings -->
+    <string name="nav_headsup_title">Всплывающие уведомления</string>
+    <string name="headsup_settings_category">Всплывающие уведомления</string>
+    <string name="headsup_settings_title">Включить всплывающие уведомления</string>
+    <string name="headsup_settings_summary">Для того, чтобы разрешить приложениям отображать диалоговые уведомления в всплывающем окне на экране, включите всплывающие уведомления.</string>
+    <string name="summary_heads_up_enabled">Всплывающие уведомления включены</string>
+    <string name="summary_heads_up_disabled">Всплывающие уведомления выключены</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Длительность</string>
+    <string name="heads_up_time_out_summary">Уведомление будет отображаться в течение <xliff:g id="number">%d</xliff:g> сек.</string>
+    <string name="heads_up_time_out_2sec">2 секунды</string>
+    <string name="heads_up_time_out_4sec">4 секунды</string>
+    <string name="heads_up_time_out_5sec">5 секунд</string>
+    <string name="heads_up_time_out_6sec">6 секунд</string>
+    <string name="heads_up_time_out_8sec">8 секунд</string>
+    <string name="heads_up_time_out_10sec">10 секунд</string>
+
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Задержка всплывающих уведомлений</string>
+    <string name="heads_up_snooze_summary_one_minute">Смахивание вверх отложит всплывающие уведомления на 1 минуту</string>
+    <string name="heads_up_snooze_summary">Смахивание вверх отложит всплывающие уведомления на <xliff:g id="number">%d</xliff:g> мин.</string>
+    <string name="heads_up_snooze_disabled">Отключено</string>
+    <string name="heads_up_snooze_disabled_summary">Задержка всплывающих уведомлений отключена</string>
+    <string name="heads_up_snooze_1min">1 минуту</string>
+    <string name="heads_up_snooze_3min">3 минуты</string>
+    <string name="heads_up_snooze_5min">5 минут</string>
+    <string name="heads_up_snooze_10min">10 минут</string>
+    <string name="heads_up_snooze_15min">15 минут</string>
+    <string name="heads_up_snooze_20min">20 минут</string>
+    <string name="heads_up_snooze_30min">30 минут</string>
+    <string name="heads_up_snooze_60min">60 минут</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Информация о батарее</string>
+    <string name="lockscreen_battery_info_summary">Показывать примерное максимальное текущее напряжение и температуру аккумулятора на экране блокировки во время зарядки</string>
+
+    <!-- Battery Saver easy toggle -->
+    <string name="qs_battery_easy_toggle_title">Простое переключение плитки батареи</string>
+    <string name="qs_battery_easy_toggle_summary">Включение/выключение режима энергосбережения одиночным нажатием на плитку</string>
+
+    <!-- BT easy toggle -->
+    <string name="qs_bt_easy_toggle_title">Простое переключение Bluetooth</string>
+    <string name="qs_bt_easy_toggle_summary">Позволяет одним нажатием на плитку включить/отключить Bluetooth</string>
+
+    <!-- WiFi easy toggle -->
+    <string name="qs_wifi_easy_toggle_title">Простое переключение WiFi</string>
+    <string name="qs_wifi_easy_toggle_summary">Позволяет одним нажатием на плитку включить/отключить WiFi</string>
+
+    <!-- OmniSwitch Recents -->
+    <string name="aosp_recents_title">AICP</string>
+    <string name="omniswitch_recents_title">Недавние приложения OmniSwitch</string>
+    <string name="recents_use_omniswitch_title">Использовать недавние OmniSwitch</string>
+    <string name="recents_use_omniswitch_summary">Использовать OmniSwitch для переключения между недавними приложениями</string>
+    <string name="omniswitch_start_settings_title">Настройки OmniSwitch</string>
+    <string name="omniswitch_start_settings_summary">Открыть настройки OmniSwitch</string>
+    <string name="omniswitch_first_time_title">Внимание</string>
+    <string name="omniswitch_first_time_message">Для использования OmniSwitch в качестве панели недавних приложений, убедитесь, что у вас включен OmniSwitch</string>
+
+    <!-- MediaScanner behavior on boot -->
+    <string name="media_scanner_on_boot_title">Поведение медиасканера при загрузке</string>
+    <string name="media_scanner_on_boot_enabled">Сканировать медиа</string>
+    <string name="media_scanner_on_boot_ask">По запросу (уведомление)</string>
+    <string name="media_scanner_on_boot_disabled">Не сканировать медиа</string>
 
     <!-- Membar recents -->
     <string name="recents_show_membar_title">Отображение памяти</string>
