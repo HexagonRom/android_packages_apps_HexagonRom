@@ -31,6 +31,29 @@
             android:defaultValue="false" />
 
         <com.droidvnteam.hexagonrom.widget.SeekBarPreferenceCham
+            android:key="recent_panel_scale"
+            android:title="@string/recent_panel_scale_title"
+            hexagonrom:minimum="60"
+            android:max="160"
+            android:defaultValue="80"
+            hexagonrom:interval="5"
+            hexagonrom:unitsRight="%"
+            android:persistent="false" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="recent_panel_bg_color"
+            android:title="@string/recent_panel_bg_color_title"
+            android:defaultValue="0x00ffffff"
+            alphaSliderEnabled="true" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="recent_card_bg_color"
+            android:title="@string/recent_card_bg_color_title"
+            android:defaultValue="0x00ffffff"
+            alphaSliderEnabled="true" />
+
+
+        <com.droidvnteam.hexagonrom.widget.SeekBarPreferenceCham
             android:key="recents_max_apps"
             android:title="@string/recents_max_apps_title"
             hexagonrom:minimum="5"
@@ -103,6 +126,47 @@
             android:title="@string/slim_icon_pack_title"
             android:summary="@string/slim_icon_pack_summary" />
 
+<<<<<<< HEAD
+=======
+        <ListPreference
+            android:key="recent_panel_expanded_mode"
+            android:entries="@array/recent_panel_expanded_mode_entries"
+            android:entryValues="@array/recent_panel_expanded_mode_values"
+            android:title="@string/recent_panel_expanded_mode_title"
+            android:summary="@string/recent_panel_expanded_mode_summary" />
+
+        <PreferenceCategory
+            android:title="@string/systemui_recents_mem_display_category_title">
+
+            <com.droidvnteam.hexagonrom.preferences.SystemSettingSwitchPreference
+                android:key="slim_recents_mem_display"
+                android:title="@string/systemui_recents_mem_display_title"
+                android:summaryOn="@string/systemui_recents_mem_display_summaryOn"
+                android:summaryOff="@string/systemui_recents_mem_display_summaryOff"
+                android:defaultValue="false" />
+
+            <com.droidvnteam.hexagonrom.preferences.SystemSettingSwitchPreference
+                android:key="slim_recents_mem_display_long_click_clear"
+                android:title="@string/slim_recents_mem_display_long_click_clear_title"
+                android:summary="@string/slim_recents_mem_display_long_click_clear_summary"
+                android:defaultValue="false"
+                android:dependency="slim_recents_mem_display" />
+
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:key="slim_mem_bar_color"
+                android:title="@string/systemui_recents_mem_display_color"
+                android:defaultValue="0x00ffffff"
+                android:dependency="slim_recents_mem_display"/>
+
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:key="slim_mem_text_color"
+                android:title="@string/systemui_recents_mem_display_text_color"
+                android:defaultValue="0x00ffffff"
+                android:dependency="slim_recents_mem_display"/>
+
+        </PreferenceCategory>
+
+>>>>>>> 81f54c4... ColorPicker default button fixes + improvements
         <PreferenceCategory
             android:title="@string/recent_app_sidebar_title">
 
