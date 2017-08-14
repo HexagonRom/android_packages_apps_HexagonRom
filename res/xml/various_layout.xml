@@ -105,6 +105,16 @@
         android:entries="@array/media_scanner_on_boot_entries"
         android:entryValues="@array/media_scanner_on_boot_values" />
 
+    <com.droidvnteam.hexagonrom.widget.SeekBarPreferenceCham
+        android:key="volume_dialog_timeout"
+        android:title="@string/volume_dialog_timeout_title"
+        android:max="10000"
+        hexagonrom:minimum="500"
+        hexagonrom:unitsLeft=""
+        hexagonrom:unitsRight="ms"
+        hexagonrom:defaultVal="3000"
+        android:persistent="false" />
+
     <ListPreference
         android:key="pref_scrollingcache"
         android:dialogTitle="@string/pref_scrollingcache_title"
