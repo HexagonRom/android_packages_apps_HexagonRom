@@ -29,7 +29,11 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
+<<<<<<< HEAD
 import com.droidvnteam.R;
+=======
+import com.droidvnteam.hexagonrom.R;
+>>>>>>> 592b6bf... AE: Oreo rework
 
 public class ColorPickerDialog
         extends

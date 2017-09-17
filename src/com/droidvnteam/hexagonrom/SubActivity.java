@@ -1,43 +1,34 @@
+/*
+ * Copyright (C) 2017 AICP
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+
 package com.droidvnteam.hexagonrom;
 
 import android.app.ActionBar;
-import android.app.Activity;
-import android.app.Fragment;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-public class SubActivity extends Activity {
-
-    public static final String EXTRA_TITLE =
-            "com.droidvnteam.hexagonrom.SubActivity.title";
-
-    public static final String EXTRA_FRAGMENT_CLASS =
-            "com.droidvnteam.hexagonrom.SubActivity.fragment_class";
+public class SubActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         ActionBar actionBar = getActionBar();
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
-        }
-
-        String fragmentExtra = getIntent().getStringExtra(EXTRA_FRAGMENT_CLASS);
-        if (fragmentExtra != null  && !fragmentExtra.isEmpty()) {
-            try {
-                Class<?> fragmentClass = Class.forName(fragmentExtra);
-                Fragment fragment = (Fragment) fragmentClass.newInstance();
-                getFragmentManager().beginTransaction()
-                        .replace(android.R.id.content, fragment).commit();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-
-        String title = getIntent().getStringExtra(EXTRA_TITLE);
-        if (title != null  && !title.isEmpty()) {
-            setTitle(title);
         }
     }
 

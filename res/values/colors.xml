@@ -13,27 +13,7 @@
     <color name="navDrawerText">@android:color/white</color>
     <color name="navDrawerTextChecked">@color/colorAccent</color>
 
-    <color name="background_material_dark">#FF303030</color>
-    <color name="foreground_material_dark">#FFFFFFFF</color>
-    <color name="primary_text_material_dark">#FFFFFFFF</color>
-    <color name="primary_text_material_light">#DE000000</color>
-    <color name="secondary_text_material_dark">#B3FFFFFF</color>
-    <color name="secondary_text_material_light">#8A000000</color>
+    <!-- Color of the launcher shortcut icons -->
+    <color name="launcher_shortcut">#ffab00</color>
 
-    <!-- Gesture Anywhere -->
-    <color name="ga_gesture_color">@android:color/holo_blue_light</color>
-
-    <!-- Switch Bar Text Color -->
-    <color name="switchbar_text_color">#ffffffff</color>
-    <color name="switch_accent_color">#ff7fcac3</color>
-
-    <!-- Changelog -->
-    <color name="colorWhite">#fff</color>
-    <color name="colorHeaderBack">#455a64</color>
-    <color name="changelog_bg">#0A0E16</color>
-    <color name="commit_bg">@color/colorPrimary</color>
-
-    <!-- DSLV colors -->
-    <color name="dslv_icon_dark">#ff009688</color>
-    <color name="dslv_float_cackground_color">#ff616161</color>
 </resources>
