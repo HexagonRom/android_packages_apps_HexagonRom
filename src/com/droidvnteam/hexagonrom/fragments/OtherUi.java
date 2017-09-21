@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 AICP
+ * Copyright (C) 2017 HexagonRom
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,17 +17,54 @@
 
 package com.droidvnteam.hexagonrom.fragments;
 
+import android.content.ContentResolver;
 import android.os.Bundle;
 import android.preference.Preference;
+import android.preference.Preference.OnPreferenceChangeListener;
+import android.preference.PreferenceScreen;
+import android.provider.Settings;
 
 import com.droidvnteam.hexagonrom.BaseSettingsFragment;
 import com.droidvnteam.hexagonrom.R;
+import com.droidvnteam.hexagonrom.preference.SeekBarPreferenceCham;
 
-public class OtherUi extends BaseSettingsFragment {
+public class OtherUi extends BaseSettingsFragment
+    implements OnPreferenceChangeListener {
+
+    private static final String KEY_VOLUME_DIALOG_TIMEOUT = "volume_dialog_timeout";
+
+    private SeekBarPreferenceCham mVolumeDialogTimeout;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.other_ui);
+
+        ContentResolver resolver = getActivity().getContentResolver();
+
+        // Volume dialog timeout seekbar
+        mVolumeDialogTimeout = (SeekBarPreferenceCham) findPreference(KEY_VOLUME_DIALOG_TIMEOUT);
+        int volumeDialogTimeout = Settings.System.getInt(resolver,
+                Settings.System.VOLUME_DIALOG_TIMEOUT, 3000);
+        mVolumeDialogTimeout.setValue(volumeDialogTimeout / 1);
+        mVolumeDialogTimeout.setOnPreferenceChangeListener(this);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        final String key = preference.getKey();
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mVolumeDialogTimeout) {
+            int volDialogTimeout = (Integer) newValue;
+            Settings.System.putInt(resolver,
+                    Settings.System.VOLUME_DIALOG_TIMEOUT, volDialogTimeout * 1);
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
+        return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 }
