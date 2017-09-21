@@ -18,17 +18,24 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:aicpextras="http://schemas.android.com/apk/res/com.aicp.extras"
+    xmlns:hexagonrom="http://schemas.android.com/apk/res/com.aicp.extras"
     android:title="@string/other_ui_title">
 
     <com.droidvnteam.hexagonrom.preference.SeekBarPreferenceCham
         android:key="volume_dialog_timeout"
         android:title="@string/volume_dialog_timeout_title"
         android:max="10000"
-        aicpextras:minimum="100"
-        aicpextras:unitsLeft=""
-        aicpextras:unitsRight="ms"
-        aicpextras:defaultVal="3000"
+        hexagonrom:minimum="100"
+        hexagonrom:unitsLeft=""
+        hexagonrom:unitsRight="ms"
+        hexagonrom:defaultVal="3000"
         android:persistent="false" />
+
+    <!-- Screenshot tone -->
+    <com.aicp.extras.preference.SystemSettingSwitchPreference
+        android:key="screenshot_sound"
+        android:title="@string/screenshot_sound_title"
+        android:summary="@string/screenshot_sound_summary"
+        android:defaultValue="true" />
 
 </PreferenceScreen>
