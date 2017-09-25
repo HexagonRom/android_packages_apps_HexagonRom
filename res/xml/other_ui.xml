@@ -18,7 +18,7 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:hexagonrom="http://schemas.android.com/apk/res/com.aicp.extras"
+    xmlns:hexagonrom="http://schemas.android.com/apk/res/com.droidvnteam.hexagonrom"
     android:title="@string/other_ui_title">
 
     <com.droidvnteam.hexagonrom.preference.SystemSettingSeekBarPreference
@@ -31,10 +31,16 @@
         hexagonrom:unitsRight="ms" />
 
     <!-- Screenshot tone -->
-    <com.aicp.extras.preference.SystemSettingSwitchPreference
+    <com.droidvnteam.hexagonrom.preference.SystemSettingSwitchPreference
         android:key="screenshot_sound"
         android:title="@string/screenshot_sound_title"
         android:summary="@string/screenshot_sound_summary"
         android:defaultValue="true" />
+
+    <com.droidvnteam.hexagonrom.preference.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_navbar"
+        android:title="@string/double_tap_sleep_navbar"
+        android:summary="@string/double_tap_sleep_navbar_summary"
+        android:defaultValue="false" />
 
 </PreferenceScreen>
