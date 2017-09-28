@@ -18,6 +18,70 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hexagonrom="http://schemas.android.com/apk/res/com.droidvnteam.hexagonrom"
     android:title="@string/panel_porn_title">
+
+    <PreferenceCategory
+        android:title="@string/volume_dialog_transparency_title">
+
+        <com.droidvnteam.hexagonrom.preference.SystemSettingSeekBarPreference
+            android:key="transparent_volume_dialog"
+            android:title="@string/volume_dialog_transparency"
+            android:max="255"
+            android:min="0"
+            hexagonrom:unitsLeft=""
+            hexagonrom:unitsRight=""
+            android:defaultValue="255" />
+
+        <com.droidvnteam.hexagonrom.preference.SystemSettingSeekBarPreference
+            android:key="volume_dialog_corner_radius"
+            android:title="@string/volume_dialog_corner_radius_title"
+            android:max="50"
+            android:min="0"
+            hexagonrom:unitsLeft=""
+            hexagonrom:unitsRight="px"
+            android:defaultValue="10" />
+
+        <com.droidvnteam.hexagonrom.preference.SystemSettingListPreference
+            android:key="volume_dialog_stroke"
+            android:title="@string/volume_dialog_stroke_title"
+            android:dialogTitle="@string/volume_dialog_stroke_title"
+            android:entries="@array/volume_dialog_stroke_entries"
+            android:entryValues="@array/volume_dialog_stroke_values"
+            android:defaultValue="0" />
+
+        <com.droidvnteam.hexagonrom.preference.SystemSettingColorPickerPreference
+            android:key="volume_dialog_stroke_color"
+            android:title="@string/volume_dialog_stroke_color_title"
+            android:defaultValue="0xffffab00" />
+
+        <com.droidvnteam.hexagonrom.preference.SystemSettingSeekBarPreference
+            android:key="volume_dialog_stroke_thickness"
+            android:title="@string/volume_dialog_stroke_thickness_title"
+            android:max="25"
+            android:min="1"
+            hexagonrom:unitsLeft=""
+            hexagonrom:unitsRight="px"
+            android:defaultValue="4" />
+
+        <com.droidvnteam.hexagonrom.preference.SystemSettingSeekBarPreference
+            android:key="volume_dialog_stroke_dash_width"
+            android:title="@string/volume_dialog_dash_width_title"
+            android:max="50"
+            android:min="0"
+            hexagonrom:unitsLeft=""
+            hexagonrom:unitsRight="px"
+            android:defaultValue="0" />
+
+        <com.droidvnteam.hexagonrom.preference.SystemSettingSeekBarPreference
+            android:key="volume_dialog_stroke_dash_gap"
+            android:title="@string/volume_dialog_dash_gap_title"
+            android:max="50"
+            android:min="1"
+            hexagonrom:unitsLeft=""
+            hexagonrom:unitsRight="px"
+            android:defaultValue="10" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
