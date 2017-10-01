@@ -84,4 +84,27 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/power">
+
+        <com.droidvnteam.hexagonrom.preference.SystemSettingSeekBarPreference
+            android:key="transparent_power_menu"
+            android:title="@string/power_menu_transparency"
+            android:max="100"
+            android:min="0"
+            hexagonrom:unitsLeft=""
+            hexagonrom:unitsRight="%"
+            android:defaultValue="100" />
+
+        <com.droidvnteam.hexagonrom.preference.SystemSettingSeekBarPreference
+            android:key="transparent_power_dialog_dim"
+            android:title="@string/power_menu_dialog_dim"
+            android:max="100"
+            android:min="0"
+            hexagonrom:unitsLeft=""
+            hexagonrom:unitsRight="%"
+            android:defaultValue="50" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
