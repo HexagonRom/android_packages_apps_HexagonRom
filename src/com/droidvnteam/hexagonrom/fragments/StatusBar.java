@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 AICP
+ * Copyright (C) 2017 HexagonRom
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,15 +17,35 @@
 
 package com.droidvnteam.hexagonrom.fragments;
 
+import android.os.Bundle;
+import android.provider.Settings;
 import android.support.v7.preference.Preference;
 
 import com.droidvnteam.hexagonrom.BaseSettingsFragment;
 import com.droidvnteam.hexagonrom.R;
+import com.droidvnteam.hexagonrom.preference.MasterSwitchPreference;
 
 public class StatusBar extends BaseSettingsFragment {
+
+    MasterSwitchPreference mBatteryBar;
 
     @Override
     protected int getPreferenceResource() {
         return R.xml.status_bar;
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        mBatteryBar = (MasterSwitchPreference)
+                findPreference(Settings.System.STATUSBAR_BATTERY_BAR);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        mBatteryBar.reloadValue();
     }
 }
