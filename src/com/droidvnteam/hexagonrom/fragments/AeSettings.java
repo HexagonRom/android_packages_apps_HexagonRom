@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 AICP
+ * Copyright (C) 2017 HexagonRom
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,8 +18,10 @@
 package com.droidvnteam.hexagonrom.fragments;
 
 import android.os.Bundle;
-import android.preference.ListPreference;
-import android.preference.Preference;
+import android.support.v7.preference.ListPreference;
+import android.support.v7.preference.Preference;
+import android.support.v14.preference.SwitchPreference;
+import android.widget.Toast;
 
 import com.droidvnteam.hexagonrom.BaseSettingsFragment;
 import com.droidvnteam.hexagonrom.Constants;
@@ -32,9 +34,13 @@ public class AeSettings extends BaseSettingsFragment
     private ListPreference mTheme;
 
     @Override
+    protected int getPreferenceResource() {
+        return R.xml.ae_settings;
+    }
+
+    @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.ae_settings);
 
         mTheme = (ListPreference) findPreference(Constants.PREF_THEME);
         mTheme.setOnPreferenceChangeListener(this);

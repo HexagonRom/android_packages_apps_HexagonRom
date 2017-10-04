@@ -26,7 +26,8 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.preference.Preference;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceViewHolder;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
@@ -49,7 +50,6 @@ import com.droidvnteam.hexagonrom.R;
 public class ColorPickerPreference extends Preference implements
         Preference.OnPreferenceClickListener, ColorPickerDialog.OnColorChangedListener {
 
-    private View mView;
     private ColorPickerDialog mDialog;
     private LinearLayout widgetFrameView;
     private int mValue = Color.BLACK;
@@ -117,12 +117,10 @@ public class ColorPickerPreference extends Preference implements
     }
 
     @Override
-    protected void onBindView(View view) {
-        mView = view;
-        super.onBindView(view);
+    public void onBindViewHolder(PreferenceViewHolder holder) {
+        super.onBindViewHolder(holder);
 
-        widgetFrameView = ((LinearLayout) view
-                .findViewById(android.R.id.widget_frame));
+        widgetFrameView = (LinearLayout) holder.findViewById(android.R.id.widget_frame);
 
         if (mUsesDefaultButton) {
             setDefaultButton();
@@ -138,11 +136,6 @@ public class ColorPickerPreference extends Preference implements
      * @author Randall Rushing aka Bigrushdog
      */
     private void setDefaultButton() {
-        if (mView == null)
-            return;
-
-        LinearLayout widgetFrameView = ((LinearLayout) mView
-                .findViewById(android.R.id.widget_frame));
         if (widgetFrameView == null)
             return;
 
@@ -194,12 +187,7 @@ public class ColorPickerPreference extends Preference implements
             setSummary(convertToARGB(mValue), true);
         }
 
-        if (mView == null)
-            return;
-
         ImageView iView = new ImageView(getContext());
-        LinearLayout widgetFrameView = ((LinearLayout) mView
-                .findViewById(android.R.id.widget_frame));
         if (widgetFrameView == null)
             return;
 

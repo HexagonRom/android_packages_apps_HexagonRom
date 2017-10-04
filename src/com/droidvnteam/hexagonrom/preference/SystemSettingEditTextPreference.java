@@ -17,7 +17,7 @@
 package com.droidvnteam.hexagonrom.preference;
 
 import android.content.Context;
-import android.preference.EditTextPreference;
+import android.support.v7.preference.EditTextPreference;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 

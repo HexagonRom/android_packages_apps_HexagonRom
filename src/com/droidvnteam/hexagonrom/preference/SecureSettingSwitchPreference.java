@@ -17,7 +17,7 @@
 package com.droidvnteam.hexagonrom.preference;
 
 import android.content.Context;
-import android.preference.SwitchPreference;
+import android.support.v14.preference.SwitchPreference;
 import android.util.AttributeSet;
 
 public class SecureSettingSwitchPreference extends SwitchPreference {

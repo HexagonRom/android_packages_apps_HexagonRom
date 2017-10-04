@@ -17,8 +17,7 @@
 
 package com.droidvnteam.hexagonrom.fragments;
 
-import android.os.Bundle;
-import android.preference.Preference;
+import android.support.v7.preference.Preference;
 
 import com.droidvnteam.hexagonrom.BaseSettingsFragment;
 import com.droidvnteam.hexagonrom.R;
@@ -26,8 +25,8 @@ import com.droidvnteam.hexagonrom.R;
 public class Lockscreen extends BaseSettingsFragment {
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.lockscreen);
+    protected int getPreferenceResource() {
+        return R.xml.lockscreen;
     }
+
 }

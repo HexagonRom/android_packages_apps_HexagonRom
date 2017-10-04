@@ -17,7 +17,7 @@
 package com.droidvnteam.hexagonrom.preference;
 
 import android.content.Context;
-import android.preference.ListPreference;
+import android.support.v7.preference.ListPreference;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 

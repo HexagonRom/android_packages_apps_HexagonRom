@@ -17,7 +17,7 @@
 
 package com.droidvnteam.hexagonrom;
 
-import android.preference.Preference;
+import android.support.v7.preference.Preference;
 
 public class PreferenceMultiClickHandler implements Preference.OnPreferenceClickListener {
 

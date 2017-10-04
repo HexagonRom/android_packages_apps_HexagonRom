@@ -22,7 +22,7 @@
 
 
     <!-- Hex logo -->
-    <Preference
+    <com.droidvnteam.hexagonrom.preference.LongClickablePreference
         android:key="hexagon_logo"
         android:layout="@layout/dashboard_logo" />
 
@@ -65,7 +65,7 @@
             android:title="@string/panel_porn_title"
             android:summary="@string/panel_porn_summary"
             android:icon="@drawable/ic_settings_panel_porn"
-            android:fragment="com.aicp.extras.fragments.PanelPorn" />
+            android:fragment="com.droidvnteam.hexagonrom.fragments.PanelPorn" />
 
         <PreferenceScreen
             android:title="@string/other_ui_title"
