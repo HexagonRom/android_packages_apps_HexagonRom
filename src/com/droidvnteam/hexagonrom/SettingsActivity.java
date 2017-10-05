@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 AICP
+ * Copyright (C) 2017 HexagonRom
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,6 +23,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.droidvnteam.hexagonrom.fragments.Dashboard;
+import com.droidvnteam.hexagonrom.preference.MasterSwitchPreference;
 
 public class SettingsActivity extends BaseActivity {
 
@@ -77,7 +78,8 @@ public class SettingsActivity extends BaseActivity {
     }
 
     public boolean onPreferenceClick(android.support.v7.preference.Preference preference) {
-        if (preference instanceof android.support.v7.preference.PreferenceScreen) {
+        if (preference instanceof android.support.v7.preference.PreferenceScreen
+                || preference instanceof MasterSwitchPreference) {
             String fragmentClass = preference.getFragment();
             if (fragmentClass != null) {
                 startActivity(new Intent(this, SubSettingsActivity.class)
