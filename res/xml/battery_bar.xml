@@ -19,13 +19,6 @@
     xmlns:hexagonrom="http://schemas.android.com/apk/res/com.droidvnteam.hexagonrom"
     android:title="@string/battery_bar_title">
 
-    <com.droidvnteam.hexagonrom.preference.SystemSettingIntListPreference
-        android:key="statusbar_battery_bar"
-        android:title="@string/battery_bar_position_title"
-        android:entries="@array/battery_bar_position_entries"
-        android:entryValues="@array/battery_bar_position_values"
-        android:defaultValue="0" />
-
     <com.droidvnteam.hexagonrom.preference.SystemSettingColorPickerPreference
         android:key="statusbar_battery_bar_color"
         android:title="@string/battery_bar_color_title"
