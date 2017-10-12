@@ -58,9 +58,12 @@
     <string name="battery_bar_blend_color_reverse_title">Reverse color direction</string>
     <string name="battery_bar_blend_color_reverse_summary_off">Full &#8594; empty: red &#8592; green &#8592; blue &#8592; red</string>
     <string name="battery_bar_blend_color_reverse_summary_on">Full &#8594; empty: red &#8594; green &#8594; blue &#8594; red</string>
-    <!-- Aicp statusbar logo -->
-    <string name="status_bar_logo_title">AICP logo</string>
-    <string name="status_bar_logo_summary">Enable to show AICP logo on statusbar</string>
+    <!-- Hexagon statusbar logo -->
+    <string name="status_bar_logo_title">Hex logo</string>
+    <string name="status_bar_logo_dialog_title">Hex logo position</string>
+    <string name="status_bar_logo_disabled">Disabled</string>
+    <string name="status_bar_logo_left">Left</string>
+    <string name="status_bar_logo_right">Right</string>
 
 
 
@@ -194,7 +197,7 @@
     <string name="system_animations_summary"></string>
 
     <string name="custom_bootanimation_title">Bootanimation</string>
-    <string name="custom_bootanimation_summary">Select custom bootanimation. On every change, the current animation will be backed up to the AICP_backup folder in your internal storage. Old ones must be deleted manually if not needed.</string>
+    <string name="custom_bootanimation_summary">Select custom bootanimation. On every change, the current animation will be backed up to the Hex_backup folder in your internal storage. Old ones must be deleted manually if not needed.</string>
     <string name="bootanimation_preview">Bootanimation preview</string>
     <string name="bootanimation_set_custom">Set custom...</string>
     <string name="bootanimation_creating_preview">Creating preview...</string>
@@ -249,12 +252,12 @@
     <string name="log_it_dialog_title">Engage</string>
     <string name="logcat_warning">Share it or GTFO!</string>
     <string name="share_title">Share...</string>
-    <string name="log_it_share_subject">Aicp logs</string>
+    <string name="log_it_share_subject">Hex logs</string>
     <string name="log_it_now_summary">Be patient for the logs to be created</string>
     <string name="log_it_logs_in_progress">Logs are being created&#8230;</string>
     <string name="log_it_share_type_title">Share method</string>
     <string name="log_it_share_type_zip">ZIP-File</string>
-    <string name="log_it_share_type_haste">Upload to AICP Haste</string>
+    <string name="log_it_share_type_haste">Upload to Hex Haste</string>
     <string name="log_it_share_via">Share via</string>
 
 

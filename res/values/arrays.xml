@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /**
- * Copyright (C) 2017 AICP
+ * Copyright (C) 2017 HexagonRom
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -94,5 +94,18 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
+    </string-array>
+
+    <!-- Hexagon logo location -->
+    <string-array name="status_bar_logo_entries" translatable="false">
+        <item>@string/status_bar_logo_disabled</item>
+        <item>@string/status_bar_logo_left</item>
+        <item>@string/status_bar_logo_right</item>
+    </string-array>
+
+    <string-array name="status_bar_logo_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
 </resources>
