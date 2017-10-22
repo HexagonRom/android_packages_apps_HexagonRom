@@ -64,6 +64,7 @@ import com.android.internal.util.hex.DeviceUtils.FilteredDeviceFeaturesArray;
 
 import com.droidvnteam.hexagonrom.R;
 import com.droidvnteam.hexagonrom.utils.SlimShortcutPickerHelper;
+import com.droidvnteam.hexagonrom.TitleProvider;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -72,7 +73,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class ActionListViewSettings extends ListFragment implements
-            SlimShortcutPickerHelper.OnPickListener {
+            SlimShortcutPickerHelper.OnPickListener, TitleProvider {
 
     private static final int DLG_SHOW_ACTION_DIALOG   = 0;
     private static final int DLG_SHOW_ICON_PICKER     = 1;
@@ -303,6 +304,29 @@ public class ActionListViewSettings extends ListFragment implements
                 fragmentManager.beginTransaction().remove(fragment).commit();
             }
         }
+    }
+
+    @Override
+    public CharSequence getTitle() {
+        if (mAdditionalFragmentAttached) {
+            FragmentManager fragmentManager = getFragmentManager();
+            Fragment fragment = fragmentManager.findFragmentById(R.id.fragment_container);
+            if (fragment instanceof android.preference.PreferenceFragment) {
+                android.preference.PreferenceScreen preferenceScreen =
+                        ((android.preference.PreferenceFragment) fragment).getPreferenceScreen();
+                if (preferenceScreen != null) {
+                    return preferenceScreen.getTitle();
+                }
+            } else if (fragment instanceof android.support.v14.preference.PreferenceFragment) {
+                android.support.v7.preference.PreferenceScreen preferenceScreen =
+                        ((android.support.v14.preference.PreferenceFragment) fragment)
+                                .getPreferenceScreen();
+                if (preferenceScreen != null) {
+                    return preferenceScreen.getTitle();
+                }
+            }
+        }
+        return null;
     }
 
     private void loadAdditionalFragment() {
