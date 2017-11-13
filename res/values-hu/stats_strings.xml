@@ -19,5 +19,11 @@
 -->
 <resources>
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
+  <string name="anonymous_statistics_title">HEX Statisztika</string>
+  <string name="anonymous_statistics_summary">Segítsd az HEX-t névtelen statisztikák küldésével</string>
+  <string name="anonymous_statistics_warning">Az HEX Statisztika engedélyezése nem terjed ki személyes adatokra, csak egy egyedi azonosítóval azonosítjuk az eszközöket. A statisztikák 7 naponta kerülnek elküldésre. \n\n Az elküldött adatok előnézetének megtekintéséhez érintse meg az Elküldött adatok előnézete gombot.</string>
+  <string name="enable_reporting_title">Telemetria engedélyezése</string>
   <!-- Anonymous Statistics - Preview -->
+  <string name="preview_romversion_title">HEX Verzió</string>
+  <string name="preview_buildtype_title">HEX Build készítés típusa</string>
 </resources>

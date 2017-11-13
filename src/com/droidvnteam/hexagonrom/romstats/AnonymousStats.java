@@ -147,7 +147,7 @@ public class AnonymousStats extends BaseSettingsFragment implements
 			if (mPersistentOptout.isChecked()) {
 				try {
 					File sdCard = Environment.getExternalStorageDirectory();
-					File dir = new File (sdCard.getAbsolutePath() + "/.AICPROMStats");
+					File dir = new File (sdCard.getAbsolutePath() + "/.HEXROMStats");
 					dir.mkdirs();
 					File cookieFile = new File(dir, "optout");
 
@@ -163,7 +163,7 @@ public class AnonymousStats extends BaseSettingsFragment implements
 			} else {
 				try {
 					File sdCard = Environment.getExternalStorageDirectory();
-					File dir = new File (sdCard.getAbsolutePath() + "/.AICPROMStats");
+					File dir = new File (sdCard.getAbsolutePath() + "/.HEXROMStats");
 					File cookieFile = new File(dir, "optout");
 					cookieFile.delete();
 					Log.d(Const.TAG, "Persistent Opt-Out cookie removed successfully");
@@ -203,7 +203,7 @@ public class AnonymousStats extends BaseSettingsFragment implements
 			mPersistentOptout.setChecked(false);
 			try {
 				File sdCard = Environment.getExternalStorageDirectory();
-				File dir = new File (sdCard.getAbsolutePath() + "/.AICPROMStats");
+				File dir = new File (sdCard.getAbsolutePath() + "/.HEXROMStats");
 				File cookieFile = new File(dir, "optout");
 				cookieFile.delete();
 				Log.d(Const.TAG, "Persistent Opt-Out cookie removed successfully");

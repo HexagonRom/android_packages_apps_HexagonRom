@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 AICP
+ * Copyright (C) 2017 HexagonRom
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -45,7 +45,7 @@ public class About extends BaseSettingsFragment {
     private static final String PREF_HEXAGON_DOWNLOADS = "hexagon_downloads";
     private static final String PREF_DEVICE_MAINTAINER = "device_maintainer";
 
-    private Preference mAicpDownloads;
+    private Preference mHexDownloads;
     private Preference mDeviceMaintainer;
 
 
@@ -59,7 +59,7 @@ public class About extends BaseSettingsFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        mAicpDownloads = findPreference(PREF_HEXAGON_DOWNLOADS);
+        mHexDownloads = findPreference(PREF_HEXAGON_DOWNLOADS);
 
         mDeviceMaintainer = findPreference(PREF_DEVICE_MAINTAINER);
         mDeviceMaintainer.setSummary(Build.MODEL);
@@ -75,7 +75,7 @@ public class About extends BaseSettingsFragment {
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
-        if (preference == mAicpDownloads) {
+        if (preference == mHexDownloads) {
             String url = Util.getDownloadLinkForDevice(getContext());
             Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.setData(Uri.parse(url));

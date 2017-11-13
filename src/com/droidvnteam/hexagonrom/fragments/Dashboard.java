@@ -72,7 +72,7 @@ public class Dashboard extends BaseSettingsFragment {
 
         PackageManager pm = getActivity().getPackageManager();
         if (!Util.isPackageEnabled(Constants.HEXAGON_OTA_PACKAGE, pm)) {
-            mAicpOTA.getParent().removePreference(mHexOTA);
+            mHexOTA.getParent().removePreference(mHexOTA);
         }
 
 

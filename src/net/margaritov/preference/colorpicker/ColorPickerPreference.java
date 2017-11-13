@@ -60,7 +60,7 @@ public class ColorPickerPreference extends Preference implements
 <<<<<<< HEAD
     private static final String HEXAGONEXTRAS = "http://schemas.android.com/apk/res/com.droidvnteam";
 =======
-    private static final String AICPEXTRAS = "http://schemas.android.com/apk/res/com.droidvnteam.hexagonrom";
+    private static final String HEXEXTRAS = "http://schemas.android.com/apk/res/com.droidvnteam.hexagonrom";
 >>>>>>> 592b6bf... AE: Oreo rework
     private static final String ANDROIDNS = "http://schemas.android.com/apk/res/android";
     private static final int DEF_VALUE_DEFAULT = -6;

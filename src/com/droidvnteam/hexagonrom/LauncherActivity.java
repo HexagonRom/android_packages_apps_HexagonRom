@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 AICP
+ * Copyright (C) 2017 HexagonRom
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -40,7 +40,7 @@ public class LauncherActivity extends SettingsActivity {
         final ShortcutManager shortcutManager = getSystemService(ShortcutManager.class);
 
         if (Util.isPackageEnabled(Constants.HEXAGON_OTA_PACKAGE, this.getPackageManager())) {
-            // Intent for launching AICP OTA
+            // Intent for launching HEX OTA
             final Intent INTENT_OTA = new Intent().setComponent(new ComponentName(
                     Constants.HEXAGON_OTA_PACKAGE, Constants.HEXAGON_OTA_ACTIVITY));
             INTENT_OTA.setAction(Intent.ACTION_VIEW);

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 AICP
+ * Copyright (C) 2017 HexagonRom
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,12 +20,12 @@ package com.droidvnteam.hexagonrom;
 public abstract class Constants {
 
     /**
-     * Package name of AICP OTA
+     * Package name of HEX OTA
      */
     public static final String HEXAGON_OTA_PACKAGE = "com.hexagon.hexagonota";
 
     /**
-     * Default activity of AICP OTA
+     * Default activity of HEX OTA
      */
     public static final String HEXAGON_OTA_ACTIVITY = HEXAGON_OTA_PACKAGE + ".MainActivity";
 

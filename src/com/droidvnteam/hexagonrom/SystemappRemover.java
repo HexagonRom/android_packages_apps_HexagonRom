@@ -69,7 +69,7 @@ public class SystemappRemover extends SubActivity {
         safetyList.add("DrmProvider");
         safetyList.add("PackageInstaller");
         safetyList.add("TelephonyProvider");
-        safetyList.add("AicpExtras");
+        safetyList.add("HexExtras");
         safetyList.add("CMAudioService");
         safetyList.add("CMParts");
         safetyList.add("CMSettingsProvider");

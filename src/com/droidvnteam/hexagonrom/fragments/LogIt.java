@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 AICP
+ * Copyright (C) 2017 HexagonRom
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -84,7 +84,7 @@ public class LogIt extends BaseSettingsFragment implements Preference.OnPreferen
     private CheckBoxPreference mLogcat;
     private CheckBoxPreference mKmsg;
     private CheckBoxPreference mDmesg;
-    private Preference mAicpLogIt;
+    private Preference mHexLogIt;
     private ListPreference mShareType;
 
     private String sharingIntentString;
@@ -107,7 +107,7 @@ public class LogIt extends BaseSettingsFragment implements Preference.OnPreferen
         mKmsg.setOnPreferenceChangeListener(this);
         mDmesg = (CheckBoxPreference) findPreference(PREF_DMESG);
         mDmesg.setOnPreferenceChangeListener(this);
-        mAicpLogIt = findPreference(PREF_HEXAGON_LOG_IT);
+        mHexLogIt = findPreference(PREF_HEXAGON_LOG_IT);
         mShareType = (ListPreference) findPreference(PREF_SHARE_TYPE);
         mShareType.setOnPreferenceChangeListener(this);
 
@@ -117,13 +117,13 @@ public class LogIt extends BaseSettingsFragment implements Preference.OnPreferen
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mLogcat) {
-            mAicpLogIt.setEnabled((Boolean) newValue || mKmsg.isChecked() || mDmesg.isChecked());
+            mHexLogIt.setEnabled((Boolean) newValue || mKmsg.isChecked() || mDmesg.isChecked());
             return true;
         } else if (preference == mKmsg) {
-            mAicpLogIt.setEnabled((Boolean) newValue || mLogcat.isChecked() || mDmesg.isChecked());
+            mHexLogIt.setEnabled((Boolean) newValue || mLogcat.isChecked() || mDmesg.isChecked());
             return true;
         } else if (preference == mDmesg) {
-            mAicpLogIt.setEnabled((Boolean) newValue || mLogcat.isChecked() || mKmsg.isChecked());
+            mHexLogIt.setEnabled((Boolean) newValue || mLogcat.isChecked() || mKmsg.isChecked());
             return true;
         } else if (preference == mShareType) {
             if ("0".equals(newValue)) {
@@ -147,7 +147,7 @@ public class LogIt extends BaseSettingsFragment implements Preference.OnPreferen
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
-        if (preference == mAicpLogIt) {
+        if (preference == mHexLogIt) {
             new CreateLogTask().execute(mLogcat.isChecked(), mKmsg.isChecked(), mDmesg.isChecked());
             return true;
         } else {
@@ -352,7 +352,7 @@ public class LogIt extends BaseSettingsFragment implements Preference.OnPreferen
         mLogcat.setChecked(false);
         mKmsg.setChecked(false);
         mDmesg.setChecked(false);
-        mAicpLogIt.setEnabled(false);
+        mHexLogIt.setEnabled(false);
         mShareType.setValue("1");
         mShareType.setSummary(mShareType.getEntry());
         shareHaste = false;

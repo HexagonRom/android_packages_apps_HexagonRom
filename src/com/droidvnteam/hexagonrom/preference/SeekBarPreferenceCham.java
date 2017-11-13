@@ -30,7 +30,7 @@ public class SeekBarPreferenceCham extends Preference implements SeekBar.OnSeekB
     private final String TAG = getClass().getName();
 
     private static final String ANDROIDNS = "http://schemas.android.com/apk/res/android";
-    private static final String AICPEXTRAS = "http://schemas.android.com/apk/res/com.droidvnteam.hexagonrom";
+    private static final String HEXEXTRAS = "http://schemas.android.com/apk/res/com.droidvnteam.hexagonrom";
     private static final int DEFAULT_VALUE = 50;
 
     private int mMaxValue      = 100;
@@ -74,8 +74,8 @@ public class SeekBarPreferenceCham extends Preference implements SeekBar.OnSeekB
         mMaxValue = attrs.getAttributeIntValue(ANDROIDNS, "max", 100);
         mMinValue = attrs.getAttributeIntValue(ANDROIDNS, "min", 0);
         mDefaultValue = attrs.getAttributeIntValue(ANDROIDNS, "defaultValue", -1);
-        mUnitsLeft = getAttributeStringValue(attrs, AICPEXTRAS, "unitsLeft", "");
-        mUnitsRight = getAttributeStringValue(attrs, AICPEXTRAS, "unitsRight", "");
+        mUnitsLeft = getAttributeStringValue(attrs, HEXEXTRAS, "unitsLeft", "");
+        mUnitsRight = getAttributeStringValue(attrs, HEXEXTRAS, "unitsRight", "");
         Integer idR = a.getResourceId(R.styleable.SeekBarPreference_unitsRight, 0);
         if (idR > 0) {
             mUnitsRight = context.getResources().getString(idR);
@@ -85,7 +85,7 @@ public class SeekBarPreferenceCham extends Preference implements SeekBar.OnSeekB
             mUnitsLeft = context.getResources().getString(idL);
         }
         try {
-            String newInterval = attrs.getAttributeValue(AICPEXTRAS, "interval");
+            String newInterval = attrs.getAttributeValue(HEXEXTRAS, "interval");
             if(newInterval != null)
                 mInterval = Integer.parseInt(newInterval);
         }
@@ -93,7 +93,7 @@ public class SeekBarPreferenceCham extends Preference implements SeekBar.OnSeekB
             Log.e(TAG, "Invalid interval value", e);
         }
 
-        mThumbDefaultValueColor = attrs.getAttributeIntValue(AICPEXTRAS,
+        mThumbDefaultValueColor = attrs.getAttributeIntValue(HEXEXTRAS,
                 "thumb_default_value_color", 0xff000000);
         a.recycle();
     }
