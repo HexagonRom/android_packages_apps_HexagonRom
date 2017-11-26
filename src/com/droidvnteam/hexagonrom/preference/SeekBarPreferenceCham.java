@@ -74,8 +74,15 @@ public class SeekBarPreferenceCham extends Preference implements SeekBar.OnSeekB
         mMaxValue = attrs.getAttributeIntValue(ANDROIDNS, "max", 100);
         mMinValue = attrs.getAttributeIntValue(ANDROIDNS, "min", 0);
         mDefaultValue = attrs.getAttributeIntValue(ANDROIDNS, "defaultValue", -1);
-        mUnitsLeft = getAttributeStringValue(attrs, HEXEXTRAS, "unitsLeft", "");
-        mUnitsRight = getAttributeStringValue(attrs, HEXEXTRAS, "unitsRight", "");
+        if (mDefaultValue != attrs.getAttributeIntValue(ANDROIDNS, "defaultValue", -2)) {
+            throw new IllegalArgumentException("Preference with key \"" + getKey() +
+                    "\" needs a default value (check your xml!)!");
+        }
+        if (mDefaultValue < mMinValue || mDefaultValue > mMaxValue) {
+            throw new IllegalArgumentException("Default value is out of range!");
+        }
+        mUnitsLeft = getAttributeStringValue(attrs, HEXAGONROM, "unitsLeft", "");
+        mUnitsRight = getAttributeStringValue(attrs, HEXAGONROM, "unitsRight", "");
         Integer idR = a.getResourceId(R.styleable.SeekBarPreference_unitsRight, 0);
         if (idR > 0) {
             mUnitsRight = context.getResources().getString(idR);
@@ -282,7 +289,13 @@ public class SeekBarPreferenceCham extends Preference implements SeekBar.OnSeekB
 
     @Override
     protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
-        setValue(restoreValue ? getPersistedInt((Integer) defaultValue) : (Integer) defaultValue);
+        int defaultVal;
+        if (defaultValue instanceof Integer) {
+            defaultVal = (Integer) defaultValue;
+        } else {
+            defaultVal = mDefaultValue;
+        }
+        setValue(restoreValue ? getPersistedInt(defaultVal) : defaultVal);
     }
 
     public void setValue(int value) {
