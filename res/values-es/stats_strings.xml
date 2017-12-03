@@ -34,7 +34,7 @@
     <item quantity="one">1 día</item>
     <item quantity="other">%d días</item>
   </plurals>
-  <string name="next_report_on">Siguiente envío</string>
+  <string name="next_report_on">Próximo envío</string>
   <!-- Anonymous Statistics - Preview -->
   <string name="preview_id_title">ID único</string>
   <string name="preview_device_title">Dispositivo</string>
