@@ -184,11 +184,12 @@
         <com.droidvnteam.hexagonrom.preference.SeekBarPreferenceCham
             android:key="du_fling_longpress_pref"
             android:title="@string/fling_longpress_title"
-            android:defaultValue="250"
+            android:defaultValue="350"
             android:min="125"
             android:max="350"
             hexagonrom:interval="5"
-            hexagonrom:unitsRight="ms"/>
+            hexagonrom:unitsRight="ms"
+            android:persistent="false" />
 
         <Preference
             style="?android:preferenceInformationStyle"
