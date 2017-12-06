@@ -66,10 +66,7 @@ public class ExtensionsFragment extends Fragment {
 
         @Override
         public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
-            if (preference == mSystemappRemover) {
-                Intent intent = new Intent(getActivity(), SystemappRemover.class);
-                startActivity(intent);
-            } else if (preference == mAppSideBar) {
+            if (preference == mAppSideBar) {
                 Intent intent = new Intent(getActivity(), AppSidebar.class);
                 getActivity().startActivity(intent);
             } else if (preference == mPie) {

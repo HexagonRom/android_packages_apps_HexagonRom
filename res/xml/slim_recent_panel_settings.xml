@@ -126,8 +126,6 @@
             android:title="@string/slim_icon_pack_title"
             android:summary="@string/slim_icon_pack_summary" />
 
-<<<<<<< HEAD
-=======
         <ListPreference
             android:key="recent_panel_expanded_mode"
             android:entries="@array/recent_panel_expanded_mode_entries"
@@ -166,7 +164,6 @@
 
         </PreferenceCategory>
 
->>>>>>> 81f54c4... ColorPicker default button fixes + improvements
         <PreferenceCategory
             android:title="@string/recent_app_sidebar_title">
 
