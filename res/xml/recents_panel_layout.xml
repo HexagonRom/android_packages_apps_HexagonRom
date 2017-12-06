@@ -56,7 +56,7 @@
             android:title="@string/hide_apps_from_recents_title"
             android:summary="@string/hide_apps_from_recents_summary" />
 
-        <com.lordclockan.aicpextras.preferences.SystemSettingSwitchPreference
+        <com.droidvnteam.hexagonrom.preferences.SystemSettingSwitchPreference
             android:key="grid_recents"
             android:title="@string/grid_recents_title"
             android:summary="@string/grid_recents_summary" />
