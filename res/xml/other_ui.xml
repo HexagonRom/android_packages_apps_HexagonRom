@@ -22,6 +22,14 @@
     android:title="@string/other_ui_title">
 
     <com.droidvnteam.hexagonrom.preference.SystemSettingSeekBarPreference
+        android:key="system_ui_theme"
+        android:entries="@array/systemui_theme_style_entries"
+        android:entryValues="@array/systemui_theme_style_values"
+        android:title="@string/systemui_theme_style_title"
+        android:summary="@string/systemui_theme_style_summary"
+        android:defaultValue="0" />
+
+    <com.droidvnteam.hexagonrom.preference.SystemSettingSeekBarPreference
         android:key="volume_dialog_timeout"
         android:title="@string/volume_dialog_timeout_title"
         android:min="500"
