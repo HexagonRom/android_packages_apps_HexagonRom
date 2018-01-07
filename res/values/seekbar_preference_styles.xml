@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--  Copyright (C) 2014-2017 Hex
+<!--  Copyright (C) 2018 HexagonRom
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -17,15 +17,16 @@
 
 <resources>
 
-    <declare-styleable name="SeekBarPreference">
-        <!-- preference -->
-        <attr name="unitsLeft" format="string|reference" />
-        <attr name="unitsRight" format="string|reference" />
-        <attr name="interval" format="integer" />
-        <!-- style -->
-        <attr name="thumb_default_value_color" format="color" />
-        <attr name="value_popup_view_fg" format="color" />
-        <attr name="value_popup_view_bg" format="color" />
-    </declare-styleable>
+    <style name="SeekBarPreferenceChamValueTextAppearance" parent="@*android:style/TextAppearance.Toast" />
+
+    <!-- SeekBarPreferenceCham value popup -->
+    <style name="SeekBarPreferenceChamValueView">
+        <item name="android:textColor">?attr/value_popup_view_fg</item>
+        <item name="android:textAppearance">@style/SeekBarPreferenceChamValueTextAppearance</item>
+        <item name="android:background">@drawable/seekbar_popup_bg</item>
+        <item name="android:paddingHorizontal">24dp</item>
+        <item name="android:paddingVertical">15dp</item>
+        <item name="android:fitsSystemWindows">false</item>
+    </style>
 
 </resources>

@@ -19,14 +19,4 @@
 
     <style name="AppPreferenceTheme" parent="PreferenceThemeOverlay.v14.Material" />
 
-    <!-- SeekBarPreferenceCham value popup -->
-    <style name="SeekBarPreferenceChamValueView">
-        <item name="android:textColor">@color/primary_text_default_material_light</item>
-        <item name="android:textAppearance">@*android:style/TextAppearance.Toast</item>
-        <item name="android:background">@*android:drawable/toast_frame</item>
-        <item name="android:paddingHorizontal">24dp</item>
-        <item name="android:paddingVertical">15dp</item>
-        <item name="android:fitsSystemWindows">false</item>
-    </style>
-
 </resources>
