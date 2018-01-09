@@ -20,7 +20,9 @@ package com.droidvnteam.hexagonrom.fragments;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.SystemProperties;
 import android.provider.Settings;
+import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
@@ -35,10 +37,13 @@ public class OtherUi extends BaseSettingsFragment
     private static final String SHOW_CPU_INFO_KEY = "show_cpu_info";
     private static final String KEY_WAKE_WHEN_PLUGGED_OR_UNPLUGGED = "wake_when_plugged_or_unplugged";
     private static final String KEY_VIBRATE_ON_CHARGE_STATE_CHANGED = "vibration_on_charge_state_changed";
+    private static final String SCROLLINGCACHE_PREF = "pref_scrollingcache";
+    private static final String SCROLLINGCACHE_PERSIST_PROP = "persist.sys.scrollingcache";
+    private static final String SCROLLINGCACHE_DEFAULT = "1";
 
     private SwitchPreference mShowCpuInfo;
     private SwitchPreference mVibrateOnPlug;
-    private SwitchPreference mWakeWhenPluggedOrUnplugged;
+    private ListPreference mScrollingCachePref;
 
     @Override
     protected int getPreferenceResource() {
@@ -63,6 +68,11 @@ public class OtherUi extends BaseSettingsFragment
         if(!Util.hasVibrator(getActivity())){
             mVibrateOnPlug.getParent().removePreference(mVibrateOnPlug);
         }
+
+        mScrollingCachePref = (ListPreference) findPreference(SCROLLINGCACHE_PREF);
+        mScrollingCachePref.setValue(SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP,
+                SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP, SCROLLINGCACHE_DEFAULT)));
+        mScrollingCachePref.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -97,6 +107,11 @@ public class OtherUi extends BaseSettingsFragment
         if (preference == mShowCpuInfo) {
             writeCpuInfoOptions((Boolean) newValue);
             return true;
+        } else if (preference == mScrollingCachePref) {
+            if (newValue != null) {
+                SystemProperties.set(SCROLLINGCACHE_PERSIST_PROP, (String) newValue);
+                return true;
+            }
         }
         return false;
     }

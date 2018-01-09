@@ -104,7 +104,17 @@
 
     <!-- Vibrate on plug -->
     <com.droidvnteam.hexagonrom.preference.SystemSettingSwitchPreference
-      android:key="vibration_on_charge_state_changed"
-      android:title="@string/vibration_on_charge_state_changed_title"
-      android:defaultValue="false" />
+        android:key="vibration_on_charge_state_changed"
+        android:title="@string/vibration_on_charge_state_changed_title"
+        android:defaultValue="false" />
+
+     <!-- Scrolling cache -->
+     <ListPreference
+        android:key="pref_scrollingcache"
+        android:dialogTitle="@string/pref_scrollingcache_title"
+        android:title="@string/pref_scrollingcache_title"
+        android:summary="@string/pref_scrollingcache_summary"
+        android:entries="@array/entries_scrollingcache"
+        android:entryValues="@array/values_scrollingcache" />
+>>>>>>> ea7d33c... Add option to disable scrolling cache [2/2]
 </PreferenceScreen>
