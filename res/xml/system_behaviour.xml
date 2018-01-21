@@ -29,7 +29,7 @@
     <PreferenceScreen
         android:key="suspend_actions"
         android:title="@string/screen_state_toggles_title"
-        android:fragment="com.aicp.extras.fragments.SuspendActions" />
+        android:fragment="com.droidvnteam.hexagonrom.fragments.SuspendActions" />
 
     <!-- SELinux -->
     <PreferenceCategory

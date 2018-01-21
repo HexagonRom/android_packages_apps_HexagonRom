@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aicp.extras.fragments;
+package com.droidvnteam.hexagonrom.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -31,9 +31,9 @@ import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 
-import com.aicp.extras.BaseSettingsFragment;
-import com.aicp.extras.R;
-import com.aicp.extras.preference.SeekBarPreferenceCham;
+import com.droidvnteam.hexagonrom.BaseSettingsFragment;
+import com.droidvnteam.hexagonrom.R;
+import com.droidvnteam.hexagonrom.preference.SeekBarPreferenceCham;
 
 public class SuspendActions extends BaseSettingsFragment
             implements Preference.OnPreferenceChangeListener {
