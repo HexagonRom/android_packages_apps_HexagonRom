@@ -16,7 +16,7 @@
  * Display installed icons packs that we are able to parse and get an icon from
  */
 
-package com.aicp.extras;
+package com.droidvnteam.hexagonrom;
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -27,7 +27,7 @@ import java.util.List;
 import java.util.Set;
 
 import com.android.internal.utils.du.ActionHandler;
-import com.aicp.extras.R;
+import com.droidvnteam.hexagonrom.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -109,8 +109,8 @@ public class IconPickerActivity extends Activity implements DialogInterface.OnCa
                 ResolveInfo info = adapter.getItem(position);
                 String packageName = info.activityInfo.packageName;
                 Intent intent = new Intent();
-                intent.setClassName("com.aicp.extras",
-                        "com.aicp.extras.IconPackGridActivity");
+                intent.setClassName("com.droidvnteam.hexagonrom",
+                        "com.droidvnteam.hexagonrom.IconPackGridActivity");
                 intent.putExtra("icon_package_name", packageName);
                 dialog.dismiss();
                 startActivityForResult(intent, ICON_PACK_ICON_RESULT);

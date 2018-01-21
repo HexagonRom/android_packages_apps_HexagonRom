@@ -17,7 +17,7 @@
  * class that holds target widget state
  */
 
-package com.aicp.extras.fragments;
+package com.droidvnteam.hexagonrom.fragments;
 
 import java.util.ArrayList;
 
@@ -27,11 +27,11 @@ import com.android.internal.utils.du.Config;
 import com.android.internal.utils.du.Config.ActionConfig;
 import com.android.internal.utils.du.Config.ButtonConfig;
 
-import com.aicp.extras.BaseSettingsFragment;
-import com.aicp.extras.CustomActionListAdapter;
-import com.aicp.extras.ShortcutPickHelper;
-import com.aicp.extras.preference.ActionPreference;
-import com.aicp.extras.R;
+import com.droidvnteam.hexagonrom.BaseSettingsFragment;
+import com.droidvnteam.hexagonrom.CustomActionListAdapter;
+import com.droidvnteam.hexagonrom.ShortcutPickHelper;
+import com.droidvnteam.hexagonrom.preference.ActionPreference;
+import com.droidvnteam.hexagonrom.R;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

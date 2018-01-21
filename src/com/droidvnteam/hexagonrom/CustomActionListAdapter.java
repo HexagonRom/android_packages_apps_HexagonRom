@@ -16,7 +16,7 @@
  * Adapter for displaying custom actions in a list
  */
 
-package com.aicp.extras;
+package com.droidvnteam.hexagonrom;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,7 +34,7 @@ import android.widget.TextView;
 
 import com.android.internal.utils.du.ActionHandler;
 import com.android.internal.utils.du.Config.ActionConfig;
-import com.aicp.extras.R;
+import com.droidvnteam.hexagonrom.R;
 
 public class CustomActionListAdapter extends BaseAdapter {
     private LayoutInflater mInflater;

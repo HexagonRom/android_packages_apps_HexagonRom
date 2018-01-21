@@ -16,7 +16,7 @@
  * GridView displaying all the available icons in a Icon pack.
  */
 
-package com.aicp.extras;
+package com.droidvnteam.hexagonrom;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -33,7 +33,7 @@ import java.util.Set;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
-import com.aicp.extras.R;
+import com.droidvnteam.hexagonrom.R;
 
 import android.app.Activity;
 import android.app.ActivityManager;

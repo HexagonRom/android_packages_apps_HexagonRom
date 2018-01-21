@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aicp.extras;
+package com.droidvnteam.hexagonrom;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -40,8 +40,8 @@ import android.widget.BaseExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
 
-import com.aicp.extras.R;
-import com.aicp.extras.ShortcutPickHelper.AppExpandableAdapter.GroupInfo;
+import com.droidvnteam.hexagonrom.R;
+import com.droidvnteam.hexagonrom.ShortcutPickHelper.AppExpandableAdapter.GroupInfo;
 
 public class ShortcutPickHelper {
 

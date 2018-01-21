@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aicp.extras.fragments;
+package com.droidvnteam.hexagonrom.fragments;
 
 import java.util.ArrayList;
 
@@ -32,13 +32,13 @@ import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.provider.Settings;
 
-import com.aicp.extras.BaseSettingsFragment;
-import com.aicp.extras.preference.SeekBarPreferenceCham;
+import com.droidvnteam.hexagonrom.BaseSettingsFragment;
+import com.droidvnteam.hexagonrom.preference.SeekBarPreferenceCham;
 import com.android.internal.utils.du.ActionConstants;
 import com.android.internal.utils.du.Config;
 import com.android.internal.utils.du.DUActionUtils;
 import com.android.internal.utils.du.Config.ButtonConfig;
-import com.aicp.extras.R;
+import com.droidvnteam.hexagonrom.R;
 
 public class NavigationBar extends BaseSettingsFragment implements Preference.OnPreferenceChangeListener {
     private static final String NAVBAR_VISIBILITY = "navbar_visibility";

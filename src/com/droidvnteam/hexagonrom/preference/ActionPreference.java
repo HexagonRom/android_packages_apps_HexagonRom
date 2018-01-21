@@ -18,7 +18,7 @@
  * key is identical to the target ConfigMap tag in ActionConstants 
  */
 
-package com.aicp.extras.preference;
+package com.droidvnteam.hexagonrom.preference;
 
 import java.util.Map;
 

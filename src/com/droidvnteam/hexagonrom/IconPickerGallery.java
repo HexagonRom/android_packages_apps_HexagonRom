@@ -15,7 +15,7 @@
  *
  */
 
-package com.aicp.extras;
+package com.droidvnteam.hexagonrom;
 
 import java.io.File;
 
@@ -32,7 +32,7 @@ import android.os.Environment;
 import android.os.UserHandle;
 import android.widget.Toast;
 
-import com.aicp.extras.R;
+import com.droidvnteam.hexagonrom.R;
 
 public class IconPickerGallery extends Activity {
     public static String TAG = IconPickerGallery.class.getSimpleName();

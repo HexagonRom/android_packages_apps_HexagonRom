@@ -65,7 +65,7 @@
             android:title="@string/navbar_title"
             android:summary="@string/navbar_summary"
             android:icon="@drawable/ic_settings_navbar"
-            android:fragment="com.aicp.extras.fragments.NavigationBar" />
+            android:fragment="com.droidvnteam.hexagon.fragments.NavigationBar" />
 
         <PreferenceScreen
             android:title="@string/panel_porn_title"

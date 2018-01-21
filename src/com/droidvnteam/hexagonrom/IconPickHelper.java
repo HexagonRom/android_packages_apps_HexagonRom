@@ -17,7 +17,7 @@
  * Wrapper class for delivering icon picker results to activities or fragments
  */
 
-package com.aicp.extras;
+package com.droidvnteam.hexagonrom;
 
 import java.io.File;
 
@@ -33,14 +33,14 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.android.internal.utils.du.DUActionUtils;
-import com.aicp.extras.R;
+import com.droidvnteam.hexagonrom.R;
 
 public class IconPickHelper {
     private static final String TAG = "IconPickHelper";
     public static final int REQUEST_PICK_ICON_PACK = 100;
     public static final int REQUEST_PICK_ICON_GALLERY = 101;
-    public static final String INTENT_ACTION_EDIT_CLASS = "com.aicp.extras";
-    public static final String INTENT_ACTION_ICON_PICKER_COMPONENT = "com.aicp.extras.IconPickerActivity";
+    public static final String INTENT_ACTION_EDIT_CLASS = "com.droidvnteam.hexagonrom";
+    public static final String INTENT_ACTION_ICON_PICKER_COMPONENT = "com.droidvnteam.hexagonrom.IconPickerActivity";
     private static final int REQUEST_CODE_ICON_PACK = 420;
     private static final int REQUEST_CODE_GALLERY = 1337;
     private Activity mParent;

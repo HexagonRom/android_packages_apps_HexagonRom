@@ -17,12 +17,12 @@
  * ActionHandler framework
  */
 
-package com.aicp.extras;
+package com.droidvnteam.hexagonrom;
 
 import com.android.internal.utils.du.ActionHandler;
 import com.android.internal.utils.du.Config.ActionConfig;
-import com.aicp.extras.R;
-import com.aicp.extras.CustomActionListAdapter;
+import com.droidvnteam.hexagonrom.R;
+import com.droidvnteam.hexagonrom.CustomActionListAdapter;
 
 import android.app.Activity;
 import android.app.AlertDialog;

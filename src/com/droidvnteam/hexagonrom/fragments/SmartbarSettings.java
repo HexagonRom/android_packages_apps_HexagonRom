@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aicp.extras.fragments;
+package com.droidvnteam.hexagonrom.fragments;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -51,9 +51,9 @@ import com.android.internal.utils.du.ActionConstants;
 import com.android.internal.utils.du.ActionHandler;
 import com.android.internal.utils.du.Config;
 import com.android.internal.utils.du.Config.ButtonConfig;
-import com.aicp.extras.R;
-import com.aicp.extras.BaseSettingsFragment;
-import com.aicp.extras.preference.SeekBarPreferenceCham;
+import com.droidvnteam.hexagonrom.R;
+import com.droidvnteam.hexagonrom.BaseSettingsFragment;
+import com.droidvnteam.hexagonrom.preference.SeekBarPreferenceCham;
 
 public class SmartbarSettings extends BaseSettingsFragment implements
         OnPreferenceChangeListener {

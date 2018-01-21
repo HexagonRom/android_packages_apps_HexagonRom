@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.aicp.extras.fragments;
+package com.droidvnteam.hexagonrom.fragments;
 
-import com.aicp.extras.R;
-import com.aicp.extras.BaseSettingsFragment;
+import com.droidvnteam.hexagonrom.R;
+import com.droidvnteam.hexagonrom.BaseSettingsFragment;
 
 import android.app.ActionBar;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.UserHandle;
-import com.aicp.extras.preference.SeekBarPreferenceCham;
+import com.droidvnteam.hexagonrom.preference.SeekBarPreferenceCham;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v14.preference.SwitchPreference;
